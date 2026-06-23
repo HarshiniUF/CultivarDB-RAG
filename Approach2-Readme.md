@@ -24,11 +24,11 @@ Approach 1 asks the LLM "what are the top 10–15 cultivars grown in zone X?" an
 
 | File | Role |
 |---|---|
-| `paper_rag/requirements.txt` | Dependencies: `pymupdf4llm`, `langchain`, `langchain-openai`, `langchain-chroma`, `chromadb`, `pydantic`, `python-dotenv` |
+| `paper_rag/requirements.txt` | Dependencies: `PyMuPDF`, `python-dotenv` |
 | `paper_rag/.env.example` | Template for `OPENAI_API_KEY` / `OPENAI_API_BASE` (NaviGator) — copy to `.env` and fill in real values |
-| `paper_rag/schema.py` | Pydantic models for every record — field names mirror `sampleDB.json`'s `characteristics.data` / `coefficients` blocks exactly |
-| `paper_rag/pdf_loader.py` | Converts each PDF into page-level chunks; markdown tables are kept atomic (never split mid-table) |
-| `paper_rag/index_corpus.py` | Builds/updates a persistent local Chroma vector store from `input_papers/` (idempotent — only embeds new/changed files) |
+| `paper_rag/schema.py` | Dataclass-based validation/normalization for every record — field names mirror `sampleDB.json`'s `characteristics.data` / `coefficients` blocks exactly |
+| `paper_rag/pdf_loader.py` | Converts each PDF into page-level chunks; table-like blocks are kept atomic (never split mid-table) |
+| `paper_rag/retriever.py` | Dependency-free keyword retriever scoped to the input paper |
 | `paper_rag/cultivar_discovery.py` | One LLM call per PDF: lists every named cultivar the paper discusses, plus crop/country/location |
 | `paper_rag/extractor.py` | For each (paper, cultivar): retrieves relevant chunks, asks the LLM to extract characteristics + coefficients, validates against `schema.py` |
 | `paper_rag/run_pipeline.py` | Orchestrates all steps end-to-end and writes the final output JSON |
@@ -39,8 +39,6 @@ Approach 1 asks the LLM "what are the top 10–15 cultivars grown in zone X?" an
 ## Configuration
 
 ```
-INPUT_DIR     = "input_papers/"
-CHROMA_DIR    = "paper_rag/chroma_db/"
 OUTPUT_FILE   = "paper_based_cultivar_db.json"
 ```
 Credentials (`.env`, not committed):
@@ -48,18 +46,23 @@ Credentials (`.env`, not committed):
 OPENAI_API_KEY=...
 OPENAI_API_BASE=...        # NaviGator endpoint
 LLM_MODEL=gpt-4o
-EMBEDDING_MODEL=text-embedding-3-small
 ```
 
 ## How to Run
 
 ```bash
-cd paper_rag
-pip install -r requirements.txt
-cp .env.example .env        # then fill in real credentials
-python run_pipeline.py
+pip install -r paper_rag/requirements.txt
+cp paper_rag/.env.example paper_rag/.env        # optional, then fill in real credentials
+python -m paper_rag.run_pipeline input_papers/s42106-025-00341-7.pdf
 ```
 Output is written to `paper_based_cultivar_db.json` in the repo root.
+
+The only required pipeline input is the paper. You can pass a single PDF, multiple
+PDFs, or a directory of PDFs:
+
+```bash
+python -m paper_rag.run_pipeline input_papers/
+```
 
 ---
 
@@ -70,11 +73,10 @@ Output is written to `paper_based_cultivar_db.json` in the repo root.
 **What it does:** Converts every PDF in `input_papers/` into searchable chunks and embeds them into a local vector store.
 
 **How it works:**
-1. `pdf_loader.py` runs each PDF through `pymupdf4llm`, producing markdown text per page.
-2. Each page is segmented into `table` and `prose` runs. A markdown table block (coefficient tables like Table 2 in the East-Africa synthesis paper) is kept as **one atomic chunk** — splitting it would separate a cultivar's name from its P1/P2/P5/G2/G3/PHINT values.
+1. `pdf_loader.py` runs each PDF through PyMuPDF, producing text per page.
+2. Each page is segmented into `table` and `prose` runs. A table-like coefficient block is kept as **one atomic chunk** — splitting it would separate a cultivar's name from its P1/P2/P5/G2/G3/PHINT values.
 3. Long prose runs are further split (~1000 characters, 150 overlap) for retrieval granularity; tables are never split further regardless of size.
-4. Each chunk is embedded and stored in a persistent Chroma collection, tagged with `source_file` and `page` metadata.
-5. Re-running this step is idempotent — already-indexed PDFs are skipped.
+4. Chunks are searched by `KeywordRetriever`, a dependency-free retriever tagged with `source_file` and `page` metadata.
 
 ---
 
@@ -96,7 +98,7 @@ Output is written to `paper_based_cultivar_db.json` in the repo root.
 **What it does:** For each discovered cultivar, pulls the relevant chunks from that specific paper and extracts structured data.
 
 **How it works:**
-1. Retrieve chunks from the vector store filtered to that paper's `source_file`, ranked by similarity to the cultivar name.
+1. Retrieve chunks filtered to that paper's `source_file`, ranked by similarity to the cultivar name and coefficient terms.
 2. Pass the retrieved chunks + cultivar name to the LLM with a strict extraction prompt:
    - Extract the **same characteristics fields** the existing LLM-pipeline cultivar agent produces: `maturity_class`, `relative_maturity`, `days_to_maturity`, `average_yield_kg_ha`, `plant_height_cm`, `growth_habit`, `disease_resistance`, `stress_tolerance` (`drought`/`heat`), `growing_degree_days`, `agro_ecological_zone`, `adaptation_notes`, `normal_planting_window`, `planting_density`, `harvest_time`, `season_suitability`, `major_crop_areas`.
    - **Any field not explicitly supported by the paper is set to `"NA"`** — never guessed. This is the core fix over Approach 1's hallucinated-source problem.
@@ -159,7 +161,10 @@ All validated records are collected into a single output file:
 {
   "generated_at": "2026-06-19T00:00:00",
   "source_type": "paper_based_rag",
-  "records": [ /* one entry per (paper, cultivar) — see Step 3 example */ ]
+  "input_papers": ["input_papers/example.pdf"],
+  "llm_configured": true,
+  "records": [ /* one entry per (paper, cultivar) — see Step 3 example */ ],
+  "sample_db": { /* sampleDB.json-compatible cultivar map */ }
 }
 ```
 
@@ -190,7 +195,7 @@ All validated records are collected into a single output file:
 ## Dependencies
 
 ```
-pymupdf4llm, langchain, langchain-openai, langchain-chroma, chromadb, pydantic, python-dotenv
+PyMuPDF, python-dotenv
 ```
 
-LLM + embeddings: NaviGator API (University of Florida) — configured via `paper_rag/.env` as `OPENAI_API_KEY` + `OPENAI_API_BASE`, same convention as Approach 1.
+LLM: NaviGator/OpenAI-compatible API — configured via `paper_rag/.env` as `OPENAI_API_KEY` + `OPENAI_API_BASE`, same convention as Approach 1. If no key is configured, the pipeline still runs with heuristic cultivar discovery and table-pattern coefficient extraction, marking the output as `llm_configured: false`.
