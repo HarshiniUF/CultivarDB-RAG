@@ -1,0 +1,1041 @@
+{
+  "source_file": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+  "record_count": 2,
+  "records": [
+    {
+      "cultivar_name": "H614",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "AEZ II and AEZ III",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": [
+            "AEZ II: 5312 kg ha−1",
+            "AEZ III: 5137 kg ha−1",
+            "AEZ I: 4937 kg ha−1",
+            "Study area minimum: 4400 kg ha−1",
+            "Model calibration mean: 4134 kg ha−1 (simulated), 4150 kg ha−1 (observed)"
+          ],
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [
+            "High resistance to pest attacks"
+          ],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": [
+            "AEZ I (humid)",
+            "AEZ II (subhumid)",
+            "AEZ III (semihumid)"
+          ],
+          "adaptation_notes": "H614 is a popular hybrid in the Kenyan highlands, with high production potential and high resistance to pest attacks. It requires more heat units to attain anthesis and physiological maturity than H612. Yield is maximized with early sowing (early March or early May) in AEZ II and AEZ III. The cultivar performed better than H612 across all AEZs, with a reduced likelihood of yield decline. Optimal management includes 75 kg N ha−1 fertilizer and recommended plant density. The cultivar is suitable for rainfed cropping systems and can increase maize production by up to 5.7% in the study area. However, the increment is possible if the nutrient management aligns with the government-recommended nitrogen fertilization of 75 kg N ha−1 (Chebet et al., 2017). Soil variables at five depths (0–20, 20–40, 40–60, 60–80, and 80–100 cm) were entered into the SBuild module in DSSAT. The experimental fields were optimally managed, and necessary measures, including weed control, fertilizer application, and pest and disease control, were applied based on standard agronomic practices. cross hybrids in the East Africa region, the model calibration results indicated that H614 require more heat units to attain anthesis and reach physiological maturity.",
+          "normal_planting_window": [
+            "Early March and early May preferable in AEZ II and AEZ III",
+            "Sowing between mid-February and early April yields moderate effects"
+          ],
+          "planting_density": [
+            "25 cm between plants",
+            "75 cm between rows",
+            "Approx. 53,000 plants ha−1"
+          ],
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": [
+            "Uasin Gishu County",
+            "Trans Nzoia County",
+            "Katuke",
+            "Sabwani",
+            "Olngatongo",
+            "Kenyan highlands"
+          ]
+        },
+        "location_contexts": [
+          {
+            "location_name": "AEZ II",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ II (subhumid)",
+            "season": "NA",
+            "management_context": "Early March or early May sowing, 75 kg N ha−1, recommended density",
+            "relation_scope": "trial_site",
+            "evidence": "The optimal practices in AEZ II include sowing in early May and the H614 cultivar. The average yield in AEZ II was 5312 kg ha−1, which was 3.4% and 7.6% higher than in AEZ III and AEZ I, respectively.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          },
+          {
+            "location_name": "AEZ III",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ III (semihumid)",
+            "season": "NA",
+            "management_context": "Early March or early May sowing, 75 kg N ha−1, recommended density",
+            "relation_scope": "trial_site",
+            "evidence": "A similar observation is noted in AEZ III, whereby sowing in early May and early March is preferable to sowing in mid-March, early April, and mid-April. The average yield in AEZ III was 5137 kg ha−1.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          },
+          {
+            "location_name": "AEZ I",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ I (humid)",
+            "season": "NA",
+            "management_context": "Early March to mid-March and early May sowing, 75 kg N ha−1, recommended density",
+            "relation_scope": "trial_site",
+            "evidence": "In AEZ I, the sowing window is large, with sowing between early March and mid-March and early May preferable. The average yield in AEZ I was 4937 kg ha−1.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          },
+          {
+            "location_name": "Uasin Gishu County",
+            "location_type": "county",
+            "agro_ecological_zone": "AEZ I, II, III",
+            "season": "NA",
+            "management_context": "Study-wide optimal management",
+            "relation_scope": "study_area",
+            "evidence": "The least feasible yield for the cultivar in the study area was 4400 kg ha−1, an estimate slightly higher than the government statistics of 3700 kg ha−1 in Uasin Gishu County.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=16",
+            "confidence": "medium"
+          },
+          {
+            "location_name": "Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "AEZ I, II, III",
+            "season": "NA",
+            "management_context": "Study-wide optimal management",
+            "relation_scope": "study_area",
+            "evidence": "The study found that adopting the optimal SD and the H614 cultivar could increase yield by 1120 tonnes in AEZ I, 11,478 tonnes in AEZ II, and 35,658 tonnes in AEZ III.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=17",
+            "confidence": "medium"
+          }
+        ],
+        "source": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+        "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+        "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+        "coefficients": {
+          "P1": 290.8,
+          "P2": 0.471,
+          "P5": 921.2,
+          "G2": 796.8,
+          "G3": 5.26,
+          "PHINT": 39.74
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "H612",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Western Kenya, across AEZ I (humid), AEZ II (subhumid), and AEZ III (semihumid)",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "Low across all AEZs; >90% probability of yield below 5000 kg/ha in AEZ I, II, and III",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "Requires fewer temperature degree units to reach maturity compared to H614",
+          "agro_ecological_zone": "AEZ I (humid), AEZ II (subhumid), AEZ III (semihumid)",
+          "adaptation_notes": "H612 showed a high probability of low production compared to H614, with >90% chance of yield below 5000 kg/ha in all AEZs. Its production was not significantly different across AEZs. Sowing in mid-March demonstrated high yield potential for H612 in all AEZs, but overall, H614 outperformed H612. H612 was originally released in Kenya and its DSSAT coefficients were calibrated and evaluated in the southern highlands of Tanzania, a region with similar climate. 2.7 Model application and spatial assessment 2.7.1 Evaluation of agronomic practices The study used the parameterized DSSAT-CERES-Maize model to evaluate various agronomic practices, namely, adjusting sowing dates (SDs) and cultivars, incorporating organic amendments with the recommended nitrogen fertilizer levels and tillage practices, and supplementing rainfed agriculture with varying levels of irrigation. Soil variables at five depths (0–20, 20–40, 40–60, 60–80, and 80–100 cm) were entered into the SBuild module in DSSAT. The experimental fields were optimally managed, and necessary measures, including weed control, fertilizer application, and pest and disease control, were applied based on standard agronomic practices. In addition to the calibrated coefficients from the on-farm experiments, the study also assessed the H612 cultivar, for maturity.",
+          "normal_planting_window": "Sowing in mid-March demonstrated high yield potential for H612 in all AEZs.",
+          "planting_density": "Recommended: 25 cm between plants, 75 cm between rows, ~53,000 plants/ha",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "Uasin Gishu County; study area covers western Kenya across AEZ I, II, III"
+        },
+        "location_contexts": [
+          {
+            "location_name": "AEZ I (humid)",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ I (humid)",
+            "season": "NA",
+            "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+            "relation_scope": "agro_ecological_zone",
+            "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          },
+          {
+            "location_name": "AEZ II (subhumid)",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ II (subhumid)",
+            "season": "NA",
+            "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+            "relation_scope": "agro_ecological_zone",
+            "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          },
+          {
+            "location_name": "AEZ III (semihumid)",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ III (semihumid)",
+            "season": "NA",
+            "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+            "relation_scope": "agro_ecological_zone",
+            "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study area (western Kenya, including Uasin Gishu County)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "AEZ I, AEZ II, AEZ III",
+            "season": "NA",
+            "management_context": "Recommended management: 25 cm between plants, 75 cm between rows, ~53,000 plants/ha; fertilization 75 kg N/ha with top dressing 6 weeks after sowing",
+            "relation_scope": "study_area",
+            "evidence": "Maize spacing was based on the recommended practice of 25 cm between plants and 75 cm between rows, yielding an approximate population of 53,000 plants ha−1. Fertilization was applied at a rate of 75 kg N ha−1 with a similar amount of top dressing 6 weeks after sowing.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=7",
+            "confidence": "high"
+          }
+        ],
+        "source": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+        "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+        "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+        "coefficients": {
+          "P1": 130.0,
+          "P2": 0.5,
+          "P5": 390.0,
+          "G2": 825.0,
+          "G3": 10.15,
+          "PHINT": 75.0
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    }
+  ],
+  "sample_db": {
+    "crop": "MZ",
+    "country": "Kenya",
+    "cultivars": {
+      "H614": {
+        "cultivar_name": "H614",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": [
+              "AEZ II: 5312 kg ha−1",
+              "AEZ III: 5137 kg ha−1",
+              "AEZ I: 4937 kg ha−1",
+              "Study area minimum: 4400 kg ha−1",
+              "Model calibration mean: 4134 kg ha−1 (simulated), 4150 kg ha−1 (observed)"
+            ],
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [
+              "High resistance to pest attacks"
+            ],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "AEZ I (humid)",
+              "AEZ II (subhumid)",
+              "AEZ III (semihumid)"
+            ],
+            "adaptation_notes": "H614 is a popular hybrid in the Kenyan highlands, with high production potential and high resistance to pest attacks. It requires more heat units to attain anthesis and physiological maturity than H612. Yield is maximized with early sowing (early March or early May) in AEZ II and AEZ III. The cultivar performed better than H612 across all AEZs, with a reduced likelihood of yield decline. Optimal management includes 75 kg N ha−1 fertilizer and recommended plant density. The cultivar is suitable for rainfed cropping systems and can increase maize production by up to 5.7% in the study area. However, the increment is possible if the nutrient management aligns with the government-recommended nitrogen fertilization of 75 kg N ha−1 (Chebet et al., 2017). Soil variables at five depths (0–20, 20–40, 40–60, 60–80, and 80–100 cm) were entered into the SBuild module in DSSAT. The experimental fields were optimally managed, and necessary measures, including weed control, fertilizer application, and pest and disease control, were applied based on standard agronomic practices. cross hybrids in the East Africa region, the model calibration results indicated that H614 require more heat units to attain anthesis and reach physiological maturity.",
+            "normal_planting_window": [
+              "Early March and early May preferable in AEZ II and AEZ III",
+              "Sowing between mid-February and early April yields moderate effects"
+            ],
+            "planting_density": [
+              "25 cm between plants",
+              "75 cm between rows",
+              "Approx. 53,000 plants ha−1"
+            ],
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Uasin Gishu County",
+              "Trans Nzoia County",
+              "Katuke",
+              "Sabwani",
+              "Olngatongo",
+              "Kenyan highlands"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "AEZ II",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "AEZ II (subhumid)",
+              "season": "NA",
+              "management_context": "Early March or early May sowing, 75 kg N ha−1, recommended density",
+              "relation_scope": "trial_site",
+              "evidence": "The optimal practices in AEZ II include sowing in early May and the H614 cultivar. The average yield in AEZ II was 5312 kg ha−1, which was 3.4% and 7.6% higher than in AEZ III and AEZ I, respectively.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+              "confidence": "high"
+            },
+            {
+              "location_name": "AEZ III",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "AEZ III (semihumid)",
+              "season": "NA",
+              "management_context": "Early March or early May sowing, 75 kg N ha−1, recommended density",
+              "relation_scope": "trial_site",
+              "evidence": "A similar observation is noted in AEZ III, whereby sowing in early May and early March is preferable to sowing in mid-March, early April, and mid-April. The average yield in AEZ III was 5137 kg ha−1.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+              "confidence": "high"
+            },
+            {
+              "location_name": "AEZ I",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "AEZ I (humid)",
+              "season": "NA",
+              "management_context": "Early March to mid-March and early May sowing, 75 kg N ha−1, recommended density",
+              "relation_scope": "trial_site",
+              "evidence": "In AEZ I, the sowing window is large, with sowing between early March and mid-March and early May preferable. The average yield in AEZ I was 4937 kg ha−1.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+              "confidence": "high"
+            },
+            {
+              "location_name": "Uasin Gishu County",
+              "location_type": "county",
+              "agro_ecological_zone": "AEZ I, II, III",
+              "season": "NA",
+              "management_context": "Study-wide optimal management",
+              "relation_scope": "study_area",
+              "evidence": "The least feasible yield for the cultivar in the study area was 4400 kg ha−1, an estimate slightly higher than the government statistics of 3700 kg ha−1 in Uasin Gishu County.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=16",
+              "confidence": "medium"
+            },
+            {
+              "location_name": "Trans Nzoia County",
+              "location_type": "county",
+              "agro_ecological_zone": "AEZ I, II, III",
+              "season": "NA",
+              "management_context": "Study-wide optimal management",
+              "relation_scope": "study_area",
+              "evidence": "The study found that adopting the optimal SD and the H614 cultivar could increase yield by 1120 tonnes in AEZ I, 11,478 tonnes in AEZ II, and 35,658 tonnes in AEZ III.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=17",
+              "confidence": "medium"
+            }
+          ],
+          "source": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "coefficients": {
+            "P1": 290.8,
+            "P2": 0.471,
+            "P5": 921.2,
+            "G2": 796.8,
+            "G3": 5.26,
+            "PHINT": 39.74
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "H612": {
+        "cultivar_name": "H612",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "Low across all AEZs; >90% probability of yield below 5000 kg/ha in AEZ I, II, and III",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "Requires fewer temperature degree units to reach maturity compared to H614",
+            "agro_ecological_zone": "AEZ I (humid), AEZ II (subhumid), AEZ III (semihumid)",
+            "adaptation_notes": "H612 showed a high probability of low production compared to H614, with >90% chance of yield below 5000 kg/ha in all AEZs. Its production was not significantly different across AEZs. Sowing in mid-March demonstrated high yield potential for H612 in all AEZs, but overall, H614 outperformed H612. H612 was originally released in Kenya and its DSSAT coefficients were calibrated and evaluated in the southern highlands of Tanzania, a region with similar climate. 2.7 Model application and spatial assessment 2.7.1 Evaluation of agronomic practices The study used the parameterized DSSAT-CERES-Maize model to evaluate various agronomic practices, namely, adjusting sowing dates (SDs) and cultivars, incorporating organic amendments with the recommended nitrogen fertilizer levels and tillage practices, and supplementing rainfed agriculture with varying levels of irrigation. Soil variables at five depths (0–20, 20–40, 40–60, 60–80, and 80–100 cm) were entered into the SBuild module in DSSAT. The experimental fields were optimally managed, and necessary measures, including weed control, fertilizer application, and pest and disease control, were applied based on standard agronomic practices. In addition to the calibrated coefficients from the on-farm experiments, the study also assessed the H612 cultivar, for maturity.",
+            "normal_planting_window": "Sowing in mid-March demonstrated high yield potential for H612 in all AEZs.",
+            "planting_density": "Recommended: 25 cm between plants, 75 cm between rows, ~53,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Uasin Gishu County; study area covers western Kenya across AEZ I, II, III"
+          },
+          "location_contexts": [
+            {
+              "location_name": "AEZ I (humid)",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "AEZ I (humid)",
+              "season": "NA",
+              "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+              "relation_scope": "agro_ecological_zone",
+              "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+              "confidence": "high"
+            },
+            {
+              "location_name": "AEZ II (subhumid)",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "AEZ II (subhumid)",
+              "season": "NA",
+              "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+              "relation_scope": "agro_ecological_zone",
+              "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+              "confidence": "high"
+            },
+            {
+              "location_name": "AEZ III (semihumid)",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "AEZ III (semihumid)",
+              "season": "NA",
+              "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+              "relation_scope": "agro_ecological_zone",
+              "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study area (western Kenya, including Uasin Gishu County)",
+              "location_type": "study_area",
+              "agro_ecological_zone": "AEZ I, AEZ II, AEZ III",
+              "season": "NA",
+              "management_context": "Recommended management: 25 cm between plants, 75 cm between rows, ~53,000 plants/ha; fertilization 75 kg N/ha with top dressing 6 weeks after sowing",
+              "relation_scope": "study_area",
+              "evidence": "Maize spacing was based on the recommended practice of 25 cm between plants and 75 cm between rows, yielding an approximate population of 53,000 plants ha−1. Fertilization was applied at a rate of 75 kg N ha−1 with a similar amount of top dressing 6 weeks after sowing.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=7",
+              "confidence": "high"
+            }
+          ],
+          "source": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "coefficients": {
+            "P1": 130.0,
+            "P2": 0.5,
+            "P5": 390.0,
+            "G2": 825.0,
+            "G3": 10.15,
+            "PHINT": 75.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    }
+  },
+  "web_index": {
+    "by_crop": {
+      "MZ": [
+        {
+          "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h612-2",
+          "cultivar_name": "H612",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Western Kenya, across AEZ I (humid), AEZ II (subhumid), and AEZ III (semihumid)",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "AEZ II and AEZ III",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "has_coefficients": true
+        }
+      ]
+    },
+    "by_country": {
+      "Kenya": [
+        {
+          "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h612-2",
+          "cultivar_name": "H612",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Western Kenya, across AEZ I (humid), AEZ II (subhumid), and AEZ III (semihumid)",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "AEZ II and AEZ III",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "has_coefficients": true
+        }
+      ]
+    },
+    "by_location": {
+      "AEZ I": [
+        {
+          "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "AEZ II and AEZ III",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "AEZ I",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ I (humid)",
+            "season": "NA",
+            "management_context": "Early March to mid-March and early May sowing, 75 kg N ha−1, recommended density",
+            "relation_scope": "trial_site",
+            "evidence": "In AEZ I, the sowing window is large, with sowing between early March and mid-March and early May preferable. The average yield in AEZ I was 4937 kg ha−1.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          }
+        }
+      ],
+      "AEZ I (humid)": [
+        {
+          "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h612-2",
+          "cultivar_name": "H612",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Western Kenya, across AEZ I (humid), AEZ II (subhumid), and AEZ III (semihumid)",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "AEZ I (humid)",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ I (humid)",
+            "season": "NA",
+            "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+            "relation_scope": "agro_ecological_zone",
+            "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          }
+        }
+      ],
+      "AEZ II": [
+        {
+          "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "AEZ II and AEZ III",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "AEZ II",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ II (subhumid)",
+            "season": "NA",
+            "management_context": "Early March or early May sowing, 75 kg N ha−1, recommended density",
+            "relation_scope": "trial_site",
+            "evidence": "The optimal practices in AEZ II include sowing in early May and the H614 cultivar. The average yield in AEZ II was 5312 kg ha−1, which was 3.4% and 7.6% higher than in AEZ III and AEZ I, respectively.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          }
+        }
+      ],
+      "AEZ II (subhumid)": [
+        {
+          "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h612-2",
+          "cultivar_name": "H612",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Western Kenya, across AEZ I (humid), AEZ II (subhumid), and AEZ III (semihumid)",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "AEZ II (subhumid)",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ II (subhumid)",
+            "season": "NA",
+            "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+            "relation_scope": "agro_ecological_zone",
+            "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          }
+        }
+      ],
+      "AEZ III": [
+        {
+          "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "AEZ II and AEZ III",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "AEZ III",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ III (semihumid)",
+            "season": "NA",
+            "management_context": "Early March or early May sowing, 75 kg N ha−1, recommended density",
+            "relation_scope": "trial_site",
+            "evidence": "A similar observation is noted in AEZ III, whereby sowing in early May and early March is preferable to sowing in mid-March, early April, and mid-April. The average yield in AEZ III was 5137 kg ha−1.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          }
+        }
+      ],
+      "AEZ III (semihumid)": [
+        {
+          "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h612-2",
+          "cultivar_name": "H612",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Western Kenya, across AEZ I (humid), AEZ II (subhumid), and AEZ III (semihumid)",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "AEZ III (semihumid)",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ III (semihumid)",
+            "season": "NA",
+            "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+            "relation_scope": "agro_ecological_zone",
+            "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          }
+        }
+      ],
+      "Trans Nzoia County": [
+        {
+          "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "AEZ II and AEZ III",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "AEZ I, II, III",
+            "season": "NA",
+            "management_context": "Study-wide optimal management",
+            "relation_scope": "study_area",
+            "evidence": "The study found that adopting the optimal SD and the H614 cultivar could increase yield by 1120 tonnes in AEZ I, 11,478 tonnes in AEZ II, and 35,658 tonnes in AEZ III.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=17",
+            "confidence": "medium"
+          }
+        }
+      ],
+      "Uasin Gishu County": [
+        {
+          "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "AEZ II and AEZ III",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Uasin Gishu County",
+            "location_type": "county",
+            "agro_ecological_zone": "AEZ I, II, III",
+            "season": "NA",
+            "management_context": "Study-wide optimal management",
+            "relation_scope": "study_area",
+            "evidence": "The least feasible yield for the cultivar in the study area was 4400 kg ha−1, an estimate slightly higher than the government statistics of 3700 kg ha−1 in Uasin Gishu County.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=16",
+            "confidence": "medium"
+          }
+        }
+      ],
+      "study area (western Kenya, including Uasin Gishu County)": [
+        {
+          "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h612-2",
+          "cultivar_name": "H612",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Western Kenya, across AEZ I (humid), AEZ II (subhumid), and AEZ III (semihumid)",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "study area (western Kenya, including Uasin Gishu County)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "AEZ I, AEZ II, AEZ III",
+            "season": "NA",
+            "management_context": "Recommended management: 25 cm between plants, 75 cm between rows, ~53,000 plants/ha; fertilization 75 kg N/ha with top dressing 6 weeks after sowing",
+            "relation_scope": "study_area",
+            "evidence": "Maize spacing was based on the recommended practice of 25 cm between plants and 75 cm between rows, yielding an approximate population of 53,000 plants ha−1. Fertilization was applied at a rate of 75 kg N ha−1 with a similar amount of top dressing 6 weeks after sowing.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=7",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    "by_cultivar": {
+      "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h612-2": {
+        "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h612-2",
+        "cultivar_name": "H612",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Western Kenya, across AEZ I (humid), AEZ II (subhumid), and AEZ III (semihumid)",
+        "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+        "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "AEZ I (humid)",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ I (humid)",
+            "season": "NA",
+            "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+            "relation_scope": "agro_ecological_zone",
+            "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          },
+          {
+            "location_name": "AEZ II (subhumid)",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ II (subhumid)",
+            "season": "NA",
+            "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+            "relation_scope": "agro_ecological_zone",
+            "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          },
+          {
+            "location_name": "AEZ III (semihumid)",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ III (semihumid)",
+            "season": "NA",
+            "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+            "relation_scope": "agro_ecological_zone",
+            "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study area (western Kenya, including Uasin Gishu County)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "AEZ I, AEZ II, AEZ III",
+            "season": "NA",
+            "management_context": "Recommended management: 25 cm between plants, 75 cm between rows, ~53,000 plants/ha; fertilization 75 kg N/ha with top dressing 6 weeks after sowing",
+            "relation_scope": "study_area",
+            "evidence": "Maize spacing was based on the recommended practice of 25 cm between plants and 75 cm between rows, yielding an approximate population of 53,000 plants ha−1. Fertilization was applied at a rate of 75 kg N ha−1 with a similar amount of top dressing 6 weeks after sowing.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=7",
+            "confidence": "high"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "Low across all AEZs; >90% probability of yield below 5000 kg/ha in AEZ I, II, and III",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "Requires fewer temperature degree units to reach maturity compared to H614",
+            "agro_ecological_zone": "AEZ I (humid), AEZ II (subhumid), AEZ III (semihumid)",
+            "adaptation_notes": "H612 showed a high probability of low production compared to H614, with >90% chance of yield below 5000 kg/ha in all AEZs. Its production was not significantly different across AEZs. Sowing in mid-March demonstrated high yield potential for H612 in all AEZs, but overall, H614 outperformed H612. H612 was originally released in Kenya and its DSSAT coefficients were calibrated and evaluated in the southern highlands of Tanzania, a region with similar climate. 2.7 Model application and spatial assessment 2.7.1 Evaluation of agronomic practices The study used the parameterized DSSAT-CERES-Maize model to evaluate various agronomic practices, namely, adjusting sowing dates (SDs) and cultivars, incorporating organic amendments with the recommended nitrogen fertilizer levels and tillage practices, and supplementing rainfed agriculture with varying levels of irrigation. Soil variables at five depths (0–20, 20–40, 40–60, 60–80, and 80–100 cm) were entered into the SBuild module in DSSAT. The experimental fields were optimally managed, and necessary measures, including weed control, fertilizer application, and pest and disease control, were applied based on standard agronomic practices. In addition to the calibrated coefficients from the on-farm experiments, the study also assessed the H612 cultivar, for maturity.",
+            "normal_planting_window": "Sowing in mid-March demonstrated high yield potential for H612 in all AEZs.",
+            "planting_density": "Recommended: 25 cm between plants, 75 cm between rows, ~53,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Uasin Gishu County; study area covers western Kenya across AEZ I, II, III"
+          },
+          "location_contexts": [
+            {
+              "location_name": "AEZ I (humid)",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "AEZ I (humid)",
+              "season": "NA",
+              "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+              "relation_scope": "agro_ecological_zone",
+              "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+              "confidence": "high"
+            },
+            {
+              "location_name": "AEZ II (subhumid)",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "AEZ II (subhumid)",
+              "season": "NA",
+              "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+              "relation_scope": "agro_ecological_zone",
+              "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+              "confidence": "high"
+            },
+            {
+              "location_name": "AEZ III (semihumid)",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "AEZ III (semihumid)",
+              "season": "NA",
+              "management_context": "Sowing in mid-March demonstrated high yield potential for H612",
+              "relation_scope": "agro_ecological_zone",
+              "evidence": "For the H612 cultivar, sowing in mid-March demonstrated high yield potential in all the AEZs. The likelihood of yield below 5000 kg ha−1 was above 90% in all the AEZs.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study area (western Kenya, including Uasin Gishu County)",
+              "location_type": "study_area",
+              "agro_ecological_zone": "AEZ I, AEZ II, AEZ III",
+              "season": "NA",
+              "management_context": "Recommended management: 25 cm between plants, 75 cm between rows, ~53,000 plants/ha; fertilization 75 kg N/ha with top dressing 6 weeks after sowing",
+              "relation_scope": "study_area",
+              "evidence": "Maize spacing was based on the recommended practice of 25 cm between plants and 75 cm between rows, yielding an approximate population of 53,000 plants ha−1. Fertilization was applied at a rate of 75 kg N ha−1 with a similar amount of top dressing 6 weeks after sowing.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=7",
+              "confidence": "high"
+            }
+          ],
+          "source": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "coefficients": {
+            "P1": 130.0,
+            "P2": 0.5,
+            "P5": 390.0,
+            "G2": 825.0,
+            "G3": 10.15,
+            "PHINT": 75.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h614-1": {
+        "record_id": "agrosystems-geosci-env-2024-kipkulei-agronomic-management-response-in-maize-zea-mays-l-production-across-three-1-h614-1",
+        "cultivar_name": "H614",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "AEZ II and AEZ III",
+        "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+        "coefficient_source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "AEZ II",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ II (subhumid)",
+            "season": "NA",
+            "management_context": "Early March or early May sowing, 75 kg N ha−1, recommended density",
+            "relation_scope": "trial_site",
+            "evidence": "The optimal practices in AEZ II include sowing in early May and the H614 cultivar. The average yield in AEZ II was 5312 kg ha−1, which was 3.4% and 7.6% higher than in AEZ III and AEZ I, respectively.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          },
+          {
+            "location_name": "AEZ III",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ III (semihumid)",
+            "season": "NA",
+            "management_context": "Early March or early May sowing, 75 kg N ha−1, recommended density",
+            "relation_scope": "trial_site",
+            "evidence": "A similar observation is noted in AEZ III, whereby sowing in early May and early March is preferable to sowing in mid-March, early April, and mid-April. The average yield in AEZ III was 5137 kg ha−1.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          },
+          {
+            "location_name": "AEZ I",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "AEZ I (humid)",
+            "season": "NA",
+            "management_context": "Early March to mid-March and early May sowing, 75 kg N ha−1, recommended density",
+            "relation_scope": "trial_site",
+            "evidence": "In AEZ I, the sowing window is large, with sowing between early March and mid-March and early May preferable. The average yield in AEZ I was 4937 kg ha−1.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "confidence": "high"
+          },
+          {
+            "location_name": "Uasin Gishu County",
+            "location_type": "county",
+            "agro_ecological_zone": "AEZ I, II, III",
+            "season": "NA",
+            "management_context": "Study-wide optimal management",
+            "relation_scope": "study_area",
+            "evidence": "The least feasible yield for the cultivar in the study area was 4400 kg ha−1, an estimate slightly higher than the government statistics of 3700 kg ha−1 in Uasin Gishu County.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=16",
+            "confidence": "medium"
+          },
+          {
+            "location_name": "Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "AEZ I, II, III",
+            "season": "NA",
+            "management_context": "Study-wide optimal management",
+            "relation_scope": "study_area",
+            "evidence": "The study found that adopting the optimal SD and the H614 cultivar could increase yield by 1120 tonnes in AEZ I, 11,478 tonnes in AEZ II, and 35,658 tonnes in AEZ III.",
+            "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=17",
+            "confidence": "medium"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": [
+              "AEZ II: 5312 kg ha−1",
+              "AEZ III: 5137 kg ha−1",
+              "AEZ I: 4937 kg ha−1",
+              "Study area minimum: 4400 kg ha−1",
+              "Model calibration mean: 4134 kg ha−1 (simulated), 4150 kg ha−1 (observed)"
+            ],
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [
+              "High resistance to pest attacks"
+            ],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "AEZ I (humid)",
+              "AEZ II (subhumid)",
+              "AEZ III (semihumid)"
+            ],
+            "adaptation_notes": "H614 is a popular hybrid in the Kenyan highlands, with high production potential and high resistance to pest attacks. It requires more heat units to attain anthesis and physiological maturity than H612. Yield is maximized with early sowing (early March or early May) in AEZ II and AEZ III. The cultivar performed better than H612 across all AEZs, with a reduced likelihood of yield decline. Optimal management includes 75 kg N ha−1 fertilizer and recommended plant density. The cultivar is suitable for rainfed cropping systems and can increase maize production by up to 5.7% in the study area. However, the increment is possible if the nutrient management aligns with the government-recommended nitrogen fertilization of 75 kg N ha−1 (Chebet et al., 2017). Soil variables at five depths (0–20, 20–40, 40–60, 60–80, and 80–100 cm) were entered into the SBuild module in DSSAT. The experimental fields were optimally managed, and necessary measures, including weed control, fertilizer application, and pest and disease control, were applied based on standard agronomic practices. cross hybrids in the East Africa region, the model calibration results indicated that H614 require more heat units to attain anthesis and reach physiological maturity.",
+            "normal_planting_window": [
+              "Early March and early May preferable in AEZ II and AEZ III",
+              "Sowing between mid-February and early April yields moderate effects"
+            ],
+            "planting_density": [
+              "25 cm between plants",
+              "75 cm between rows",
+              "Approx. 53,000 plants ha−1"
+            ],
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Uasin Gishu County",
+              "Trans Nzoia County",
+              "Katuke",
+              "Sabwani",
+              "Olngatongo",
+              "Kenyan highlands"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "AEZ II",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "AEZ II (subhumid)",
+              "season": "NA",
+              "management_context": "Early March or early May sowing, 75 kg N ha−1, recommended density",
+              "relation_scope": "trial_site",
+              "evidence": "The optimal practices in AEZ II include sowing in early May and the H614 cultivar. The average yield in AEZ II was 5312 kg ha−1, which was 3.4% and 7.6% higher than in AEZ III and AEZ I, respectively.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+              "confidence": "high"
+            },
+            {
+              "location_name": "AEZ III",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "AEZ III (semihumid)",
+              "season": "NA",
+              "management_context": "Early March or early May sowing, 75 kg N ha−1, recommended density",
+              "relation_scope": "trial_site",
+              "evidence": "A similar observation is noted in AEZ III, whereby sowing in early May and early March is preferable to sowing in mid-March, early April, and mid-April. The average yield in AEZ III was 5137 kg ha−1.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+              "confidence": "high"
+            },
+            {
+              "location_name": "AEZ I",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "AEZ I (humid)",
+              "season": "NA",
+              "management_context": "Early March to mid-March and early May sowing, 75 kg N ha−1, recommended density",
+              "relation_scope": "trial_site",
+              "evidence": "In AEZ I, the sowing window is large, with sowing between early March and mid-March and early May preferable. The average yield in AEZ I was 4937 kg ha−1.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+              "confidence": "high"
+            },
+            {
+              "location_name": "Uasin Gishu County",
+              "location_type": "county",
+              "agro_ecological_zone": "AEZ I, II, III",
+              "season": "NA",
+              "management_context": "Study-wide optimal management",
+              "relation_scope": "study_area",
+              "evidence": "The least feasible yield for the cultivar in the study area was 4400 kg ha−1, an estimate slightly higher than the government statistics of 3700 kg ha−1 in Uasin Gishu County.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=16",
+              "confidence": "medium"
+            },
+            {
+              "location_name": "Trans Nzoia County",
+              "location_type": "county",
+              "agro_ecological_zone": "AEZ I, II, III",
+              "season": "NA",
+              "management_context": "Study-wide optimal management",
+              "relation_scope": "study_area",
+              "evidence": "The study found that adopting the optimal SD and the H614 cultivar could increase yield by 1120 tonnes in AEZ I, 11,478 tonnes in AEZ II, and 35,658 tonnes in AEZ III.",
+              "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=17",
+              "confidence": "medium"
+            }
+          ],
+          "source": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "coefficients": {
+            "P1": 290.8,
+            "P2": 0.471,
+            "P5": 921.2,
+            "G2": 796.8,
+            "G3": 5.26,
+            "PHINT": 39.74
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    }
+  }
+}

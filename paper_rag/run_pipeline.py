@@ -11,11 +11,11 @@ from .extractor import extract_records
 from .llm_client import OpenAICompatibleClient, load_dotenv
 from .pdf_loader import load_many
 from .retriever import KeywordRetriever
-from .schema import records_to_sample_db
+from .schema import records_to_sample_db, records_to_web_index, write_individual_outputs
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT = REPO_ROOT / "paper_based_cultivar_db.json"
+DEFAULT_OUTPUT = REPO_ROOT / "Paper_Rag" / "Json_Outputs" / "paper_based_cultivar_db.json"
 
 
 def main() -> None:
@@ -36,11 +36,19 @@ def main() -> None:
         "llm_configured": llm.configured,
         "records": [record.to_dict() for record in records],
         "sample_db": records_to_sample_db(records),
+        "web_index": records_to_web_index(records),
     }
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    individual_dir = args.individual_output_dir or args.output.parent / "Individual_Papers"
+    individual_outputs = write_individual_outputs(
+        records,
+        individual_dir,
+        source_files=[path.name for path in papers],
+    )
     print(f"Wrote {len(records)} records to {args.output}")
+    print(f"Wrote {len(individual_outputs)} individual paper JSON files to {individual_dir}")
     if not llm.configured:
         print("OPENAI_API_KEY was not set; output used heuristic discovery/extraction only.")
 
@@ -64,6 +72,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_OUTPUT,
         help=f"Output JSON path. Defaults to {DEFAULT_OUTPUT}.",
+    )
+    parser.add_argument(
+        "--individual-output-dir",
+        type=Path,
+        default=None,
+        help="Directory for one JSON file per input paper. Defaults to <output_dir>/Individual_Papers.",
     )
     return parser.parse_args()
 

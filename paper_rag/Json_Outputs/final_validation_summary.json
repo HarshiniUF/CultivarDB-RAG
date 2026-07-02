@@ -1,0 +1,23 @@
+{
+  "json_valid": true,
+  "individual_json_valid": true,
+  "record_count": 31,
+  "input_paper_count": 7,
+  "known_non_extractable": [
+    {
+      "paper": "s10113-025-02403-y.pdf",
+      "metric": "dssat_coefficients",
+      "reason": "The paper states H614 coefficients were adopted from Kipkulei et al. (2022), but does not print P1/P2/P5/G2/G3/PHINT values in the paper text."
+    },
+    {
+      "paper": "s41598-024-62623-w.pdf",
+      "metric": "cultivar_records",
+      "reason": "No named cultivar mentions were detected, so no cultivar-specific JSON records are generated."
+    }
+  ],
+  "outputs": {
+    "combined": "Paper_Rag/Json_Outputs/all_papers_cultivar_db.json",
+    "individual_folder": "Paper_Rag/Json_Outputs/Individual_Papers",
+    "pretty_validated_copy": "/private/tmp/all_papers_cultivar_db.revalidated.json"
+  }
+}

@@ -44,7 +44,10 @@ def discover_cultivars(chunks: Iterable[PaperChunk], llm: OpenAICompatibleClient
     candidates: List[CultivarCandidate] = []
     for source_file, source_chunks in chunks_by_source.items():
         if llm.configured:
-            candidates.extend(_discover_with_llm(source_file, source_chunks, llm))
+            llm_candidates = _discover_with_llm(source_file, source_chunks, llm)
+            heuristic_candidates = _discover_with_heuristics(source_file, source_chunks)
+            candidates.extend(llm_candidates)
+            candidates.extend(heuristic_candidates)
         else:
             candidates.extend(_discover_with_heuristics(source_file, source_chunks))
 
@@ -93,7 +96,7 @@ def _discover_with_llm(
 
 
 def _discover_with_heuristics(source_file: str, chunks: List[PaperChunk]) -> List[CultivarCandidate]:
-    joined = "\n".join(chunk.text for chunk in chunks[:30])
+    joined = "\n".join(chunk.text for chunk in chunks)
     country = next((name for name in COUNTRIES if re.search(rf"\b{name}\b", joined, re.I)), NA)
     crop = "MZ" if re.search(r"\b(maize|zea mays)\b", joined, re.I) else NA
 
@@ -103,7 +106,11 @@ def _discover_with_heuristics(source_file: str, chunks: List[PaperChunk]) -> Lis
         r"\bBH\s?-?\s?\d{3}\b",
         r"\bKH\s?\d{3}-?\d{2}[A-Z]?\b",
         r"\bSC\s?-?\s?\d{3}\b",
+        r"\bDK\s?\d{2,4}\b",
         r"\bDKC\s?-?\s?\d{2,4}(?:-\d+)?\b",
+        r"\bDeka_lb\b",
+        r"\bDuma\b",
+        r"\bPioneer\b",
         r"\bMelkassa\s+[IVX0-9]+\b",
         r"\bKatumani\b",
         r"\bSituka\b",

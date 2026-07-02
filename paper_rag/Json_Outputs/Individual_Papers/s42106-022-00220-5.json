@@ -1,0 +1,630 @@
+{
+  "source_file": "s42106-022-00220-5.pdf",
+  "record_count": 2,
+  "records": [
+    {
+      "cultivar_name": "H614",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Trans Nzoia County",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "Observed mean: 191 DAS; Simulated mean: 198 DAS",
+          "average_yield_kg_ha": "Observed mean: 4150 kg DW ha−1; Simulated mean: 4134 kg DW ha−1; RMSE: 332.9 kg ha−1; RRMSE: 8.1%",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "H614 is one of the oldest cultivars and is popular among farmers, especially in high-altitude regions. The model showed that H614 needed fewer heat units to attain juvenile and physiological maturity than KH600-23A. The H614 cultivar showed modest yield decrease under low nitrogen levels (N1 and N2) and performed better in the western region under high nitrogen. The eastern region showed a consistent downward trend in yield for H614 under high nitrogen. Sowing date and water management interactions were not significant for H614. The cultivar is stable and well adopted by farmers in the region. The contribution of the main effect of nitrogen application levels on the maize yields was also significant. 5) and soil water content were the variables with complete data at all sites and were therefore used for the evaluation (Figures S3-S5 in the supplementary file). The statistics showed that farmers could improve production by 52% if cultivar KH600-23A was planted in mid-February under nitrogen fertilization of 75 kg ­ha−1 with equal top dressing amount compared to the latest sowing date, with low nitrogen level and the slightly low yielding H614 cultivar. The calibration results from the present study showed that the KH600-23A cultivar needed more heat units to attain the juvenile and physiological maturity stages than the H614 cultivar.",
+          "normal_planting_window": "Sowing varied across fields between early March and late March; mid-February sowing under 100 kg N/ha was optimal for yield (study area recommendation)",
+          "planting_density": "53,333 plants per hectare",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "Trans Nzoia County; eastern, western, northern, and southern parts discussed"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "2015, 2021, long rainy season",
+            "management_context": "Sowing dates (early March to late March), nitrogen levels (N1, N2, N3), water management (precipitation sufficient), mid-February sowing under 100 kg N/ha optimal",
+            "relation_scope": "study_area",
+            "evidence": "The experimental data for calibrating and evaluating the DSSAT–CERES-Maize model were sourced from 42 pure-stand maize fields in various parts of the county. The cultivars that were grown in the fields were KH600-23A and H614. Sowing varied across the fields between early March and late March. The management strategies assessment demonstrated significant feedback on sowing dates, nitrogen fertilization, and cultivars on maize yield. The eastern part of Trans Nzoia County demonstrated a consistent downwards trend for the vital yield enhancement strategies. Medium to high nitrogen levels revealed positive yield trends for more extensive coverage of the study area.",
+            "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+            "confidence": "high"
+          }
+        ],
+        "source": "s42106-022-00220-5.pdf",
+        "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-022-00220-5.pdf",
+        "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+        "coefficients": {
+          "P1": 290.8,
+          "P2": 0.471,
+          "P5": 921.2,
+          "G2": 796.8,
+          "G3": 5.26,
+          "PHINT": 39.74
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "KH600-23A",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Trans Nzoia County",
+      "characteristics": {
+        "data": {
+          "maturity_class": "late-maturing",
+          "relative_maturity": "NA",
+          "days_to_maturity": "209 (observed), 206 (simulated)",
+          "average_yield_kg_ha": "5209 (observed), 5316 (simulated), 6148 (N3 nitrogen), 9.5-15 tonnes/ha (potential)",
+          "plant_height_cm": "NA",
+          "growth_habit": "semiflint",
+          "disease_resistance": [
+            "resistance to pests and diseases"
+          ],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "needed more heat units to attain maturity than H614"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "KH600-23A is a relatively new cultivar with high yield potential, out-performing older cultivars. It requires more heat units to reach maturity, and shows stability in yields under optimum nitrogen levels. Early sowing and high nitrogen fertilization (75-100 kg/ha) significantly enhance yields. The cultivar is recommended for adoption in Trans Nzoia County, especially under improved soil quality and structure. Yield trends are positive in northern and southern parts, but negative in eastern, western, and northern parts under poor soil conditions. The contribution of the main effect of nitrogen application levels on the maize yields was also significant. 5) and soil water content were the variables with complete data at all sites and were therefore used for the evaluation (Figures S3-S5 in the supplementary file). The statistics showed that farmers could improve production by 52% if cultivar KH600-23A was planted in mid-February under nitrogen fertilization of 75 kg ­ha−1 with equal top dressing amount compared to the latest sowing date, with low nitrogen level and the slightly low yielding H614 cultivar. The calibration results from the present study showed that the KH600-23A cultivar needed more heat units to attain the juvenile and physiological maturity stages than the H614 cultivar.",
+          "normal_planting_window": "Sowing varied across fields between early March and late March; mid-February sowing under high nitrogen is optimal; late February and early March also beneficial.",
+          "planting_density": "53,333 plants per hectare",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "Trans Nzoia County, eastern, western, northern, southern regions"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "March-November 2021 (long rainy season), 2015 growing season, 1984–2021 (modelled)",
+            "management_context": "Sowing dates, nitrogen fertilization, water management; early sowing and high nitrogen (75-100 kg/ha) recommended",
+            "relation_scope": "study_area",
+            "evidence": "The experimental data for calibrating and evaluating the DSSAT–CERES-Maize model were sourced from 42 pure-stand maize fields in various parts of the county. The cultivars that were grown in the fields were KH600-23A and H614. KH600-23A is a white, semiflint, late-maturing cultivar owned by the Agricultural Development Corporation (ADC) and first released in 2008. The two cultivars were selected mainly because of their high yield potential, resistance to pests and diseases, suitability to local climatic conditions, and wide adoption by farmers in the region.",
+            "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+            "confidence": "high"
+          },
+          {
+            "location_name": "eastern, western, northern, southern regions of Trans Nzoia County",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "Yield trends and soil quality; negative yield trends in eastern, western, and northern parts; positive in northern and southern under management",
+            "relation_scope": "study_area",
+            "evidence": "The eastern part of Trans Nzoia County demonstrated a consistent downwards trend for the vital yield enhancement strategies. Furthermore, we recommend measures that improve soil quality and structure in the western and northern parts, given the negative model response on maize yield in these areas. Medium to high nitrogen levels revealed positive yield trends for more extensive coverage of the study area.",
+            "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+            "confidence": "medium"
+          },
+          {
+            "location_name": "Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "1984–2021 (modelled)",
+            "management_context": "DSSAT–CERES-Maize model calibration and evaluation; sowing dates, nitrogen fertilization, water management",
+            "relation_scope": "study_area",
+            "evidence": "The evaluated model simulated long-term yields (1984–2021) and characterized production under various weather regimes. The model performed well in simulating the growth and development of the two cultivars, as indicated by the model evaluation results.",
+            "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+            "confidence": "high"
+          }
+        ],
+        "source": "s42106-022-00220-5.pdf",
+        "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-022-00220-5.pdf",
+        "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+        "coefficients": {
+          "P1": 345.6,
+          "P2": 0.5,
+          "P5": 971.2,
+          "G2": 777.3,
+          "G3": 7.12,
+          "PHINT": 36.78
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    }
+  ],
+  "sample_db": {
+    "crop": "MZ",
+    "country": "Kenya",
+    "cultivars": {
+      "H614": {
+        "cultivar_name": "H614",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed mean: 191 DAS; Simulated mean: 198 DAS",
+            "average_yield_kg_ha": "Observed mean: 4150 kg DW ha−1; Simulated mean: 4134 kg DW ha−1; RMSE: 332.9 kg ha−1; RRMSE: 8.1%",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "H614 is one of the oldest cultivars and is popular among farmers, especially in high-altitude regions. The model showed that H614 needed fewer heat units to attain juvenile and physiological maturity than KH600-23A. The H614 cultivar showed modest yield decrease under low nitrogen levels (N1 and N2) and performed better in the western region under high nitrogen. The eastern region showed a consistent downward trend in yield for H614 under high nitrogen. Sowing date and water management interactions were not significant for H614. The cultivar is stable and well adopted by farmers in the region. The contribution of the main effect of nitrogen application levels on the maize yields was also significant. 5) and soil water content were the variables with complete data at all sites and were therefore used for the evaluation (Figures S3-S5 in the supplementary file). The statistics showed that farmers could improve production by 52% if cultivar KH600-23A was planted in mid-February under nitrogen fertilization of 75 kg ­ha−1 with equal top dressing amount compared to the latest sowing date, with low nitrogen level and the slightly low yielding H614 cultivar. The calibration results from the present study showed that the KH600-23A cultivar needed more heat units to attain the juvenile and physiological maturity stages than the H614 cultivar.",
+            "normal_planting_window": "Sowing varied across fields between early March and late March; mid-February sowing under 100 kg N/ha was optimal for yield (study area recommendation)",
+            "planting_density": "53,333 plants per hectare",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Trans Nzoia County; eastern, western, northern, and southern parts discussed"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Trans Nzoia County",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "2015, 2021, long rainy season",
+              "management_context": "Sowing dates (early March to late March), nitrogen levels (N1, N2, N3), water management (precipitation sufficient), mid-February sowing under 100 kg N/ha optimal",
+              "relation_scope": "study_area",
+              "evidence": "The experimental data for calibrating and evaluating the DSSAT–CERES-Maize model were sourced from 42 pure-stand maize fields in various parts of the county. The cultivars that were grown in the fields were KH600-23A and H614. Sowing varied across the fields between early March and late March. The management strategies assessment demonstrated significant feedback on sowing dates, nitrogen fertilization, and cultivars on maize yield. The eastern part of Trans Nzoia County demonstrated a consistent downwards trend for the vital yield enhancement strategies. Medium to high nitrogen levels revealed positive yield trends for more extensive coverage of the study area.",
+              "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "coefficients": {
+            "P1": 290.8,
+            "P2": 0.471,
+            "P5": 921.2,
+            "G2": 796.8,
+            "G3": 5.26,
+            "PHINT": 39.74
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "KH600-23A": {
+        "cultivar_name": "KH600-23A",
+        "characteristics": {
+          "data": {
+            "maturity_class": "late-maturing",
+            "relative_maturity": "NA",
+            "days_to_maturity": "209 (observed), 206 (simulated)",
+            "average_yield_kg_ha": "5209 (observed), 5316 (simulated), 6148 (N3 nitrogen), 9.5-15 tonnes/ha (potential)",
+            "plant_height_cm": "NA",
+            "growth_habit": "semiflint",
+            "disease_resistance": [
+              "resistance to pests and diseases"
+            ],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "needed more heat units to attain maturity than H614"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "KH600-23A is a relatively new cultivar with high yield potential, out-performing older cultivars. It requires more heat units to reach maturity, and shows stability in yields under optimum nitrogen levels. Early sowing and high nitrogen fertilization (75-100 kg/ha) significantly enhance yields. The cultivar is recommended for adoption in Trans Nzoia County, especially under improved soil quality and structure. Yield trends are positive in northern and southern parts, but negative in eastern, western, and northern parts under poor soil conditions. The contribution of the main effect of nitrogen application levels on the maize yields was also significant. 5) and soil water content were the variables with complete data at all sites and were therefore used for the evaluation (Figures S3-S5 in the supplementary file). The statistics showed that farmers could improve production by 52% if cultivar KH600-23A was planted in mid-February under nitrogen fertilization of 75 kg ­ha−1 with equal top dressing amount compared to the latest sowing date, with low nitrogen level and the slightly low yielding H614 cultivar. The calibration results from the present study showed that the KH600-23A cultivar needed more heat units to attain the juvenile and physiological maturity stages than the H614 cultivar.",
+            "normal_planting_window": "Sowing varied across fields between early March and late March; mid-February sowing under high nitrogen is optimal; late February and early March also beneficial.",
+            "planting_density": "53,333 plants per hectare",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Trans Nzoia County, eastern, western, northern, southern regions"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Trans Nzoia County",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "March-November 2021 (long rainy season), 2015 growing season, 1984–2021 (modelled)",
+              "management_context": "Sowing dates, nitrogen fertilization, water management; early sowing and high nitrogen (75-100 kg/ha) recommended",
+              "relation_scope": "study_area",
+              "evidence": "The experimental data for calibrating and evaluating the DSSAT–CERES-Maize model were sourced from 42 pure-stand maize fields in various parts of the county. The cultivars that were grown in the fields were KH600-23A and H614. KH600-23A is a white, semiflint, late-maturing cultivar owned by the Agricultural Development Corporation (ADC) and first released in 2008. The two cultivars were selected mainly because of their high yield potential, resistance to pests and diseases, suitability to local climatic conditions, and wide adoption by farmers in the region.",
+              "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+              "confidence": "high"
+            },
+            {
+              "location_name": "eastern, western, northern, southern regions of Trans Nzoia County",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "Yield trends and soil quality; negative yield trends in eastern, western, and northern parts; positive in northern and southern under management",
+              "relation_scope": "study_area",
+              "evidence": "The eastern part of Trans Nzoia County demonstrated a consistent downwards trend for the vital yield enhancement strategies. Furthermore, we recommend measures that improve soil quality and structure in the western and northern parts, given the negative model response on maize yield in these areas. Medium to high nitrogen levels revealed positive yield trends for more extensive coverage of the study area.",
+              "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+              "confidence": "medium"
+            },
+            {
+              "location_name": "Trans Nzoia County",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "1984–2021 (modelled)",
+              "management_context": "DSSAT–CERES-Maize model calibration and evaluation; sowing dates, nitrogen fertilization, water management",
+              "relation_scope": "study_area",
+              "evidence": "The evaluated model simulated long-term yields (1984–2021) and characterized production under various weather regimes. The model performed well in simulating the growth and development of the two cultivars, as indicated by the model evaluation results.",
+              "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "coefficients": {
+            "P1": 345.6,
+            "P2": 0.5,
+            "P5": 971.2,
+            "G2": 777.3,
+            "G3": 7.12,
+            "PHINT": 36.78
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    }
+  },
+  "web_index": {
+    "by_crop": {
+      "MZ": [
+        {
+          "record_id": "s42106-022-00220-5-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia County",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "coefficient_source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-022-00220-5-kh600-23a-2",
+          "cultivar_name": "KH600-23A",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia County",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+          "coefficient_source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "has_coefficients": true
+        }
+      ]
+    },
+    "by_country": {
+      "Kenya": [
+        {
+          "record_id": "s42106-022-00220-5-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia County",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "coefficient_source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-022-00220-5-kh600-23a-2",
+          "cultivar_name": "KH600-23A",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia County",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+          "coefficient_source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "has_coefficients": true
+        }
+      ]
+    },
+    "by_location": {
+      "Trans Nzoia County": [
+        {
+          "record_id": "s42106-022-00220-5-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia County",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "coefficient_source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "2015, 2021, long rainy season",
+            "management_context": "Sowing dates (early March to late March), nitrogen levels (N1, N2, N3), water management (precipitation sufficient), mid-February sowing under 100 kg N/ha optimal",
+            "relation_scope": "study_area",
+            "evidence": "The experimental data for calibrating and evaluating the DSSAT–CERES-Maize model were sourced from 42 pure-stand maize fields in various parts of the county. The cultivars that were grown in the fields were KH600-23A and H614. Sowing varied across the fields between early March and late March. The management strategies assessment demonstrated significant feedback on sowing dates, nitrogen fertilization, and cultivars on maize yield. The eastern part of Trans Nzoia County demonstrated a consistent downwards trend for the vital yield enhancement strategies. Medium to high nitrogen levels revealed positive yield trends for more extensive coverage of the study area.",
+            "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "s42106-022-00220-5-kh600-23a-2",
+          "cultivar_name": "KH600-23A",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia County",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+          "coefficient_source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "March-November 2021 (long rainy season), 2015 growing season, 1984–2021 (modelled)",
+            "management_context": "Sowing dates, nitrogen fertilization, water management; early sowing and high nitrogen (75-100 kg/ha) recommended",
+            "relation_scope": "study_area",
+            "evidence": "The experimental data for calibrating and evaluating the DSSAT–CERES-Maize model were sourced from 42 pure-stand maize fields in various parts of the county. The cultivars that were grown in the fields were KH600-23A and H614. KH600-23A is a white, semiflint, late-maturing cultivar owned by the Agricultural Development Corporation (ADC) and first released in 2008. The two cultivars were selected mainly because of their high yield potential, resistance to pests and diseases, suitability to local climatic conditions, and wide adoption by farmers in the region.",
+            "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "s42106-022-00220-5-kh600-23a-2",
+          "cultivar_name": "KH600-23A",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia County",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+          "coefficient_source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "1984–2021 (modelled)",
+            "management_context": "DSSAT–CERES-Maize model calibration and evaluation; sowing dates, nitrogen fertilization, water management",
+            "relation_scope": "study_area",
+            "evidence": "The evaluated model simulated long-term yields (1984–2021) and characterized production under various weather regimes. The model performed well in simulating the growth and development of the two cultivars, as indicated by the model evaluation results.",
+            "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+            "confidence": "high"
+          }
+        }
+      ],
+      "eastern, western, northern, southern regions of Trans Nzoia County": [
+        {
+          "record_id": "s42106-022-00220-5-kh600-23a-2",
+          "cultivar_name": "KH600-23A",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia County",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+          "coefficient_source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "eastern, western, northern, southern regions of Trans Nzoia County",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "Yield trends and soil quality; negative yield trends in eastern, western, and northern parts; positive in northern and southern under management",
+            "relation_scope": "study_area",
+            "evidence": "The eastern part of Trans Nzoia County demonstrated a consistent downwards trend for the vital yield enhancement strategies. Furthermore, we recommend measures that improve soil quality and structure in the western and northern parts, given the negative model response on maize yield in these areas. Medium to high nitrogen levels revealed positive yield trends for more extensive coverage of the study area.",
+            "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    "by_cultivar": {
+      "s42106-022-00220-5-h614-1": {
+        "record_id": "s42106-022-00220-5-h614-1",
+        "cultivar_name": "H614",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Trans Nzoia County",
+        "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+        "coefficient_source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "2015, 2021, long rainy season",
+            "management_context": "Sowing dates (early March to late March), nitrogen levels (N1, N2, N3), water management (precipitation sufficient), mid-February sowing under 100 kg N/ha optimal",
+            "relation_scope": "study_area",
+            "evidence": "The experimental data for calibrating and evaluating the DSSAT–CERES-Maize model were sourced from 42 pure-stand maize fields in various parts of the county. The cultivars that were grown in the fields were KH600-23A and H614. Sowing varied across the fields between early March and late March. The management strategies assessment demonstrated significant feedback on sowing dates, nitrogen fertilization, and cultivars on maize yield. The eastern part of Trans Nzoia County demonstrated a consistent downwards trend for the vital yield enhancement strategies. Medium to high nitrogen levels revealed positive yield trends for more extensive coverage of the study area.",
+            "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+            "confidence": "high"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed mean: 191 DAS; Simulated mean: 198 DAS",
+            "average_yield_kg_ha": "Observed mean: 4150 kg DW ha−1; Simulated mean: 4134 kg DW ha−1; RMSE: 332.9 kg ha−1; RRMSE: 8.1%",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "H614 is one of the oldest cultivars and is popular among farmers, especially in high-altitude regions. The model showed that H614 needed fewer heat units to attain juvenile and physiological maturity than KH600-23A. The H614 cultivar showed modest yield decrease under low nitrogen levels (N1 and N2) and performed better in the western region under high nitrogen. The eastern region showed a consistent downward trend in yield for H614 under high nitrogen. Sowing date and water management interactions were not significant for H614. The cultivar is stable and well adopted by farmers in the region. The contribution of the main effect of nitrogen application levels on the maize yields was also significant. 5) and soil water content were the variables with complete data at all sites and were therefore used for the evaluation (Figures S3-S5 in the supplementary file). The statistics showed that farmers could improve production by 52% if cultivar KH600-23A was planted in mid-February under nitrogen fertilization of 75 kg ­ha−1 with equal top dressing amount compared to the latest sowing date, with low nitrogen level and the slightly low yielding H614 cultivar. The calibration results from the present study showed that the KH600-23A cultivar needed more heat units to attain the juvenile and physiological maturity stages than the H614 cultivar.",
+            "normal_planting_window": "Sowing varied across fields between early March and late March; mid-February sowing under 100 kg N/ha was optimal for yield (study area recommendation)",
+            "planting_density": "53,333 plants per hectare",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Trans Nzoia County; eastern, western, northern, and southern parts discussed"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Trans Nzoia County",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "2015, 2021, long rainy season",
+              "management_context": "Sowing dates (early March to late March), nitrogen levels (N1, N2, N3), water management (precipitation sufficient), mid-February sowing under 100 kg N/ha optimal",
+              "relation_scope": "study_area",
+              "evidence": "The experimental data for calibrating and evaluating the DSSAT–CERES-Maize model were sourced from 42 pure-stand maize fields in various parts of the county. The cultivars that were grown in the fields were KH600-23A and H614. Sowing varied across the fields between early March and late March. The management strategies assessment demonstrated significant feedback on sowing dates, nitrogen fertilization, and cultivars on maize yield. The eastern part of Trans Nzoia County demonstrated a consistent downwards trend for the vital yield enhancement strategies. Medium to high nitrogen levels revealed positive yield trends for more extensive coverage of the study area.",
+              "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "coefficients": {
+            "P1": 290.8,
+            "P2": 0.471,
+            "P5": 921.2,
+            "G2": 796.8,
+            "G3": 5.26,
+            "PHINT": 39.74
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "s42106-022-00220-5-kh600-23a-2": {
+        "record_id": "s42106-022-00220-5-kh600-23a-2",
+        "cultivar_name": "KH600-23A",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Trans Nzoia County",
+        "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+        "coefficient_source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "March-November 2021 (long rainy season), 2015 growing season, 1984–2021 (modelled)",
+            "management_context": "Sowing dates, nitrogen fertilization, water management; early sowing and high nitrogen (75-100 kg/ha) recommended",
+            "relation_scope": "study_area",
+            "evidence": "The experimental data for calibrating and evaluating the DSSAT–CERES-Maize model were sourced from 42 pure-stand maize fields in various parts of the county. The cultivars that were grown in the fields were KH600-23A and H614. KH600-23A is a white, semiflint, late-maturing cultivar owned by the Agricultural Development Corporation (ADC) and first released in 2008. The two cultivars were selected mainly because of their high yield potential, resistance to pests and diseases, suitability to local climatic conditions, and wide adoption by farmers in the region.",
+            "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+            "confidence": "high"
+          },
+          {
+            "location_name": "eastern, western, northern, southern regions of Trans Nzoia County",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "Yield trends and soil quality; negative yield trends in eastern, western, and northern parts; positive in northern and southern under management",
+            "relation_scope": "study_area",
+            "evidence": "The eastern part of Trans Nzoia County demonstrated a consistent downwards trend for the vital yield enhancement strategies. Furthermore, we recommend measures that improve soil quality and structure in the western and northern parts, given the negative model response on maize yield in these areas. Medium to high nitrogen levels revealed positive yield trends for more extensive coverage of the study area.",
+            "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+            "confidence": "medium"
+          },
+          {
+            "location_name": "Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "1984–2021 (modelled)",
+            "management_context": "DSSAT–CERES-Maize model calibration and evaluation; sowing dates, nitrogen fertilization, water management",
+            "relation_scope": "study_area",
+            "evidence": "The evaluated model simulated long-term yields (1984–2021) and characterized production under various weather regimes. The model performed well in simulating the growth and development of the two cultivars, as indicated by the model evaluation results.",
+            "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+            "confidence": "high"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "late-maturing",
+            "relative_maturity": "NA",
+            "days_to_maturity": "209 (observed), 206 (simulated)",
+            "average_yield_kg_ha": "5209 (observed), 5316 (simulated), 6148 (N3 nitrogen), 9.5-15 tonnes/ha (potential)",
+            "plant_height_cm": "NA",
+            "growth_habit": "semiflint",
+            "disease_resistance": [
+              "resistance to pests and diseases"
+            ],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "needed more heat units to attain maturity than H614"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "KH600-23A is a relatively new cultivar with high yield potential, out-performing older cultivars. It requires more heat units to reach maturity, and shows stability in yields under optimum nitrogen levels. Early sowing and high nitrogen fertilization (75-100 kg/ha) significantly enhance yields. The cultivar is recommended for adoption in Trans Nzoia County, especially under improved soil quality and structure. Yield trends are positive in northern and southern parts, but negative in eastern, western, and northern parts under poor soil conditions. The contribution of the main effect of nitrogen application levels on the maize yields was also significant. 5) and soil water content were the variables with complete data at all sites and were therefore used for the evaluation (Figures S3-S5 in the supplementary file). The statistics showed that farmers could improve production by 52% if cultivar KH600-23A was planted in mid-February under nitrogen fertilization of 75 kg ­ha−1 with equal top dressing amount compared to the latest sowing date, with low nitrogen level and the slightly low yielding H614 cultivar. The calibration results from the present study showed that the KH600-23A cultivar needed more heat units to attain the juvenile and physiological maturity stages than the H614 cultivar.",
+            "normal_planting_window": "Sowing varied across fields between early March and late March; mid-February sowing under high nitrogen is optimal; late February and early March also beneficial.",
+            "planting_density": "53,333 plants per hectare",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Trans Nzoia County, eastern, western, northern, southern regions"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Trans Nzoia County",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "March-November 2021 (long rainy season), 2015 growing season, 1984–2021 (modelled)",
+              "management_context": "Sowing dates, nitrogen fertilization, water management; early sowing and high nitrogen (75-100 kg/ha) recommended",
+              "relation_scope": "study_area",
+              "evidence": "The experimental data for calibrating and evaluating the DSSAT–CERES-Maize model were sourced from 42 pure-stand maize fields in various parts of the county. The cultivars that were grown in the fields were KH600-23A and H614. KH600-23A is a white, semiflint, late-maturing cultivar owned by the Agricultural Development Corporation (ADC) and first released in 2008. The two cultivars were selected mainly because of their high yield potential, resistance to pests and diseases, suitability to local climatic conditions, and wide adoption by farmers in the region.",
+              "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+              "confidence": "high"
+            },
+            {
+              "location_name": "eastern, western, northern, southern regions of Trans Nzoia County",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "Yield trends and soil quality; negative yield trends in eastern, western, and northern parts; positive in northern and southern under management",
+              "relation_scope": "study_area",
+              "evidence": "The eastern part of Trans Nzoia County demonstrated a consistent downwards trend for the vital yield enhancement strategies. Furthermore, we recommend measures that improve soil quality and structure in the western and northern parts, given the negative model response on maize yield in these areas. Medium to high nitrogen levels revealed positive yield trends for more extensive coverage of the study area.",
+              "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+              "confidence": "medium"
+            },
+            {
+              "location_name": "Trans Nzoia County",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "1984–2021 (modelled)",
+              "management_context": "DSSAT–CERES-Maize model calibration and evaluation; sowing dates, nitrogen fertilization, water management",
+              "relation_scope": "study_area",
+              "evidence": "The evaluated model simulated long-term yields (1984–2021) and characterized production under various weather regimes. The model performed well in simulating the growth and development of the two cultivars, as indicated by the model evaluation results.",
+              "source_url": "input_papers/s42106-022-00220-5.pdf#page=1",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "coefficients": {
+            "P1": 345.6,
+            "P2": 0.5,
+            "P5": 971.2,
+            "G2": 777.3,
+            "G3": 7.12,
+            "PHINT": 36.78
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    }
+  }
+}

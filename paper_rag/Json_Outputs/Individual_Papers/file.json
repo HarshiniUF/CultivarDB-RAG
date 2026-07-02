@@ -1,0 +1,3106 @@
+{
+  "source_file": "file.pdf",
+  "record_count": 9,
+  "records": [
+    {
+      "cultivar_name": "DEKA_LB",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Embu county, Kenya; AEZs LM3, LM4, LM5",
+      "characteristics": {
+        "data": {
+          "maturity_class": "long-duration",
+          "relative_maturity": "NA",
+          "days_to_maturity": "3.5 to 4.5 months",
+          "average_yield_kg_ha": "5–6 t/ha (farmer reported, Table 3)",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "Able to maintain yield levels under increased temperature (page 17)",
+            "heat": "Able to maintain yield levels under increased temperature (page 17)"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "LM3, LM4, LM5",
+          "adaptation_notes": "DEKA_LB is a long-duration maize cultivar recommended for low potential AEZs (LM3, LM4, LM5) in Embu county, Kenya. It is able to maintain yield levels under climate change scenarios, making it suitable for adaptation to increased temperatures. Optimal management includes early planting within the window, plant population of 40–50, and fertilizer nitrogen application of 60–80 kg/ha depending on AEZ and season. DSSAT and APSIM simulations indicate that early planting increases yields by 25% in SR season and 7% in LR season. High moisture stress is a major yield limiting factor in LM4 and LM5. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+          "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (LM3, LM4), 1–15 Nov (LM5)",
+          "planting_density": "40–50 (thousand plants/ha)",
+          "harvest_time": "NA",
+          "season_suitability": "SR and LR seasons; optimal in both with early planting",
+          "major_crop_areas": "Embu county; AEZs LM3, LM4, LM5"
+        },
+        "location_contexts": [
+          {
+            "location_name": "LM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM3",
+            "season": "SR season (1–15 Oct), LR season (15–30 Mar)",
+            "management_context": "Plant population: 50 (thousand/ha), Fertilizer N: 80 kg/ha (SR), 60 kg/ha (LR)",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Table 7: Deka_lb recommended for LM3 AEZ with specific planting windows, plant population, and fertilizer rates.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "LM4",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM4",
+            "season": "LR season (15–30 Mar)",
+            "management_context": "Plant population: 50 (thousand/ha), Fertilizer N: 60 kg/ha",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Table 7: Deka_lb recommended for LM4 AEZ in LR season with specific management.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "LM5",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM5",
+            "season": "SR season (1–15 Nov)",
+            "management_context": "Plant population: 40 (thousand/ha), Fertilizer N: 60 kg/ha",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Table 7: Deka_lb recommended for LM5 AEZ in SR season with specific management.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "LM3, LM4, LM5",
+            "season": "SR and LR seasons",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "DEKA_LB is discussed as a long-duration variety evaluated across Embu county AEZs for adaptation to climate change.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "medium"
+          }
+        ],
+        "source": "file.pdf",
+        "source_url": "input_papers/file.pdf#page=17",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: file.pdf",
+        "source_url": "input_papers/file.pdf#page=9",
+        "coefficients": {},
+        "notes": "For Deka_lb, default parameters from the DSSAT model were used; no paper-reported DSSAT genotype coefficients are provided."
+      }
+    },
+    {
+      "cultivar_name": "DK43",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Embu county, Kenya",
+      "characteristics": {
+        "data": {
+          "maturity_class": "medium to long duration",
+          "relative_maturity": "NA",
+          "days_to_maturity": "4–5 months",
+          "average_yield_kg_ha": "6000–7000",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+          "adaptation_notes": "DK43 is mapped to H511 in the DSSAT model and is considered a medium to long duration variety with yield potential of 6–7 t/ha. It is widely grown by farmers in Embu county and was included in the study's simulations and adaptation strategies. The study found that long-duration varieties like DK43/H511 are better able to maintain yield under climate change compared to short-duration varieties. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+          "normal_planting_window": "LR: mid-March to end March (15–30 Mar); SR: start to mid-November (1–15 Nov)",
+          "planting_density": "40,000–50,000 plants/ha",
+          "harvest_time": "NA",
+          "season_suitability": "suitable for both LR and SR seasons",
+          "major_crop_areas": "Embu, Kavutiri, Gachuka, Machanga"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR and SR seasons",
+            "management_context": "Simulated with farmer-specific soil, crop, and management data; adaptation strategies include optimal planting time, density, and fertilizer",
+            "relation_scope": "study_area",
+            "evidence": "DK43 is a commonly grown variety in Embu county, mapped to H511 in the DSSAT model, and included in simulations and adaptation strategies across all AEZs and seasons.",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "high"
+          }
+        ],
+        "source": "file.pdf",
+        "source_url": "input_papers/file.pdf#page=8",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: file.pdf",
+        "source_url": "input_papers/file.pdf#page=9",
+        "coefficients": {},
+        "notes": "No DSSAT genotype coefficients are reported for DK43. DK43 is mapped to H511 in the model, but only H511, H513, and Katumani coefficients are provided."
+      }
+    },
+    {
+      "cultivar_name": "KATUMANI",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+      "characteristics": {
+        "data": {
+          "maturity_class": "short duration",
+          "relative_maturity": "NA",
+          "days_to_maturity": "Observed: 103.5; DSSAT: 105.5; APSIM: 104.0",
+          "average_yield_kg_ha": "Observed: 4060.5; DSSAT: 4058.5; APSIM: 3911.0",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "More negatively impacted by climate change compared to long-duration cultivars",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+          "adaptation_notes": "Short duration Katumani is more sensitive to climate change, with yield declines of 5% (SR season) and 9% (LR season) under RCP 8.5. Katumani is widely adopted by farmers in Kenya, but is less resilient to warming compared to H511 and H513. Replacing Katumani with long-duration cultivars is considered an adaptation option. High moisture stress in LM4 and LM5 AEZs is a major yield limiting factor. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+          "normal_planting_window": "LR: mid-March (day 74) to mid-April (day 105); SR: start October (day 274) to start November (day 305). Under climate change: LR: mid-March (day 74) to end March (day 89); SR: start November (day 305) to mid-November (day 319). Early planting within window yields better results.",
+          "planting_density": "30,000 to 50,000 plants/ha; less than 3% yield increase when population increased from 30,000 to 50,000 plants/ha",
+          "harvest_time": "NA",
+          "season_suitability": "SR and LR seasons; more negatively impacted in LR season",
+          "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "SR and LR seasons",
+            "management_context": "Farmer fields; experimental farm; adaptation strategies tested with DSSAT and APSIM",
+            "relation_scope": "study_area",
+            "evidence": "The maize varieties H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section. The observed crop phenology, biomass and yield are satisfactorily simulated by the models for three cultivars at Embu.",
+            "source_url": "input_papers/file.pdf#page=14",
+            "confidence": "high"
+          },
+          {
+            "location_name": "AEZs UM2, UM3, LM3, LM4, LM5",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "SR and LR seasons",
+            "management_context": "Simulated yields under baseline and climate change scenarios; adaptation strategies tested",
+            "relation_scope": "study_area",
+            "evidence": "Impact of climate change on maize production in the five AEZs is assessed. Maize yields varied in response to differences in the magnitude of projected change in surface temperatures and rainfall by different GCMs under different scenarios. Maize yields also varied depending on the AEZ, season, and management practices.",
+            "source_url": "input_papers/file.pdf#page=15",
+            "confidence": "medium"
+          },
+          {
+            "location_name": "Embu research farm",
+            "location_type": "site",
+            "agro_ecological_zone": "NA",
+            "season": "SR season of 2000; LR and SR seasons of 2001",
+            "management_context": "Experimental data used for calibration and validation of DSSAT and APSIM for Katumani",
+            "relation_scope": "trial_site",
+            "evidence": "The experiment included all these varieties and was conducted over three seasons i.e., SR season of 2000 and LR and SR seasons of 2001. All the available data was compiled from the research reports as well as personnel communication with the researcher concerned.",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "medium"
+          }
+        ],
+        "source": "file.pdf",
+        "source_url": "input_papers/file.pdf#page=14",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: file.pdf",
+        "source_url": "input_papers/file.pdf#page=9",
+        "coefficients": {
+          "P1": 100.0,
+          "P2": 0.5,
+          "P5": 554.0,
+          "G2": 550.0,
+          "G3": 10.6,
+          "PHINT": 47.0
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "H613",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+      "characteristics": {
+        "data": {
+          "maturity_class": "long duration (represented by H513 in model)",
+          "relative_maturity": "6–8 months",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "8,000–10,000 (farmer reported, see Table 3); DSSAT simulated for H513: 5,027.7 kg/ha (Table 6)",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "Long-duration varieties (H613/H513) maintain yield under increased temperature compared to short-duration Katumani (page 17)",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+          "adaptation_notes": "H613 is represented by H513 in DSSAT simulations. Long-duration varieties (H613/H513) are recommended for adaptation to climate change, maintaining yield under increased temperature. Optimal planting time and nitrogen management are AEZ-specific. High potential AEZs (UM2, UM3, LM3) show positive yield response; low potential AEZs (LM4, LM5) show negative response. Early planting within the window increases yield. Fertilizer nitrogen up to 80 kg/ha increases yield in SR season. Plant population of 40,000–50,000 plants/ha is recommended depending on AEZ and season. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+          "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3, LM3), 1–15 Nov (UM2); AEZ-specific (Table 7, page 17)",
+          "planting_density": "40,000–50,000 plants/ha (AEZ and season specific, Table 7, page 17)",
+          "harvest_time": "NA",
+          "season_suitability": "LR and SR seasons; best performance in SR season and high potential AEZs",
+          "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR and SR",
+            "management_context": "AEZ-specific planting window, plant population, nitrogen fertilizer (see Table 7)",
+            "relation_scope": "study_area",
+            "evidence": "H613 is represented by H513 in DSSAT simulations. Adaptation strategies for each AEZ include optimal planting time, plant population, and nitrogen fertilizer. Long-duration varieties (H613/H513) are recommended for adaptation to climate change in Embu county across all AEZs.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "UM2",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM2",
+            "season": "LR: 15–30 Mar; SR: 1–15 Nov",
+            "management_context": "LR: 50,000 plants/ha, 80 kg N/ha, H513; SR: 40,000 plants/ha, 70 kg N/ha, H511",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7 lists H513 (representing H613) as optimal for LR season in UM2 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "UM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM3",
+            "season": "LR: 15–30 Mar; SR: 1–15 Oct",
+            "management_context": "LR: 50,000 plants/ha, 70 kg N/ha, H513; SR: 40,000 plants/ha, 60 kg N/ha, H513",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7 lists H513 (representing H613) as optimal for both LR and SR seasons in UM3 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "LM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM3",
+            "season": "LR: 15–30 Mar",
+            "management_context": "LR: 50,000 plants/ha, 60 kg N/ha, H513",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7 lists H513 (representing H613) as optimal for LR season in LM3 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "Embu research farm",
+            "location_type": "site",
+            "agro_ecological_zone": "NA",
+            "season": "SR 2000, LR 2001, SR 2001",
+            "management_context": "Experimental calibration and validation of DSSAT and APSIM for H513 (representing H613)",
+            "relation_scope": "trial_site",
+            "evidence": "Experimental data from Embu research farm used to calibrate DSSAT and APSIM for H513 (representing H613) over three seasons.",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "high"
+          }
+        ],
+        "source": "file.pdf",
+        "source_url": "input_papers/file.pdf#page=17",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: file.pdf",
+        "source_url": "input_papers/file.pdf#page=9",
+        "coefficients": {},
+        "notes": "DSSAT genotype coefficients for H613 are not reported; H613 is represented by H513 in DSSAT simulations, but only H511, H513, and Katumani coefficients are given."
+      }
+    },
+    {
+      "cultivar_name": "H511",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+      "characteristics": {
+        "data": {
+          "maturity_class": "medium duration",
+          "relative_maturity": "NA",
+          "days_to_maturity": "Observed: 137.7; DSSAT: 139.7; APSIM: 142.0",
+          "average_yield_kg_ha": "Observed: 4677.3; DSSAT: 4428.7; APSIM: 4654.3",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "Longer duration cultivars (H511, H513) maintain yield under climate change; more tolerant than short-duration Katumani",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+          "adaptation_notes": "H511 is a medium duration maize cultivar, calibrated and validated for Embu county, Kenya. It is recommended for adaptation strategies in LM4 and LM5 AEZs for SR season, and in LM5 for LR season. Longer duration cultivars (H511, H513) are less negatively impacted by climate change compared to short-duration Katumani. Optimal planting windows and plant populations are AEZ- and season-specific. DSSAT and APSIM models show H511 maintains yield under projected climate change. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+          "normal_planting_window": "LR: mid-March (15–30 Mar); SR: mid-October (15–30 Oct) or early November (1–15 Nov), depending on AEZ",
+          "planting_density": "SR: 40–50 thousand plants/ha; LR: 50–60 thousand plants/ha (AEZ-specific)",
+          "harvest_time": "NA",
+          "season_suitability": "SR and LR seasons; AEZ-specific recommendations",
+          "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "SR and LR seasons",
+            "management_context": "AEZ-specific adaptation strategies: planting time, plant population, fertilizer N, cultivar selection",
+            "relation_scope": "study_area",
+            "evidence": "H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section. The observed crop phenology, biomass and yield are satisfactorily simulated by the models for three cultivars at Embu.",
+            "source_url": "input_papers/file.pdf#page=14",
+            "confidence": "high"
+          },
+          {
+            "location_name": "LM4 AEZ",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM4",
+            "season": "SR season",
+            "management_context": "Planting time: 15–30 Oct; Plant population: 50 thousand/ha; Fertilizer N: 70 kg/ha; Cultivar: H511",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. LM4: SR season: Planting Time: 15–30 Oct; Plant Pop.: 50; Variety: H511; Fertilizer: 70",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "LM5 AEZ",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM5",
+            "season": "LR season",
+            "management_context": "Planting time: 15–30 Mar; Plant population: 50 thousand/ha; Fertilizer N: 60 kg/ha; Cultivar: H511",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. LM5: LR season: Planting Time: 15–30 Mar; Plant Pop.: 50; Variety: H511; Fertilizer: 60",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "UM2, UM3, LM3 AEZs",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM2, UM3, LM3",
+            "season": "NA",
+            "management_context": "H511 included in adaptation strategies and model calibration for these AEZs",
+            "relation_scope": "study_area",
+            "evidence": "H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section.",
+            "source_url": "input_papers/file.pdf#page=14",
+            "confidence": "medium"
+          }
+        ],
+        "source": "file.pdf",
+        "source_url": "input_papers/file.pdf#page=14",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: file.pdf",
+        "source_url": "input_papers/file.pdf#page=9",
+        "coefficients": {
+          "P1": 190.0,
+          "P2": 0.6,
+          "P5": 725.0,
+          "G2": 550.0,
+          "G3": 7.9,
+          "PHINT": 42.0
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "Pioneer",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Embu county, Kenya",
+      "characteristics": {
+        "data": {
+          "maturity_class": "long duration (represented by H513 in DSSAT)",
+          "relative_maturity": "NA",
+          "days_to_maturity": "5–6 months",
+          "average_yield_kg_ha": "8000–10000 (farmer reported, page 8)",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+          "adaptation_notes": "Pioneer is mapped to H513 in DSSAT simulations, representing long-duration, high-yield maize. Adaptation strategies recommend H513 for LR season in UM2, UM3, LM3 AEZs, with optimal planting time mid-March and plant population 50,000/ha. In SR season, H513 is recommended for UM3. DSSAT simulations show higher yield increases under climate change in high potential AEZs (UM2, UM3, LM3) and negative impacts in low potential AEZs (LM4, LM5). Early planting within the window improves yield. Fertilizer nitrogen up to 80 kg/ha increases yield in SR season. High moisture stress is a major yield limiting factor in LM4 and LM5. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+          "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3), 1–15 Nov (UM2)",
+          "planting_density": "LR: 50,000 plants/ha; SR: 40,000 plants/ha (UM2, UM3)",
+          "harvest_time": "NA",
+          "season_suitability": "LR and SR seasons; best performance in high potential AEZs",
+          "major_crop_areas": "Embu, Kavutiri, Gachuka, Machanga (sites); UM2, UM3, LM3, LM4, LM5 (AEZs)"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR and SR",
+            "management_context": "LR: 15–30 Mar, 50,000 plants/ha, H513, 70–80 kg N/ha; SR: 1–15 Oct (UM3), 1–15 Nov (UM2), 40,000 plants/ha, H513, 60–70 kg N/ha",
+            "relation_scope": "study_area",
+            "evidence": "Pioneer is mapped to H513 in DSSAT simulations. Adaptation strategies recommend H513 for LR season in UM2, UM3, LM3 AEZs, with optimal planting time mid-March and plant population 50,000/ha. In SR season, H513 is recommended for UM3. DSSAT simulations show higher yield increases under climate change in high potential AEZs (UM2, UM3, LM3) and negative impacts in low potential AEZs (LM4, LM5).",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "high"
+          }
+        ],
+        "source": "file.pdf",
+        "source_url": "input_papers/file.pdf#page=8",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: file.pdf",
+        "source_url": "input_papers/file.pdf#page=9",
+        "coefficients": {},
+        "notes": "No DSSAT genotype coefficients reported for Pioneer or H513 in the retrieved context."
+      }
+    },
+    {
+      "cultivar_name": "Duma",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Embu county, Kenya",
+      "characteristics": {
+        "data": {
+          "maturity_class": "medium",
+          "relative_maturity": "4–5 months",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "6,000–7,000",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": [
+            "UM2 humid",
+            "UM3 subhumid",
+            "LM3 semihumid",
+            "LM4",
+            "LM5"
+          ],
+          "adaptation_notes": "Duma is represented in DSSAT simulations as H511, a medium-duration, medium-yield maize cultivar. Simulations and adaptation strategies are developed for Embu county across five AEZs. Maize yields are generally higher in high potential AEZs (UM2, UM3, LM3) and lower in LM4 and LM5 due to moisture stress. Optimal management includes improved planting time, plant population, and nitrogen application. Early planting within the window increases yield, and higher nitrogen rates (up to 80 kg N/ha) further improve yields in SR season. Long-duration varieties (like H511/Duma) are recommended for adaptation to climate change. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+          "normal_planting_window": [
+            "LR season: mid-March (day 74) to end March (day 89)",
+            "SR season: start of November (day 305) to mid-November (day 319)"
+          ],
+          "planting_density": [
+            "40,000–50,000 plants/ha",
+            "SR season: 40,000 plants/ha",
+            "LR season: 50,000 plants/ha"
+          ],
+          "harvest_time": "NA",
+          "season_suitability": "SR and LR seasons",
+          "major_crop_areas": [
+            "Embu",
+            "Kavutiri",
+            "Gachuka",
+            "Machanga"
+          ]
+        },
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "SR and LR",
+            "management_context": "Farmer fields, experimental and simulated with DSSAT using H511 as Duma equivalent; optimal planting window and density, nitrogen application up to 80 kg N/ha",
+            "relation_scope": "study_area",
+            "evidence": "Duma is mapped to H511 in DSSAT simulations. Simulations and adaptation strategies are developed for Embu county across five AEZs, with management recommendations for planting window, density, and nitrogen application.",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "high"
+          }
+        ],
+        "source": "file.pdf",
+        "source_url": "input_papers/file.pdf#page=8",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: file.pdf",
+        "source_url": "input_papers/file.pdf#page=9",
+        "coefficients": {},
+        "notes": "DSSAT genotype coefficients for Duma (represented as H511) are not reported in the paper."
+      }
+    },
+    {
+      "cultivar_name": "DK41",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+      "characteristics": {
+        "data": {
+          "maturity_class": "3.5 to 4.5 months (medium-short duration)",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "5000–6000",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+          "adaptation_notes": "DK41 is represented as Deka_lb in the DSSAT model. It is recommended for LM3 and LM4 AEZs, with optimal planting in mid-March for LR season and mid-October (LM3) or late October (LM4) for SR season. Planting density of 50,000 plants/ha is optimal in these AEZs. Fertilizer nitrogen recommendations are 80 kg/ha (LM3) and 60 kg/ha (LM4). DK41 (Deka_lb) is considered a long-duration variety suitable for replacing short-duration varieties under climate change. 3.2.7 Impacts of soil fertility and nitrogen application. Important characteristics of the representative soil profiles used with crop simulation models and the agro-ecological zones they represent. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+          "normal_planting_window": "LM3: 15–30 Mar (LR), 1–15 Oct (SR); LM4: 15–30 Mar (LR), 15–30 Oct (SR)",
+          "planting_density": "50,000 plants/ha",
+          "harvest_time": "NA",
+          "season_suitability": "LR and SR seasons in LM3 and LM4 AEZs",
+          "major_crop_areas": "Embu, Kavutiri, Gachuka, Machanga; AEZs UM2, UM3, LM3, LM4, LM5"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR and SR",
+            "management_context": "DK41 (Deka_lb) recommended for LM3 and LM4; optimal planting window and density specified; fertilizer N 80 kg/ha (LM3), 60 kg/ha (LM4)",
+            "relation_scope": "cultivar_specific",
+            "evidence": "DK41 is represented as Deka_lb in the model and is recommended for LM3 and LM4 AEZs with specific planting windows, density, and fertilizer rates (Table 7).",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study area (Embu, Kavutiri, Gachuka, Machanga)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "NA",
+            "management_context": "DK41 (Deka_lb) included as representative cultivar in simulations across all AEZs.",
+            "relation_scope": "study_area",
+            "evidence": "DK41 (Deka_lb) was used as a representative cultivar in crop model simulations across all AEZs in Embu county.",
+            "source_url": "input_papers/file.pdf#page=10",
+            "confidence": "medium"
+          }
+        ],
+        "source": "file.pdf",
+        "source_url": "input_papers/file.pdf#page=17",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: file.pdf",
+        "source_url": "input_papers/file.pdf#page=9",
+        "coefficients": {},
+        "notes": "No DSSAT genotype coefficients for DK41 (Deka_lb) are reported in the paper; for Deka_lb, default model parameters were used."
+      }
+    },
+    {
+      "cultivar_name": "H513",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Embu county, Kenya; AEZs UM2, UM3, LM3",
+      "characteristics": {
+        "data": {
+          "maturity_class": "long duration",
+          "relative_maturity": "NA",
+          "days_to_maturity": "141.0 (observed), 137.0 (DSSAT)",
+          "average_yield_kg_ha": "5282.7 (observed), 5027.7 (DSSAT), 4597.3 (APSIM)",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "long-duration varieties (including H513) maintain yield better under warming compared to short-duration varieties",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+          "adaptation_notes": "H513 is a long-duration, high-yielding maize cultivar, well adapted to high potential AEZs (UM2, UM3, LM3) in Embu county. It is less negatively impacted by climate change compared to short-duration varieties. Optimal yields are achieved with early planting (mid-March to end March for LR; start to mid-October for SR), higher plant populations (50,000 plants/ha), and adequate nitrogen (60–80 kg/ha). Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+          "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3, LM3), 15–30 Mar (UM2, LM3, LM4, LM5)",
+          "planting_density": "50,000 plants/ha",
+          "harvest_time": "NA",
+          "season_suitability": "LR and SR seasons; best in LR for UM2, UM3, LM3",
+          "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR (15–30 Mar), SR (1–15 Oct)",
+            "management_context": "50,000 plants/ha; 60–80 kg N/ha; early planting",
+            "relation_scope": "study_area",
+            "evidence": "H513 was calibrated and validated using experimental data from Embu research farm and simulated for all AEZs in Embu county. Table 7 shows H513 as the recommended variety for UM2, UM3, LM3 in LR season with 50,000 plants/ha and 60–80 kg N/ha.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "UM2",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM2",
+            "season": "LR (15–30 Mar)",
+            "management_context": "50,000 plants/ha; 80 kg N/ha",
+            "relation_scope": "trial_site",
+            "evidence": "Table 7: H513 is the recommended variety for UM2 in LR season with 50,000 plants/ha and 80 kg N/ha.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "UM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM3",
+            "season": "LR (15–30 Mar), SR (1–15 Oct)",
+            "management_context": "50,000 plants/ha (LR), 40,000 plants/ha (SR); 70 kg N/ha (LR), 60 kg N/ha (SR)",
+            "relation_scope": "trial_site",
+            "evidence": "Table 7: H513 is the recommended variety for UM3 in LR and SR seasons with specified plant populations and nitrogen rates.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "LM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM3",
+            "season": "LR (15–30 Mar)",
+            "management_context": "50,000 plants/ha; 60 kg N/ha",
+            "relation_scope": "trial_site",
+            "evidence": "Table 7: H513 is the recommended variety for LM3 in LR season with 50,000 plants/ha and 60 kg N/ha.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        ],
+        "source": "file.pdf",
+        "source_url": "input_papers/file.pdf#page=17",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: file.pdf",
+        "source_url": "input_papers/file.pdf#page=9",
+        "coefficients": {
+          "P1": 205.0,
+          "P2": 0.6,
+          "P5": 760.5,
+          "G2": 690.0,
+          "G3": 8.7,
+          "PHINT": 40.0
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    }
+  ],
+  "sample_db": {
+    "crop": "MZ",
+    "country": "Kenya",
+    "cultivars": {
+      "DEKA_LB": {
+        "cultivar_name": "DEKA_LB",
+        "characteristics": {
+          "data": {
+            "maturity_class": "long-duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "3.5 to 4.5 months",
+            "average_yield_kg_ha": "5–6 t/ha (farmer reported, Table 3)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "Able to maintain yield levels under increased temperature (page 17)",
+              "heat": "Able to maintain yield levels under increased temperature (page 17)"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "LM3, LM4, LM5",
+            "adaptation_notes": "DEKA_LB is a long-duration maize cultivar recommended for low potential AEZs (LM3, LM4, LM5) in Embu county, Kenya. It is able to maintain yield levels under climate change scenarios, making it suitable for adaptation to increased temperatures. Optimal management includes early planting within the window, plant population of 40–50, and fertilizer nitrogen application of 60–80 kg/ha depending on AEZ and season. DSSAT and APSIM simulations indicate that early planting increases yields by 25% in SR season and 7% in LR season. High moisture stress is a major yield limiting factor in LM4 and LM5. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (LM3, LM4), 1–15 Nov (LM5)",
+            "planting_density": "40–50 (thousand plants/ha)",
+            "harvest_time": "NA",
+            "season_suitability": "SR and LR seasons; optimal in both with early planting",
+            "major_crop_areas": "Embu county; AEZs LM3, LM4, LM5"
+          },
+          "location_contexts": [
+            {
+              "location_name": "LM3",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM3",
+              "season": "SR season (1–15 Oct), LR season (15–30 Mar)",
+              "management_context": "Plant population: 50 (thousand/ha), Fertilizer N: 80 kg/ha (SR), 60 kg/ha (LR)",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Table 7: Deka_lb recommended for LM3 AEZ with specific planting windows, plant population, and fertilizer rates.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "LM4",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM4",
+              "season": "LR season (15–30 Mar)",
+              "management_context": "Plant population: 50 (thousand/ha), Fertilizer N: 60 kg/ha",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Table 7: Deka_lb recommended for LM4 AEZ in LR season with specific management.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "LM5",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM5",
+              "season": "SR season (1–15 Nov)",
+              "management_context": "Plant population: 40 (thousand/ha), Fertilizer N: 60 kg/ha",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Table 7: Deka_lb recommended for LM5 AEZ in SR season with specific management.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "LM3, LM4, LM5",
+              "season": "SR and LR seasons",
+              "management_context": "NA",
+              "relation_scope": "study_area",
+              "evidence": "DEKA_LB is discussed as a long-duration variety evaluated across Embu county AEZs for adaptation to climate change.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "medium"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=17",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "For Deka_lb, default parameters from the DSSAT model were used; no paper-reported DSSAT genotype coefficients are provided."
+        }
+      },
+      "DK43": {
+        "cultivar_name": "DK43",
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium to long duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "4–5 months",
+            "average_yield_kg_ha": "6000–7000",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "DK43 is mapped to H511 in the DSSAT model and is considered a medium to long duration variety with yield potential of 6–7 t/ha. It is widely grown by farmers in Embu county and was included in the study's simulations and adaptation strategies. The study found that long-duration varieties like DK43/H511 are better able to maintain yield under climate change compared to short-duration varieties. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: mid-March to end March (15–30 Mar); SR: start to mid-November (1–15 Nov)",
+            "planting_density": "40,000–50,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "suitable for both LR and SR seasons",
+            "major_crop_areas": "Embu, Kavutiri, Gachuka, Machanga"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "LR and SR seasons",
+              "management_context": "Simulated with farmer-specific soil, crop, and management data; adaptation strategies include optimal planting time, density, and fertilizer",
+              "relation_scope": "study_area",
+              "evidence": "DK43 is a commonly grown variety in Embu county, mapped to H511 in the DSSAT model, and included in simulations and adaptation strategies across all AEZs and seasons.",
+              "source_url": "input_papers/file.pdf#page=8",
+              "confidence": "high"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients are reported for DK43. DK43 is mapped to H511 in the model, but only H511, H513, and Katumani coefficients are provided."
+        }
+      },
+      "KATUMANI": {
+        "cultivar_name": "KATUMANI",
+        "characteristics": {
+          "data": {
+            "maturity_class": "short duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 103.5; DSSAT: 105.5; APSIM: 104.0",
+            "average_yield_kg_ha": "Observed: 4060.5; DSSAT: 4058.5; APSIM: 3911.0",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "More negatively impacted by climate change compared to long-duration cultivars",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "Short duration Katumani is more sensitive to climate change, with yield declines of 5% (SR season) and 9% (LR season) under RCP 8.5. Katumani is widely adopted by farmers in Kenya, but is less resilient to warming compared to H511 and H513. Replacing Katumani with long-duration cultivars is considered an adaptation option. High moisture stress in LM4 and LM5 AEZs is a major yield limiting factor. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: mid-March (day 74) to mid-April (day 105); SR: start October (day 274) to start November (day 305). Under climate change: LR: mid-March (day 74) to end March (day 89); SR: start November (day 305) to mid-November (day 319). Early planting within window yields better results.",
+            "planting_density": "30,000 to 50,000 plants/ha; less than 3% yield increase when population increased from 30,000 to 50,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "SR and LR seasons; more negatively impacted in LR season",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "SR and LR seasons",
+              "management_context": "Farmer fields; experimental farm; adaptation strategies tested with DSSAT and APSIM",
+              "relation_scope": "study_area",
+              "evidence": "The maize varieties H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section. The observed crop phenology, biomass and yield are satisfactorily simulated by the models for three cultivars at Embu.",
+              "source_url": "input_papers/file.pdf#page=14",
+              "confidence": "high"
+            },
+            {
+              "location_name": "AEZs UM2, UM3, LM3, LM4, LM5",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "SR and LR seasons",
+              "management_context": "Simulated yields under baseline and climate change scenarios; adaptation strategies tested",
+              "relation_scope": "study_area",
+              "evidence": "Impact of climate change on maize production in the five AEZs is assessed. Maize yields varied in response to differences in the magnitude of projected change in surface temperatures and rainfall by different GCMs under different scenarios. Maize yields also varied depending on the AEZ, season, and management practices.",
+              "source_url": "input_papers/file.pdf#page=15",
+              "confidence": "medium"
+            },
+            {
+              "location_name": "Embu research farm",
+              "location_type": "site",
+              "agro_ecological_zone": "NA",
+              "season": "SR season of 2000; LR and SR seasons of 2001",
+              "management_context": "Experimental data used for calibration and validation of DSSAT and APSIM for Katumani",
+              "relation_scope": "trial_site",
+              "evidence": "The experiment included all these varieties and was conducted over three seasons i.e., SR season of 2000 and LR and SR seasons of 2001. All the available data was compiled from the research reports as well as personnel communication with the researcher concerned.",
+              "source_url": "input_papers/file.pdf#page=8",
+              "confidence": "medium"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=14",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 100.0,
+            "P2": 0.5,
+            "P5": 554.0,
+            "G2": 550.0,
+            "G3": 10.6,
+            "PHINT": 47.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "H613": {
+        "cultivar_name": "H613",
+        "characteristics": {
+          "data": {
+            "maturity_class": "long duration (represented by H513 in model)",
+            "relative_maturity": "6–8 months",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "8,000–10,000 (farmer reported, see Table 3); DSSAT simulated for H513: 5,027.7 kg/ha (Table 6)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "Long-duration varieties (H613/H513) maintain yield under increased temperature compared to short-duration Katumani (page 17)",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H613 is represented by H513 in DSSAT simulations. Long-duration varieties (H613/H513) are recommended for adaptation to climate change, maintaining yield under increased temperature. Optimal planting time and nitrogen management are AEZ-specific. High potential AEZs (UM2, UM3, LM3) show positive yield response; low potential AEZs (LM4, LM5) show negative response. Early planting within the window increases yield. Fertilizer nitrogen up to 80 kg/ha increases yield in SR season. Plant population of 40,000–50,000 plants/ha is recommended depending on AEZ and season. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3, LM3), 1–15 Nov (UM2); AEZ-specific (Table 7, page 17)",
+            "planting_density": "40,000–50,000 plants/ha (AEZ and season specific, Table 7, page 17)",
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; best performance in SR season and high potential AEZs",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "LR and SR",
+              "management_context": "AEZ-specific planting window, plant population, nitrogen fertilizer (see Table 7)",
+              "relation_scope": "study_area",
+              "evidence": "H613 is represented by H513 in DSSAT simulations. Adaptation strategies for each AEZ include optimal planting time, plant population, and nitrogen fertilizer. Long-duration varieties (H613/H513) are recommended for adaptation to climate change in Embu county across all AEZs.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "UM2",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "UM2",
+              "season": "LR: 15–30 Mar; SR: 1–15 Nov",
+              "management_context": "LR: 50,000 plants/ha, 80 kg N/ha, H513; SR: 40,000 plants/ha, 70 kg N/ha, H511",
+              "relation_scope": "season_specific",
+              "evidence": "Table 7 lists H513 (representing H613) as optimal for LR season in UM2 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "UM3",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "UM3",
+              "season": "LR: 15–30 Mar; SR: 1–15 Oct",
+              "management_context": "LR: 50,000 plants/ha, 70 kg N/ha, H513; SR: 40,000 plants/ha, 60 kg N/ha, H513",
+              "relation_scope": "season_specific",
+              "evidence": "Table 7 lists H513 (representing H613) as optimal for both LR and SR seasons in UM3 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "LM3",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM3",
+              "season": "LR: 15–30 Mar",
+              "management_context": "LR: 50,000 plants/ha, 60 kg N/ha, H513",
+              "relation_scope": "season_specific",
+              "evidence": "Table 7 lists H513 (representing H613) as optimal for LR season in LM3 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "Embu research farm",
+              "location_type": "site",
+              "agro_ecological_zone": "NA",
+              "season": "SR 2000, LR 2001, SR 2001",
+              "management_context": "Experimental calibration and validation of DSSAT and APSIM for H513 (representing H613)",
+              "relation_scope": "trial_site",
+              "evidence": "Experimental data from Embu research farm used to calibrate DSSAT and APSIM for H513 (representing H613) over three seasons.",
+              "source_url": "input_papers/file.pdf#page=8",
+              "confidence": "high"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=17",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "DSSAT genotype coefficients for H613 are not reported; H613 is represented by H513 in DSSAT simulations, but only H511, H513, and Katumani coefficients are given."
+        }
+      },
+      "H511": {
+        "cultivar_name": "H511",
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 137.7; DSSAT: 139.7; APSIM: 142.0",
+            "average_yield_kg_ha": "Observed: 4677.3; DSSAT: 4428.7; APSIM: 4654.3",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "Longer duration cultivars (H511, H513) maintain yield under climate change; more tolerant than short-duration Katumani",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H511 is a medium duration maize cultivar, calibrated and validated for Embu county, Kenya. It is recommended for adaptation strategies in LM4 and LM5 AEZs for SR season, and in LM5 for LR season. Longer duration cultivars (H511, H513) are less negatively impacted by climate change compared to short-duration Katumani. Optimal planting windows and plant populations are AEZ- and season-specific. DSSAT and APSIM models show H511 maintains yield under projected climate change. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: mid-March (15–30 Mar); SR: mid-October (15–30 Oct) or early November (1–15 Nov), depending on AEZ",
+            "planting_density": "SR: 40–50 thousand plants/ha; LR: 50–60 thousand plants/ha (AEZ-specific)",
+            "harvest_time": "NA",
+            "season_suitability": "SR and LR seasons; AEZ-specific recommendations",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "SR and LR seasons",
+              "management_context": "AEZ-specific adaptation strategies: planting time, plant population, fertilizer N, cultivar selection",
+              "relation_scope": "study_area",
+              "evidence": "H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section. The observed crop phenology, biomass and yield are satisfactorily simulated by the models for three cultivars at Embu.",
+              "source_url": "input_papers/file.pdf#page=14",
+              "confidence": "high"
+            },
+            {
+              "location_name": "LM4 AEZ",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM4",
+              "season": "SR season",
+              "management_context": "Planting time: 15–30 Oct; Plant population: 50 thousand/ha; Fertilizer N: 70 kg/ha; Cultivar: H511",
+              "relation_scope": "season_specific",
+              "evidence": "Table 7. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. LM4: SR season: Planting Time: 15–30 Oct; Plant Pop.: 50; Variety: H511; Fertilizer: 70",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "LM5 AEZ",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM5",
+              "season": "LR season",
+              "management_context": "Planting time: 15–30 Mar; Plant population: 50 thousand/ha; Fertilizer N: 60 kg/ha; Cultivar: H511",
+              "relation_scope": "season_specific",
+              "evidence": "Table 7. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. LM5: LR season: Planting Time: 15–30 Mar; Plant Pop.: 50; Variety: H511; Fertilizer: 60",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "UM2, UM3, LM3 AEZs",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "UM2, UM3, LM3",
+              "season": "NA",
+              "management_context": "H511 included in adaptation strategies and model calibration for these AEZs",
+              "relation_scope": "study_area",
+              "evidence": "H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section.",
+              "source_url": "input_papers/file.pdf#page=14",
+              "confidence": "medium"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=14",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 190.0,
+            "P2": 0.6,
+            "P5": 725.0,
+            "G2": 550.0,
+            "G3": 7.9,
+            "PHINT": 42.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "Pioneer": {
+        "cultivar_name": "Pioneer",
+        "characteristics": {
+          "data": {
+            "maturity_class": "long duration (represented by H513 in DSSAT)",
+            "relative_maturity": "NA",
+            "days_to_maturity": "5–6 months",
+            "average_yield_kg_ha": "8000–10000 (farmer reported, page 8)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "Pioneer is mapped to H513 in DSSAT simulations, representing long-duration, high-yield maize. Adaptation strategies recommend H513 for LR season in UM2, UM3, LM3 AEZs, with optimal planting time mid-March and plant population 50,000/ha. In SR season, H513 is recommended for UM3. DSSAT simulations show higher yield increases under climate change in high potential AEZs (UM2, UM3, LM3) and negative impacts in low potential AEZs (LM4, LM5). Early planting within the window improves yield. Fertilizer nitrogen up to 80 kg/ha increases yield in SR season. High moisture stress is a major yield limiting factor in LM4 and LM5. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3), 1–15 Nov (UM2)",
+            "planting_density": "LR: 50,000 plants/ha; SR: 40,000 plants/ha (UM2, UM3)",
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; best performance in high potential AEZs",
+            "major_crop_areas": "Embu, Kavutiri, Gachuka, Machanga (sites); UM2, UM3, LM3, LM4, LM5 (AEZs)"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "LR and SR",
+              "management_context": "LR: 15–30 Mar, 50,000 plants/ha, H513, 70–80 kg N/ha; SR: 1–15 Oct (UM3), 1–15 Nov (UM2), 40,000 plants/ha, H513, 60–70 kg N/ha",
+              "relation_scope": "study_area",
+              "evidence": "Pioneer is mapped to H513 in DSSAT simulations. Adaptation strategies recommend H513 for LR season in UM2, UM3, LM3 AEZs, with optimal planting time mid-March and plant population 50,000/ha. In SR season, H513 is recommended for UM3. DSSAT simulations show higher yield increases under climate change in high potential AEZs (UM2, UM3, LM3) and negative impacts in low potential AEZs (LM4, LM5).",
+              "source_url": "input_papers/file.pdf#page=8",
+              "confidence": "high"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients reported for Pioneer or H513 in the retrieved context."
+        }
+      },
+      "Duma": {
+        "cultivar_name": "Duma",
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium",
+            "relative_maturity": "4–5 months",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "6,000–7,000",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "UM2 humid",
+              "UM3 subhumid",
+              "LM3 semihumid",
+              "LM4",
+              "LM5"
+            ],
+            "adaptation_notes": "Duma is represented in DSSAT simulations as H511, a medium-duration, medium-yield maize cultivar. Simulations and adaptation strategies are developed for Embu county across five AEZs. Maize yields are generally higher in high potential AEZs (UM2, UM3, LM3) and lower in LM4 and LM5 due to moisture stress. Optimal management includes improved planting time, plant population, and nitrogen application. Early planting within the window increases yield, and higher nitrogen rates (up to 80 kg N/ha) further improve yields in SR season. Long-duration varieties (like H511/Duma) are recommended for adaptation to climate change. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": [
+              "LR season: mid-March (day 74) to end March (day 89)",
+              "SR season: start of November (day 305) to mid-November (day 319)"
+            ],
+            "planting_density": [
+              "40,000–50,000 plants/ha",
+              "SR season: 40,000 plants/ha",
+              "LR season: 50,000 plants/ha"
+            ],
+            "harvest_time": "NA",
+            "season_suitability": "SR and LR seasons",
+            "major_crop_areas": [
+              "Embu",
+              "Kavutiri",
+              "Gachuka",
+              "Machanga"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "SR and LR",
+              "management_context": "Farmer fields, experimental and simulated with DSSAT using H511 as Duma equivalent; optimal planting window and density, nitrogen application up to 80 kg N/ha",
+              "relation_scope": "study_area",
+              "evidence": "Duma is mapped to H511 in DSSAT simulations. Simulations and adaptation strategies are developed for Embu county across five AEZs, with management recommendations for planting window, density, and nitrogen application.",
+              "source_url": "input_papers/file.pdf#page=8",
+              "confidence": "high"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "DSSAT genotype coefficients for Duma (represented as H511) are not reported in the paper."
+        }
+      },
+      "DK41": {
+        "cultivar_name": "DK41",
+        "characteristics": {
+          "data": {
+            "maturity_class": "3.5 to 4.5 months (medium-short duration)",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "5000–6000",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "DK41 is represented as Deka_lb in the DSSAT model. It is recommended for LM3 and LM4 AEZs, with optimal planting in mid-March for LR season and mid-October (LM3) or late October (LM4) for SR season. Planting density of 50,000 plants/ha is optimal in these AEZs. Fertilizer nitrogen recommendations are 80 kg/ha (LM3) and 60 kg/ha (LM4). DK41 (Deka_lb) is considered a long-duration variety suitable for replacing short-duration varieties under climate change. 3.2.7 Impacts of soil fertility and nitrogen application. Important characteristics of the representative soil profiles used with crop simulation models and the agro-ecological zones they represent. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+            "normal_planting_window": "LM3: 15–30 Mar (LR), 1–15 Oct (SR); LM4: 15–30 Mar (LR), 15–30 Oct (SR)",
+            "planting_density": "50,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons in LM3 and LM4 AEZs",
+            "major_crop_areas": "Embu, Kavutiri, Gachuka, Machanga; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "LR and SR",
+              "management_context": "DK41 (Deka_lb) recommended for LM3 and LM4; optimal planting window and density specified; fertilizer N 80 kg/ha (LM3), 60 kg/ha (LM4)",
+              "relation_scope": "cultivar_specific",
+              "evidence": "DK41 is represented as Deka_lb in the model and is recommended for LM3 and LM4 AEZs with specific planting windows, density, and fertilizer rates (Table 7).",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study area (Embu, Kavutiri, Gachuka, Machanga)",
+              "location_type": "study_area",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "NA",
+              "management_context": "DK41 (Deka_lb) included as representative cultivar in simulations across all AEZs.",
+              "relation_scope": "study_area",
+              "evidence": "DK41 (Deka_lb) was used as a representative cultivar in crop model simulations across all AEZs in Embu county.",
+              "source_url": "input_papers/file.pdf#page=10",
+              "confidence": "medium"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=17",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients for DK41 (Deka_lb) are reported in the paper; for Deka_lb, default model parameters were used."
+        }
+      },
+      "H513": {
+        "cultivar_name": "H513",
+        "characteristics": {
+          "data": {
+            "maturity_class": "long duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "141.0 (observed), 137.0 (DSSAT)",
+            "average_yield_kg_ha": "5282.7 (observed), 5027.7 (DSSAT), 4597.3 (APSIM)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "long-duration varieties (including H513) maintain yield better under warming compared to short-duration varieties",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H513 is a long-duration, high-yielding maize cultivar, well adapted to high potential AEZs (UM2, UM3, LM3) in Embu county. It is less negatively impacted by climate change compared to short-duration varieties. Optimal yields are achieved with early planting (mid-March to end March for LR; start to mid-October for SR), higher plant populations (50,000 plants/ha), and adequate nitrogen (60–80 kg/ha). Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3, LM3), 15–30 Mar (UM2, LM3, LM4, LM5)",
+            "planting_density": "50,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; best in LR for UM2, UM3, LM3",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "LR (15–30 Mar), SR (1–15 Oct)",
+              "management_context": "50,000 plants/ha; 60–80 kg N/ha; early planting",
+              "relation_scope": "study_area",
+              "evidence": "H513 was calibrated and validated using experimental data from Embu research farm and simulated for all AEZs in Embu county. Table 7 shows H513 as the recommended variety for UM2, UM3, LM3 in LR season with 50,000 plants/ha and 60–80 kg N/ha.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "UM2",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "UM2",
+              "season": "LR (15–30 Mar)",
+              "management_context": "50,000 plants/ha; 80 kg N/ha",
+              "relation_scope": "trial_site",
+              "evidence": "Table 7: H513 is the recommended variety for UM2 in LR season with 50,000 plants/ha and 80 kg N/ha.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "UM3",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "UM3",
+              "season": "LR (15–30 Mar), SR (1–15 Oct)",
+              "management_context": "50,000 plants/ha (LR), 40,000 plants/ha (SR); 70 kg N/ha (LR), 60 kg N/ha (SR)",
+              "relation_scope": "trial_site",
+              "evidence": "Table 7: H513 is the recommended variety for UM3 in LR and SR seasons with specified plant populations and nitrogen rates.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "LM3",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM3",
+              "season": "LR (15–30 Mar)",
+              "management_context": "50,000 plants/ha; 60 kg N/ha",
+              "relation_scope": "trial_site",
+              "evidence": "Table 7: H513 is the recommended variety for LM3 in LR season with 50,000 plants/ha and 60 kg N/ha.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=17",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 205.0,
+            "P2": 0.6,
+            "P5": 760.5,
+            "G2": 690.0,
+            "G3": 8.7,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    }
+  },
+  "web_index": {
+    "by_crop": {
+      "MZ": [
+        {
+          "record_id": "file-deka-lb-1",
+          "cultivar_name": "DEKA_LB",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false
+        },
+        {
+          "record_id": "file-dk41-8",
+          "cultivar_name": "DK41",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false
+        },
+        {
+          "record_id": "file-dk43-2",
+          "cultivar_name": "DK43",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya",
+          "source_url": "input_papers/file.pdf#page=8",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false
+        },
+        {
+          "record_id": "file-duma-7",
+          "cultivar_name": "Duma",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya",
+          "source_url": "input_papers/file.pdf#page=8",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false
+        },
+        {
+          "record_id": "file-h511-5",
+          "cultivar_name": "H511",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=14",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "file-h513-9",
+          "cultivar_name": "H513",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "file-h613-4",
+          "cultivar_name": "H613",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false
+        },
+        {
+          "record_id": "file-katumani-3",
+          "cultivar_name": "KATUMANI",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=14",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "file-pioneer-6",
+          "cultivar_name": "Pioneer",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya",
+          "source_url": "input_papers/file.pdf#page=8",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false
+        }
+      ]
+    },
+    "by_country": {
+      "Kenya": [
+        {
+          "record_id": "file-deka-lb-1",
+          "cultivar_name": "DEKA_LB",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false
+        },
+        {
+          "record_id": "file-dk41-8",
+          "cultivar_name": "DK41",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false
+        },
+        {
+          "record_id": "file-dk43-2",
+          "cultivar_name": "DK43",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya",
+          "source_url": "input_papers/file.pdf#page=8",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false
+        },
+        {
+          "record_id": "file-duma-7",
+          "cultivar_name": "Duma",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya",
+          "source_url": "input_papers/file.pdf#page=8",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false
+        },
+        {
+          "record_id": "file-h511-5",
+          "cultivar_name": "H511",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=14",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "file-h513-9",
+          "cultivar_name": "H513",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "file-h613-4",
+          "cultivar_name": "H613",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false
+        },
+        {
+          "record_id": "file-katumani-3",
+          "cultivar_name": "KATUMANI",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=14",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "file-pioneer-6",
+          "cultivar_name": "Pioneer",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya",
+          "source_url": "input_papers/file.pdf#page=8",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false
+        }
+      ]
+    },
+    "by_location": {
+      "AEZs UM2, UM3, LM3, LM4, LM5": [
+        {
+          "record_id": "file-katumani-3",
+          "cultivar_name": "KATUMANI",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=14",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "AEZs UM2, UM3, LM3, LM4, LM5",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "SR and LR seasons",
+            "management_context": "Simulated yields under baseline and climate change scenarios; adaptation strategies tested",
+            "relation_scope": "study_area",
+            "evidence": "Impact of climate change on maize production in the five AEZs is assessed. Maize yields varied in response to differences in the magnitude of projected change in surface temperatures and rainfall by different GCMs under different scenarios. Maize yields also varied depending on the AEZ, season, and management practices.",
+            "source_url": "input_papers/file.pdf#page=15",
+            "confidence": "medium"
+          }
+        }
+      ],
+      "Embu county": [
+        {
+          "record_id": "file-deka-lb-1",
+          "cultivar_name": "DEKA_LB",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "LM3, LM4, LM5",
+            "season": "SR and LR seasons",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "DEKA_LB is discussed as a long-duration variety evaluated across Embu county AEZs for adaptation to climate change.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "medium"
+          }
+        },
+        {
+          "record_id": "file-dk41-8",
+          "cultivar_name": "DK41",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR and SR",
+            "management_context": "DK41 (Deka_lb) recommended for LM3 and LM4; optimal planting window and density specified; fertilizer N 80 kg/ha (LM3), 60 kg/ha (LM4)",
+            "relation_scope": "cultivar_specific",
+            "evidence": "DK41 is represented as Deka_lb in the model and is recommended for LM3 and LM4 AEZs with specific planting windows, density, and fertilizer rates (Table 7).",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "file-dk43-2",
+          "cultivar_name": "DK43",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya",
+          "source_url": "input_papers/file.pdf#page=8",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR and SR seasons",
+            "management_context": "Simulated with farmer-specific soil, crop, and management data; adaptation strategies include optimal planting time, density, and fertilizer",
+            "relation_scope": "study_area",
+            "evidence": "DK43 is a commonly grown variety in Embu county, mapped to H511 in the DSSAT model, and included in simulations and adaptation strategies across all AEZs and seasons.",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "file-duma-7",
+          "cultivar_name": "Duma",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya",
+          "source_url": "input_papers/file.pdf#page=8",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "SR and LR",
+            "management_context": "Farmer fields, experimental and simulated with DSSAT using H511 as Duma equivalent; optimal planting window and density, nitrogen application up to 80 kg N/ha",
+            "relation_scope": "study_area",
+            "evidence": "Duma is mapped to H511 in DSSAT simulations. Simulations and adaptation strategies are developed for Embu county across five AEZs, with management recommendations for planting window, density, and nitrogen application.",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "file-h511-5",
+          "cultivar_name": "H511",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=14",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "SR and LR seasons",
+            "management_context": "AEZ-specific adaptation strategies: planting time, plant population, fertilizer N, cultivar selection",
+            "relation_scope": "study_area",
+            "evidence": "H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section. The observed crop phenology, biomass and yield are satisfactorily simulated by the models for three cultivars at Embu.",
+            "source_url": "input_papers/file.pdf#page=14",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "file-h513-9",
+          "cultivar_name": "H513",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR (15–30 Mar), SR (1–15 Oct)",
+            "management_context": "50,000 plants/ha; 60–80 kg N/ha; early planting",
+            "relation_scope": "study_area",
+            "evidence": "H513 was calibrated and validated using experimental data from Embu research farm and simulated for all AEZs in Embu county. Table 7 shows H513 as the recommended variety for UM2, UM3, LM3 in LR season with 50,000 plants/ha and 60–80 kg N/ha.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "file-h613-4",
+          "cultivar_name": "H613",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR and SR",
+            "management_context": "AEZ-specific planting window, plant population, nitrogen fertilizer (see Table 7)",
+            "relation_scope": "study_area",
+            "evidence": "H613 is represented by H513 in DSSAT simulations. Adaptation strategies for each AEZ include optimal planting time, plant population, and nitrogen fertilizer. Long-duration varieties (H613/H513) are recommended for adaptation to climate change in Embu county across all AEZs.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "file-katumani-3",
+          "cultivar_name": "KATUMANI",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=14",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "SR and LR seasons",
+            "management_context": "Farmer fields; experimental farm; adaptation strategies tested with DSSAT and APSIM",
+            "relation_scope": "study_area",
+            "evidence": "The maize varieties H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section. The observed crop phenology, biomass and yield are satisfactorily simulated by the models for three cultivars at Embu.",
+            "source_url": "input_papers/file.pdf#page=14",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "file-pioneer-6",
+          "cultivar_name": "Pioneer",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya",
+          "source_url": "input_papers/file.pdf#page=8",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR and SR",
+            "management_context": "LR: 15–30 Mar, 50,000 plants/ha, H513, 70–80 kg N/ha; SR: 1–15 Oct (UM3), 1–15 Nov (UM2), 40,000 plants/ha, H513, 60–70 kg N/ha",
+            "relation_scope": "study_area",
+            "evidence": "Pioneer is mapped to H513 in DSSAT simulations. Adaptation strategies recommend H513 for LR season in UM2, UM3, LM3 AEZs, with optimal planting time mid-March and plant population 50,000/ha. In SR season, H513 is recommended for UM3. DSSAT simulations show higher yield increases under climate change in high potential AEZs (UM2, UM3, LM3) and negative impacts in low potential AEZs (LM4, LM5).",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "high"
+          }
+        }
+      ],
+      "Embu research farm": [
+        {
+          "record_id": "file-h613-4",
+          "cultivar_name": "H613",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "Embu research farm",
+            "location_type": "site",
+            "agro_ecological_zone": "NA",
+            "season": "SR 2000, LR 2001, SR 2001",
+            "management_context": "Experimental calibration and validation of DSSAT and APSIM for H513 (representing H613)",
+            "relation_scope": "trial_site",
+            "evidence": "Experimental data from Embu research farm used to calibrate DSSAT and APSIM for H513 (representing H613) over three seasons.",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "file-katumani-3",
+          "cultivar_name": "KATUMANI",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=14",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Embu research farm",
+            "location_type": "site",
+            "agro_ecological_zone": "NA",
+            "season": "SR season of 2000; LR and SR seasons of 2001",
+            "management_context": "Experimental data used for calibration and validation of DSSAT and APSIM for Katumani",
+            "relation_scope": "trial_site",
+            "evidence": "The experiment included all these varieties and was conducted over three seasons i.e., SR season of 2000 and LR and SR seasons of 2001. All the available data was compiled from the research reports as well as personnel communication with the researcher concerned.",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "medium"
+          }
+        }
+      ],
+      "LM3": [
+        {
+          "record_id": "file-deka-lb-1",
+          "cultivar_name": "DEKA_LB",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "LM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM3",
+            "season": "SR season (1–15 Oct), LR season (15–30 Mar)",
+            "management_context": "Plant population: 50 (thousand/ha), Fertilizer N: 80 kg/ha (SR), 60 kg/ha (LR)",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Table 7: Deka_lb recommended for LM3 AEZ with specific planting windows, plant population, and fertilizer rates.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "file-h513-9",
+          "cultivar_name": "H513",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "LM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM3",
+            "season": "LR (15–30 Mar)",
+            "management_context": "50,000 plants/ha; 60 kg N/ha",
+            "relation_scope": "trial_site",
+            "evidence": "Table 7: H513 is the recommended variety for LM3 in LR season with 50,000 plants/ha and 60 kg N/ha.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "file-h613-4",
+          "cultivar_name": "H613",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "LM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM3",
+            "season": "LR: 15–30 Mar",
+            "management_context": "LR: 50,000 plants/ha, 60 kg N/ha, H513",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7 lists H513 (representing H613) as optimal for LR season in LM3 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        }
+      ],
+      "LM4": [
+        {
+          "record_id": "file-deka-lb-1",
+          "cultivar_name": "DEKA_LB",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "LM4",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM4",
+            "season": "LR season (15–30 Mar)",
+            "management_context": "Plant population: 50 (thousand/ha), Fertilizer N: 60 kg/ha",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Table 7: Deka_lb recommended for LM4 AEZ in LR season with specific management.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        }
+      ],
+      "LM4 AEZ": [
+        {
+          "record_id": "file-h511-5",
+          "cultivar_name": "H511",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=14",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "LM4 AEZ",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM4",
+            "season": "SR season",
+            "management_context": "Planting time: 15–30 Oct; Plant population: 50 thousand/ha; Fertilizer N: 70 kg/ha; Cultivar: H511",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. LM4: SR season: Planting Time: 15–30 Oct; Plant Pop.: 50; Variety: H511; Fertilizer: 70",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        }
+      ],
+      "LM5": [
+        {
+          "record_id": "file-deka-lb-1",
+          "cultivar_name": "DEKA_LB",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "LM5",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM5",
+            "season": "SR season (1–15 Nov)",
+            "management_context": "Plant population: 40 (thousand/ha), Fertilizer N: 60 kg/ha",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Table 7: Deka_lb recommended for LM5 AEZ in SR season with specific management.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        }
+      ],
+      "LM5 AEZ": [
+        {
+          "record_id": "file-h511-5",
+          "cultivar_name": "H511",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=14",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "LM5 AEZ",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM5",
+            "season": "LR season",
+            "management_context": "Planting time: 15–30 Mar; Plant population: 50 thousand/ha; Fertilizer N: 60 kg/ha; Cultivar: H511",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. LM5: LR season: Planting Time: 15–30 Mar; Plant Pop.: 50; Variety: H511; Fertilizer: 60",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        }
+      ],
+      "UM2": [
+        {
+          "record_id": "file-h513-9",
+          "cultivar_name": "H513",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "UM2",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM2",
+            "season": "LR (15–30 Mar)",
+            "management_context": "50,000 plants/ha; 80 kg N/ha",
+            "relation_scope": "trial_site",
+            "evidence": "Table 7: H513 is the recommended variety for UM2 in LR season with 50,000 plants/ha and 80 kg N/ha.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "file-h613-4",
+          "cultivar_name": "H613",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "UM2",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM2",
+            "season": "LR: 15–30 Mar; SR: 1–15 Nov",
+            "management_context": "LR: 50,000 plants/ha, 80 kg N/ha, H513; SR: 40,000 plants/ha, 70 kg N/ha, H511",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7 lists H513 (representing H613) as optimal for LR season in UM2 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        }
+      ],
+      "UM2, UM3, LM3 AEZs": [
+        {
+          "record_id": "file-h511-5",
+          "cultivar_name": "H511",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=14",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "UM2, UM3, LM3 AEZs",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM2, UM3, LM3",
+            "season": "NA",
+            "management_context": "H511 included in adaptation strategies and model calibration for these AEZs",
+            "relation_scope": "study_area",
+            "evidence": "H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section.",
+            "source_url": "input_papers/file.pdf#page=14",
+            "confidence": "medium"
+          }
+        }
+      ],
+      "UM3": [
+        {
+          "record_id": "file-h513-9",
+          "cultivar_name": "H513",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "UM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM3",
+            "season": "LR (15–30 Mar), SR (1–15 Oct)",
+            "management_context": "50,000 plants/ha (LR), 40,000 plants/ha (SR); 70 kg N/ha (LR), 60 kg N/ha (SR)",
+            "relation_scope": "trial_site",
+            "evidence": "Table 7: H513 is the recommended variety for UM3 in LR and SR seasons with specified plant populations and nitrogen rates.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "file-h613-4",
+          "cultivar_name": "H613",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "UM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM3",
+            "season": "LR: 15–30 Mar; SR: 1–15 Oct",
+            "management_context": "LR: 50,000 plants/ha, 70 kg N/ha, H513; SR: 40,000 plants/ha, 60 kg N/ha, H513",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7 lists H513 (representing H613) as optimal for both LR and SR seasons in UM3 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        }
+      ],
+      "study area (Embu, Kavutiri, Gachuka, Machanga)": [
+        {
+          "record_id": "file-dk41-8",
+          "cultivar_name": "DK41",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+          "source_url": "input_papers/file.pdf#page=17",
+          "coefficient_source_url": "input_papers/file.pdf#page=9",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "study area (Embu, Kavutiri, Gachuka, Machanga)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "NA",
+            "management_context": "DK41 (Deka_lb) included as representative cultivar in simulations across all AEZs.",
+            "relation_scope": "study_area",
+            "evidence": "DK41 (Deka_lb) was used as a representative cultivar in crop model simulations across all AEZs in Embu county.",
+            "source_url": "input_papers/file.pdf#page=10",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    "by_cultivar": {
+      "file-deka-lb-1": {
+        "record_id": "file-deka-lb-1",
+        "cultivar_name": "DEKA_LB",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Embu county, Kenya; AEZs LM3, LM4, LM5",
+        "source_url": "input_papers/file.pdf#page=17",
+        "coefficient_source_url": "input_papers/file.pdf#page=9",
+        "has_coefficients": false,
+        "location_contexts": [
+          {
+            "location_name": "LM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM3",
+            "season": "SR season (1–15 Oct), LR season (15–30 Mar)",
+            "management_context": "Plant population: 50 (thousand/ha), Fertilizer N: 80 kg/ha (SR), 60 kg/ha (LR)",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Table 7: Deka_lb recommended for LM3 AEZ with specific planting windows, plant population, and fertilizer rates.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "LM4",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM4",
+            "season": "LR season (15–30 Mar)",
+            "management_context": "Plant population: 50 (thousand/ha), Fertilizer N: 60 kg/ha",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Table 7: Deka_lb recommended for LM4 AEZ in LR season with specific management.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "LM5",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM5",
+            "season": "SR season (1–15 Nov)",
+            "management_context": "Plant population: 40 (thousand/ha), Fertilizer N: 60 kg/ha",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Table 7: Deka_lb recommended for LM5 AEZ in SR season with specific management.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "LM3, LM4, LM5",
+            "season": "SR and LR seasons",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "DEKA_LB is discussed as a long-duration variety evaluated across Embu county AEZs for adaptation to climate change.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "medium"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "long-duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "3.5 to 4.5 months",
+            "average_yield_kg_ha": "5–6 t/ha (farmer reported, Table 3)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "Able to maintain yield levels under increased temperature (page 17)",
+              "heat": "Able to maintain yield levels under increased temperature (page 17)"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "LM3, LM4, LM5",
+            "adaptation_notes": "DEKA_LB is a long-duration maize cultivar recommended for low potential AEZs (LM3, LM4, LM5) in Embu county, Kenya. It is able to maintain yield levels under climate change scenarios, making it suitable for adaptation to increased temperatures. Optimal management includes early planting within the window, plant population of 40–50, and fertilizer nitrogen application of 60–80 kg/ha depending on AEZ and season. DSSAT and APSIM simulations indicate that early planting increases yields by 25% in SR season and 7% in LR season. High moisture stress is a major yield limiting factor in LM4 and LM5. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (LM3, LM4), 1–15 Nov (LM5)",
+            "planting_density": "40–50 (thousand plants/ha)",
+            "harvest_time": "NA",
+            "season_suitability": "SR and LR seasons; optimal in both with early planting",
+            "major_crop_areas": "Embu county; AEZs LM3, LM4, LM5"
+          },
+          "location_contexts": [
+            {
+              "location_name": "LM3",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM3",
+              "season": "SR season (1–15 Oct), LR season (15–30 Mar)",
+              "management_context": "Plant population: 50 (thousand/ha), Fertilizer N: 80 kg/ha (SR), 60 kg/ha (LR)",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Table 7: Deka_lb recommended for LM3 AEZ with specific planting windows, plant population, and fertilizer rates.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "LM4",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM4",
+              "season": "LR season (15–30 Mar)",
+              "management_context": "Plant population: 50 (thousand/ha), Fertilizer N: 60 kg/ha",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Table 7: Deka_lb recommended for LM4 AEZ in LR season with specific management.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "LM5",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM5",
+              "season": "SR season (1–15 Nov)",
+              "management_context": "Plant population: 40 (thousand/ha), Fertilizer N: 60 kg/ha",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Table 7: Deka_lb recommended for LM5 AEZ in SR season with specific management.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "LM3, LM4, LM5",
+              "season": "SR and LR seasons",
+              "management_context": "NA",
+              "relation_scope": "study_area",
+              "evidence": "DEKA_LB is discussed as a long-duration variety evaluated across Embu county AEZs for adaptation to climate change.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "medium"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=17",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "For Deka_lb, default parameters from the DSSAT model were used; no paper-reported DSSAT genotype coefficients are provided."
+        }
+      },
+      "file-dk41-8": {
+        "record_id": "file-dk41-8",
+        "cultivar_name": "DK41",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+        "source_url": "input_papers/file.pdf#page=17",
+        "coefficient_source_url": "input_papers/file.pdf#page=9",
+        "has_coefficients": false,
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR and SR",
+            "management_context": "DK41 (Deka_lb) recommended for LM3 and LM4; optimal planting window and density specified; fertilizer N 80 kg/ha (LM3), 60 kg/ha (LM4)",
+            "relation_scope": "cultivar_specific",
+            "evidence": "DK41 is represented as Deka_lb in the model and is recommended for LM3 and LM4 AEZs with specific planting windows, density, and fertilizer rates (Table 7).",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study area (Embu, Kavutiri, Gachuka, Machanga)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "NA",
+            "management_context": "DK41 (Deka_lb) included as representative cultivar in simulations across all AEZs.",
+            "relation_scope": "study_area",
+            "evidence": "DK41 (Deka_lb) was used as a representative cultivar in crop model simulations across all AEZs in Embu county.",
+            "source_url": "input_papers/file.pdf#page=10",
+            "confidence": "medium"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "3.5 to 4.5 months (medium-short duration)",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "5000–6000",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "DK41 is represented as Deka_lb in the DSSAT model. It is recommended for LM3 and LM4 AEZs, with optimal planting in mid-March for LR season and mid-October (LM3) or late October (LM4) for SR season. Planting density of 50,000 plants/ha is optimal in these AEZs. Fertilizer nitrogen recommendations are 80 kg/ha (LM3) and 60 kg/ha (LM4). DK41 (Deka_lb) is considered a long-duration variety suitable for replacing short-duration varieties under climate change. 3.2.7 Impacts of soil fertility and nitrogen application. Important characteristics of the representative soil profiles used with crop simulation models and the agro-ecological zones they represent. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+            "normal_planting_window": "LM3: 15–30 Mar (LR), 1–15 Oct (SR); LM4: 15–30 Mar (LR), 15–30 Oct (SR)",
+            "planting_density": "50,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons in LM3 and LM4 AEZs",
+            "major_crop_areas": "Embu, Kavutiri, Gachuka, Machanga; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "LR and SR",
+              "management_context": "DK41 (Deka_lb) recommended for LM3 and LM4; optimal planting window and density specified; fertilizer N 80 kg/ha (LM3), 60 kg/ha (LM4)",
+              "relation_scope": "cultivar_specific",
+              "evidence": "DK41 is represented as Deka_lb in the model and is recommended for LM3 and LM4 AEZs with specific planting windows, density, and fertilizer rates (Table 7).",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study area (Embu, Kavutiri, Gachuka, Machanga)",
+              "location_type": "study_area",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "NA",
+              "management_context": "DK41 (Deka_lb) included as representative cultivar in simulations across all AEZs.",
+              "relation_scope": "study_area",
+              "evidence": "DK41 (Deka_lb) was used as a representative cultivar in crop model simulations across all AEZs in Embu county.",
+              "source_url": "input_papers/file.pdf#page=10",
+              "confidence": "medium"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=17",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients for DK41 (Deka_lb) are reported in the paper; for Deka_lb, default model parameters were used."
+        }
+      },
+      "file-dk43-2": {
+        "record_id": "file-dk43-2",
+        "cultivar_name": "DK43",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Embu county, Kenya",
+        "source_url": "input_papers/file.pdf#page=8",
+        "coefficient_source_url": "input_papers/file.pdf#page=9",
+        "has_coefficients": false,
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR and SR seasons",
+            "management_context": "Simulated with farmer-specific soil, crop, and management data; adaptation strategies include optimal planting time, density, and fertilizer",
+            "relation_scope": "study_area",
+            "evidence": "DK43 is a commonly grown variety in Embu county, mapped to H511 in the DSSAT model, and included in simulations and adaptation strategies across all AEZs and seasons.",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "high"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium to long duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "4–5 months",
+            "average_yield_kg_ha": "6000–7000",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "DK43 is mapped to H511 in the DSSAT model and is considered a medium to long duration variety with yield potential of 6–7 t/ha. It is widely grown by farmers in Embu county and was included in the study's simulations and adaptation strategies. The study found that long-duration varieties like DK43/H511 are better able to maintain yield under climate change compared to short-duration varieties. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: mid-March to end March (15–30 Mar); SR: start to mid-November (1–15 Nov)",
+            "planting_density": "40,000–50,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "suitable for both LR and SR seasons",
+            "major_crop_areas": "Embu, Kavutiri, Gachuka, Machanga"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "LR and SR seasons",
+              "management_context": "Simulated with farmer-specific soil, crop, and management data; adaptation strategies include optimal planting time, density, and fertilizer",
+              "relation_scope": "study_area",
+              "evidence": "DK43 is a commonly grown variety in Embu county, mapped to H511 in the DSSAT model, and included in simulations and adaptation strategies across all AEZs and seasons.",
+              "source_url": "input_papers/file.pdf#page=8",
+              "confidence": "high"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients are reported for DK43. DK43 is mapped to H511 in the model, but only H511, H513, and Katumani coefficients are provided."
+        }
+      },
+      "file-duma-7": {
+        "record_id": "file-duma-7",
+        "cultivar_name": "Duma",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Embu county, Kenya",
+        "source_url": "input_papers/file.pdf#page=8",
+        "coefficient_source_url": "input_papers/file.pdf#page=9",
+        "has_coefficients": false,
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "SR and LR",
+            "management_context": "Farmer fields, experimental and simulated with DSSAT using H511 as Duma equivalent; optimal planting window and density, nitrogen application up to 80 kg N/ha",
+            "relation_scope": "study_area",
+            "evidence": "Duma is mapped to H511 in DSSAT simulations. Simulations and adaptation strategies are developed for Embu county across five AEZs, with management recommendations for planting window, density, and nitrogen application.",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "high"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium",
+            "relative_maturity": "4–5 months",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "6,000–7,000",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "UM2 humid",
+              "UM3 subhumid",
+              "LM3 semihumid",
+              "LM4",
+              "LM5"
+            ],
+            "adaptation_notes": "Duma is represented in DSSAT simulations as H511, a medium-duration, medium-yield maize cultivar. Simulations and adaptation strategies are developed for Embu county across five AEZs. Maize yields are generally higher in high potential AEZs (UM2, UM3, LM3) and lower in LM4 and LM5 due to moisture stress. Optimal management includes improved planting time, plant population, and nitrogen application. Early planting within the window increases yield, and higher nitrogen rates (up to 80 kg N/ha) further improve yields in SR season. Long-duration varieties (like H511/Duma) are recommended for adaptation to climate change. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": [
+              "LR season: mid-March (day 74) to end March (day 89)",
+              "SR season: start of November (day 305) to mid-November (day 319)"
+            ],
+            "planting_density": [
+              "40,000–50,000 plants/ha",
+              "SR season: 40,000 plants/ha",
+              "LR season: 50,000 plants/ha"
+            ],
+            "harvest_time": "NA",
+            "season_suitability": "SR and LR seasons",
+            "major_crop_areas": [
+              "Embu",
+              "Kavutiri",
+              "Gachuka",
+              "Machanga"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "SR and LR",
+              "management_context": "Farmer fields, experimental and simulated with DSSAT using H511 as Duma equivalent; optimal planting window and density, nitrogen application up to 80 kg N/ha",
+              "relation_scope": "study_area",
+              "evidence": "Duma is mapped to H511 in DSSAT simulations. Simulations and adaptation strategies are developed for Embu county across five AEZs, with management recommendations for planting window, density, and nitrogen application.",
+              "source_url": "input_papers/file.pdf#page=8",
+              "confidence": "high"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "DSSAT genotype coefficients for Duma (represented as H511) are not reported in the paper."
+        }
+      },
+      "file-h511-5": {
+        "record_id": "file-h511-5",
+        "cultivar_name": "H511",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+        "source_url": "input_papers/file.pdf#page=14",
+        "coefficient_source_url": "input_papers/file.pdf#page=9",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "SR and LR seasons",
+            "management_context": "AEZ-specific adaptation strategies: planting time, plant population, fertilizer N, cultivar selection",
+            "relation_scope": "study_area",
+            "evidence": "H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section. The observed crop phenology, biomass and yield are satisfactorily simulated by the models for three cultivars at Embu.",
+            "source_url": "input_papers/file.pdf#page=14",
+            "confidence": "high"
+          },
+          {
+            "location_name": "LM4 AEZ",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM4",
+            "season": "SR season",
+            "management_context": "Planting time: 15–30 Oct; Plant population: 50 thousand/ha; Fertilizer N: 70 kg/ha; Cultivar: H511",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. LM4: SR season: Planting Time: 15–30 Oct; Plant Pop.: 50; Variety: H511; Fertilizer: 70",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "LM5 AEZ",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM5",
+            "season": "LR season",
+            "management_context": "Planting time: 15–30 Mar; Plant population: 50 thousand/ha; Fertilizer N: 60 kg/ha; Cultivar: H511",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. LM5: LR season: Planting Time: 15–30 Mar; Plant Pop.: 50; Variety: H511; Fertilizer: 60",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "UM2, UM3, LM3 AEZs",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM2, UM3, LM3",
+            "season": "NA",
+            "management_context": "H511 included in adaptation strategies and model calibration for these AEZs",
+            "relation_scope": "study_area",
+            "evidence": "H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section.",
+            "source_url": "input_papers/file.pdf#page=14",
+            "confidence": "medium"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 137.7; DSSAT: 139.7; APSIM: 142.0",
+            "average_yield_kg_ha": "Observed: 4677.3; DSSAT: 4428.7; APSIM: 4654.3",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "Longer duration cultivars (H511, H513) maintain yield under climate change; more tolerant than short-duration Katumani",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H511 is a medium duration maize cultivar, calibrated and validated for Embu county, Kenya. It is recommended for adaptation strategies in LM4 and LM5 AEZs for SR season, and in LM5 for LR season. Longer duration cultivars (H511, H513) are less negatively impacted by climate change compared to short-duration Katumani. Optimal planting windows and plant populations are AEZ- and season-specific. DSSAT and APSIM models show H511 maintains yield under projected climate change. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: mid-March (15–30 Mar); SR: mid-October (15–30 Oct) or early November (1–15 Nov), depending on AEZ",
+            "planting_density": "SR: 40–50 thousand plants/ha; LR: 50–60 thousand plants/ha (AEZ-specific)",
+            "harvest_time": "NA",
+            "season_suitability": "SR and LR seasons; AEZ-specific recommendations",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "SR and LR seasons",
+              "management_context": "AEZ-specific adaptation strategies: planting time, plant population, fertilizer N, cultivar selection",
+              "relation_scope": "study_area",
+              "evidence": "H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section. The observed crop phenology, biomass and yield are satisfactorily simulated by the models for three cultivars at Embu.",
+              "source_url": "input_papers/file.pdf#page=14",
+              "confidence": "high"
+            },
+            {
+              "location_name": "LM4 AEZ",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM4",
+              "season": "SR season",
+              "management_context": "Planting time: 15–30 Oct; Plant population: 50 thousand/ha; Fertilizer N: 70 kg/ha; Cultivar: H511",
+              "relation_scope": "season_specific",
+              "evidence": "Table 7. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. LM4: SR season: Planting Time: 15–30 Oct; Plant Pop.: 50; Variety: H511; Fertilizer: 70",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "LM5 AEZ",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM5",
+              "season": "LR season",
+              "management_context": "Planting time: 15–30 Mar; Plant population: 50 thousand/ha; Fertilizer N: 60 kg/ha; Cultivar: H511",
+              "relation_scope": "season_specific",
+              "evidence": "Table 7. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. LM5: LR season: Planting Time: 15–30 Mar; Plant Pop.: 50; Variety: H511; Fertilizer: 60",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "UM2, UM3, LM3 AEZs",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "UM2, UM3, LM3",
+              "season": "NA",
+              "management_context": "H511 included in adaptation strategies and model calibration for these AEZs",
+              "relation_scope": "study_area",
+              "evidence": "H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section.",
+              "source_url": "input_papers/file.pdf#page=14",
+              "confidence": "medium"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=14",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 190.0,
+            "P2": 0.6,
+            "P5": 725.0,
+            "G2": 550.0,
+            "G3": 7.9,
+            "PHINT": 42.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "file-h513-9": {
+        "record_id": "file-h513-9",
+        "cultivar_name": "H513",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Embu county, Kenya; AEZs UM2, UM3, LM3",
+        "source_url": "input_papers/file.pdf#page=17",
+        "coefficient_source_url": "input_papers/file.pdf#page=9",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR (15–30 Mar), SR (1–15 Oct)",
+            "management_context": "50,000 plants/ha; 60–80 kg N/ha; early planting",
+            "relation_scope": "study_area",
+            "evidence": "H513 was calibrated and validated using experimental data from Embu research farm and simulated for all AEZs in Embu county. Table 7 shows H513 as the recommended variety for UM2, UM3, LM3 in LR season with 50,000 plants/ha and 60–80 kg N/ha.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "UM2",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM2",
+            "season": "LR (15–30 Mar)",
+            "management_context": "50,000 plants/ha; 80 kg N/ha",
+            "relation_scope": "trial_site",
+            "evidence": "Table 7: H513 is the recommended variety for UM2 in LR season with 50,000 plants/ha and 80 kg N/ha.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "UM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM3",
+            "season": "LR (15–30 Mar), SR (1–15 Oct)",
+            "management_context": "50,000 plants/ha (LR), 40,000 plants/ha (SR); 70 kg N/ha (LR), 60 kg N/ha (SR)",
+            "relation_scope": "trial_site",
+            "evidence": "Table 7: H513 is the recommended variety for UM3 in LR and SR seasons with specified plant populations and nitrogen rates.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "LM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM3",
+            "season": "LR (15–30 Mar)",
+            "management_context": "50,000 plants/ha; 60 kg N/ha",
+            "relation_scope": "trial_site",
+            "evidence": "Table 7: H513 is the recommended variety for LM3 in LR season with 50,000 plants/ha and 60 kg N/ha.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "long duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "141.0 (observed), 137.0 (DSSAT)",
+            "average_yield_kg_ha": "5282.7 (observed), 5027.7 (DSSAT), 4597.3 (APSIM)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "long-duration varieties (including H513) maintain yield better under warming compared to short-duration varieties",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H513 is a long-duration, high-yielding maize cultivar, well adapted to high potential AEZs (UM2, UM3, LM3) in Embu county. It is less negatively impacted by climate change compared to short-duration varieties. Optimal yields are achieved with early planting (mid-March to end March for LR; start to mid-October for SR), higher plant populations (50,000 plants/ha), and adequate nitrogen (60–80 kg/ha). Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3, LM3), 15–30 Mar (UM2, LM3, LM4, LM5)",
+            "planting_density": "50,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; best in LR for UM2, UM3, LM3",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "LR (15–30 Mar), SR (1–15 Oct)",
+              "management_context": "50,000 plants/ha; 60–80 kg N/ha; early planting",
+              "relation_scope": "study_area",
+              "evidence": "H513 was calibrated and validated using experimental data from Embu research farm and simulated for all AEZs in Embu county. Table 7 shows H513 as the recommended variety for UM2, UM3, LM3 in LR season with 50,000 plants/ha and 60–80 kg N/ha.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "UM2",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "UM2",
+              "season": "LR (15–30 Mar)",
+              "management_context": "50,000 plants/ha; 80 kg N/ha",
+              "relation_scope": "trial_site",
+              "evidence": "Table 7: H513 is the recommended variety for UM2 in LR season with 50,000 plants/ha and 80 kg N/ha.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "UM3",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "UM3",
+              "season": "LR (15–30 Mar), SR (1–15 Oct)",
+              "management_context": "50,000 plants/ha (LR), 40,000 plants/ha (SR); 70 kg N/ha (LR), 60 kg N/ha (SR)",
+              "relation_scope": "trial_site",
+              "evidence": "Table 7: H513 is the recommended variety for UM3 in LR and SR seasons with specified plant populations and nitrogen rates.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "LM3",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM3",
+              "season": "LR (15–30 Mar)",
+              "management_context": "50,000 plants/ha; 60 kg N/ha",
+              "relation_scope": "trial_site",
+              "evidence": "Table 7: H513 is the recommended variety for LM3 in LR season with 50,000 plants/ha and 60 kg N/ha.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=17",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 205.0,
+            "P2": 0.6,
+            "P5": 760.5,
+            "G2": 690.0,
+            "G3": 8.7,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "file-h613-4": {
+        "record_id": "file-h613-4",
+        "cultivar_name": "H613",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+        "source_url": "input_papers/file.pdf#page=17",
+        "coefficient_source_url": "input_papers/file.pdf#page=9",
+        "has_coefficients": false,
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR and SR",
+            "management_context": "AEZ-specific planting window, plant population, nitrogen fertilizer (see Table 7)",
+            "relation_scope": "study_area",
+            "evidence": "H613 is represented by H513 in DSSAT simulations. Adaptation strategies for each AEZ include optimal planting time, plant population, and nitrogen fertilizer. Long-duration varieties (H613/H513) are recommended for adaptation to climate change in Embu county across all AEZs.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "UM2",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM2",
+            "season": "LR: 15–30 Mar; SR: 1–15 Nov",
+            "management_context": "LR: 50,000 plants/ha, 80 kg N/ha, H513; SR: 40,000 plants/ha, 70 kg N/ha, H511",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7 lists H513 (representing H613) as optimal for LR season in UM2 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "UM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM3",
+            "season": "LR: 15–30 Mar; SR: 1–15 Oct",
+            "management_context": "LR: 50,000 plants/ha, 70 kg N/ha, H513; SR: 40,000 plants/ha, 60 kg N/ha, H513",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7 lists H513 (representing H613) as optimal for both LR and SR seasons in UM3 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "LM3",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "LM3",
+            "season": "LR: 15–30 Mar",
+            "management_context": "LR: 50,000 plants/ha, 60 kg N/ha, H513",
+            "relation_scope": "season_specific",
+            "evidence": "Table 7 lists H513 (representing H613) as optimal for LR season in LM3 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+            "source_url": "input_papers/file.pdf#page=17",
+            "confidence": "high"
+          },
+          {
+            "location_name": "Embu research farm",
+            "location_type": "site",
+            "agro_ecological_zone": "NA",
+            "season": "SR 2000, LR 2001, SR 2001",
+            "management_context": "Experimental calibration and validation of DSSAT and APSIM for H513 (representing H613)",
+            "relation_scope": "trial_site",
+            "evidence": "Experimental data from Embu research farm used to calibrate DSSAT and APSIM for H513 (representing H613) over three seasons.",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "high"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "long duration (represented by H513 in model)",
+            "relative_maturity": "6–8 months",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "8,000–10,000 (farmer reported, see Table 3); DSSAT simulated for H513: 5,027.7 kg/ha (Table 6)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "Long-duration varieties (H613/H513) maintain yield under increased temperature compared to short-duration Katumani (page 17)",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H613 is represented by H513 in DSSAT simulations. Long-duration varieties (H613/H513) are recommended for adaptation to climate change, maintaining yield under increased temperature. Optimal planting time and nitrogen management are AEZ-specific. High potential AEZs (UM2, UM3, LM3) show positive yield response; low potential AEZs (LM4, LM5) show negative response. Early planting within the window increases yield. Fertilizer nitrogen up to 80 kg/ha increases yield in SR season. Plant population of 40,000–50,000 plants/ha is recommended depending on AEZ and season. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3, LM3), 1–15 Nov (UM2); AEZ-specific (Table 7, page 17)",
+            "planting_density": "40,000–50,000 plants/ha (AEZ and season specific, Table 7, page 17)",
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; best performance in SR season and high potential AEZs",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "LR and SR",
+              "management_context": "AEZ-specific planting window, plant population, nitrogen fertilizer (see Table 7)",
+              "relation_scope": "study_area",
+              "evidence": "H613 is represented by H513 in DSSAT simulations. Adaptation strategies for each AEZ include optimal planting time, plant population, and nitrogen fertilizer. Long-duration varieties (H613/H513) are recommended for adaptation to climate change in Embu county across all AEZs.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "UM2",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "UM2",
+              "season": "LR: 15–30 Mar; SR: 1–15 Nov",
+              "management_context": "LR: 50,000 plants/ha, 80 kg N/ha, H513; SR: 40,000 plants/ha, 70 kg N/ha, H511",
+              "relation_scope": "season_specific",
+              "evidence": "Table 7 lists H513 (representing H613) as optimal for LR season in UM2 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "UM3",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "UM3",
+              "season": "LR: 15–30 Mar; SR: 1–15 Oct",
+              "management_context": "LR: 50,000 plants/ha, 70 kg N/ha, H513; SR: 40,000 plants/ha, 60 kg N/ha, H513",
+              "relation_scope": "season_specific",
+              "evidence": "Table 7 lists H513 (representing H613) as optimal for both LR and SR seasons in UM3 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "LM3",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "LM3",
+              "season": "LR: 15–30 Mar",
+              "management_context": "LR: 50,000 plants/ha, 60 kg N/ha, H513",
+              "relation_scope": "season_specific",
+              "evidence": "Table 7 lists H513 (representing H613) as optimal for LR season in LM3 AEZ with specific planting window, plant population, and nitrogen fertilizer.",
+              "source_url": "input_papers/file.pdf#page=17",
+              "confidence": "high"
+            },
+            {
+              "location_name": "Embu research farm",
+              "location_type": "site",
+              "agro_ecological_zone": "NA",
+              "season": "SR 2000, LR 2001, SR 2001",
+              "management_context": "Experimental calibration and validation of DSSAT and APSIM for H513 (representing H613)",
+              "relation_scope": "trial_site",
+              "evidence": "Experimental data from Embu research farm used to calibrate DSSAT and APSIM for H513 (representing H613) over three seasons.",
+              "source_url": "input_papers/file.pdf#page=8",
+              "confidence": "high"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=17",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "DSSAT genotype coefficients for H613 are not reported; H613 is represented by H513 in DSSAT simulations, but only H511, H513, and Katumani coefficients are given."
+        }
+      },
+      "file-katumani-3": {
+        "record_id": "file-katumani-3",
+        "cultivar_name": "KATUMANI",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Embu county, Kenya; AEZs UM2, UM3, LM3, LM4, LM5",
+        "source_url": "input_papers/file.pdf#page=14",
+        "coefficient_source_url": "input_papers/file.pdf#page=9",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "SR and LR seasons",
+            "management_context": "Farmer fields; experimental farm; adaptation strategies tested with DSSAT and APSIM",
+            "relation_scope": "study_area",
+            "evidence": "The maize varieties H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section. The observed crop phenology, biomass and yield are satisfactorily simulated by the models for three cultivars at Embu.",
+            "source_url": "input_papers/file.pdf#page=14",
+            "confidence": "high"
+          },
+          {
+            "location_name": "AEZs UM2, UM3, LM3, LM4, LM5",
+            "location_type": "agro_ecological_zone",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "SR and LR seasons",
+            "management_context": "Simulated yields under baseline and climate change scenarios; adaptation strategies tested",
+            "relation_scope": "study_area",
+            "evidence": "Impact of climate change on maize production in the five AEZs is assessed. Maize yields varied in response to differences in the magnitude of projected change in surface temperatures and rainfall by different GCMs under different scenarios. Maize yields also varied depending on the AEZ, season, and management practices.",
+            "source_url": "input_papers/file.pdf#page=15",
+            "confidence": "medium"
+          },
+          {
+            "location_name": "Embu research farm",
+            "location_type": "site",
+            "agro_ecological_zone": "NA",
+            "season": "SR season of 2000; LR and SR seasons of 2001",
+            "management_context": "Experimental data used for calibration and validation of DSSAT and APSIM for Katumani",
+            "relation_scope": "trial_site",
+            "evidence": "The experiment included all these varieties and was conducted over three seasons i.e., SR season of 2000 and LR and SR seasons of 2001. All the available data was compiled from the research reports as well as personnel communication with the researcher concerned.",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "medium"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "short duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 103.5; DSSAT: 105.5; APSIM: 104.0",
+            "average_yield_kg_ha": "Observed: 4060.5; DSSAT: 4058.5; APSIM: 3911.0",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "More negatively impacted by climate change compared to long-duration cultivars",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "Short duration Katumani is more sensitive to climate change, with yield declines of 5% (SR season) and 9% (LR season) under RCP 8.5. Katumani is widely adopted by farmers in Kenya, but is less resilient to warming compared to H511 and H513. Replacing Katumani with long-duration cultivars is considered an adaptation option. High moisture stress in LM4 and LM5 AEZs is a major yield limiting factor. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: mid-March (day 74) to mid-April (day 105); SR: start October (day 274) to start November (day 305). Under climate change: LR: mid-March (day 74) to end March (day 89); SR: start November (day 305) to mid-November (day 319). Early planting within window yields better results.",
+            "planting_density": "30,000 to 50,000 plants/ha; less than 3% yield increase when population increased from 30,000 to 50,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "SR and LR seasons; more negatively impacted in LR season",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "SR and LR seasons",
+              "management_context": "Farmer fields; experimental farm; adaptation strategies tested with DSSAT and APSIM",
+              "relation_scope": "study_area",
+              "evidence": "The maize varieties H511, H513 and Katumani were selected to represent the cultivars used by farmers in the Embu county. APSIM and DSSAT crop models were calibrated for these maize varieties using the experimental data as discussed in the material and methods section. The observed crop phenology, biomass and yield are satisfactorily simulated by the models for three cultivars at Embu.",
+              "source_url": "input_papers/file.pdf#page=14",
+              "confidence": "high"
+            },
+            {
+              "location_name": "AEZs UM2, UM3, LM3, LM4, LM5",
+              "location_type": "agro_ecological_zone",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "SR and LR seasons",
+              "management_context": "Simulated yields under baseline and climate change scenarios; adaptation strategies tested",
+              "relation_scope": "study_area",
+              "evidence": "Impact of climate change on maize production in the five AEZs is assessed. Maize yields varied in response to differences in the magnitude of projected change in surface temperatures and rainfall by different GCMs under different scenarios. Maize yields also varied depending on the AEZ, season, and management practices.",
+              "source_url": "input_papers/file.pdf#page=15",
+              "confidence": "medium"
+            },
+            {
+              "location_name": "Embu research farm",
+              "location_type": "site",
+              "agro_ecological_zone": "NA",
+              "season": "SR season of 2000; LR and SR seasons of 2001",
+              "management_context": "Experimental data used for calibration and validation of DSSAT and APSIM for Katumani",
+              "relation_scope": "trial_site",
+              "evidence": "The experiment included all these varieties and was conducted over three seasons i.e., SR season of 2000 and LR and SR seasons of 2001. All the available data was compiled from the research reports as well as personnel communication with the researcher concerned.",
+              "source_url": "input_papers/file.pdf#page=8",
+              "confidence": "medium"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=14",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 100.0,
+            "P2": 0.5,
+            "P5": 554.0,
+            "G2": 550.0,
+            "G3": 10.6,
+            "PHINT": 47.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "file-pioneer-6": {
+        "record_id": "file-pioneer-6",
+        "cultivar_name": "Pioneer",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Embu county, Kenya",
+        "source_url": "input_papers/file.pdf#page=8",
+        "coefficient_source_url": "input_papers/file.pdf#page=9",
+        "has_coefficients": false,
+        "location_contexts": [
+          {
+            "location_name": "Embu county",
+            "location_type": "county",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "season": "LR and SR",
+            "management_context": "LR: 15–30 Mar, 50,000 plants/ha, H513, 70–80 kg N/ha; SR: 1–15 Oct (UM3), 1–15 Nov (UM2), 40,000 plants/ha, H513, 60–70 kg N/ha",
+            "relation_scope": "study_area",
+            "evidence": "Pioneer is mapped to H513 in DSSAT simulations. Adaptation strategies recommend H513 for LR season in UM2, UM3, LM3 AEZs, with optimal planting time mid-March and plant population 50,000/ha. In SR season, H513 is recommended for UM3. DSSAT simulations show higher yield increases under climate change in high potential AEZs (UM2, UM3, LM3) and negative impacts in low potential AEZs (LM4, LM5).",
+            "source_url": "input_papers/file.pdf#page=8",
+            "confidence": "high"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "long duration (represented by H513 in DSSAT)",
+            "relative_maturity": "NA",
+            "days_to_maturity": "5–6 months",
+            "average_yield_kg_ha": "8000–10000 (farmer reported, page 8)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "Pioneer is mapped to H513 in DSSAT simulations, representing long-duration, high-yield maize. Adaptation strategies recommend H513 for LR season in UM2, UM3, LM3 AEZs, with optimal planting time mid-March and plant population 50,000/ha. In SR season, H513 is recommended for UM3. DSSAT simulations show higher yield increases under climate change in high potential AEZs (UM2, UM3, LM3) and negative impacts in low potential AEZs (LM4, LM5). Early planting within the window improves yield. Fertilizer nitrogen up to 80 kg/ha increases yield in SR season. High moisture stress is a major yield limiting factor in LM4 and LM5. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3), 1–15 Nov (UM2)",
+            "planting_density": "LR: 50,000 plants/ha; SR: 40,000 plants/ha (UM2, UM3)",
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; best performance in high potential AEZs",
+            "major_crop_areas": "Embu, Kavutiri, Gachuka, Machanga (sites); UM2, UM3, LM3, LM4, LM5 (AEZs)"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu county",
+              "location_type": "county",
+              "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+              "season": "LR and SR",
+              "management_context": "LR: 15–30 Mar, 50,000 plants/ha, H513, 70–80 kg N/ha; SR: 1–15 Oct (UM3), 1–15 Nov (UM2), 40,000 plants/ha, H513, 60–70 kg N/ha",
+              "relation_scope": "study_area",
+              "evidence": "Pioneer is mapped to H513 in DSSAT simulations. Adaptation strategies recommend H513 for LR season in UM2, UM3, LM3 AEZs, with optimal planting time mid-March and plant population 50,000/ha. In SR season, H513 is recommended for UM3. DSSAT simulations show higher yield increases under climate change in high potential AEZs (UM2, UM3, LM3) and negative impacts in low potential AEZs (LM4, LM5).",
+              "source_url": "input_papers/file.pdf#page=8",
+              "confidence": "high"
+            }
+          ],
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients reported for Pioneer or H513 in the retrieved context."
+        }
+      }
+    }
+  }
+}

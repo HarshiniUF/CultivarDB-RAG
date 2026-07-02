@@ -1,0 +1,244 @@
+{
+  "validated_file": "Paper_Rag/Json_Outputs/all_papers_cultivar_db.json",
+  "json_valid": true,
+  "input_paper_count": 7,
+  "record_count": 31,
+  "record_schema_issues": [],
+  "paper_audits": [
+    {
+      "paper": "1-s2.0-S0167198714000944-main.pdf",
+      "cultivar_mentions_detected": [
+        "MH-16",
+        "MH16",
+        "SC-627",
+        "SC627"
+      ],
+      "records": 4,
+      "cultivars_in_json": [
+        "MH-16",
+        "SC-627",
+        "MH16",
+        "SC627"
+      ],
+      "metrics_represented_in_json": [
+        "dssat_coefficients",
+        "aez_or_region",
+        "named_sites",
+        "yield",
+        "sowing_or_planting_window",
+        "planting_density_or_spacing",
+        "fertilizer_or_nitrogen",
+        "maturity_or_phenology",
+        "disease_or_stress",
+        "soil_or_climate"
+      ],
+      "metrics_detected_but_not_represented": [],
+      "metrics_not_applicable_or_not_detected": []
+    },
+    {
+      "paper": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+      "cultivar_mentions_detected": [
+        "H612",
+        "H614"
+      ],
+      "records": 2,
+      "cultivars_in_json": [
+        "H614",
+        "H612"
+      ],
+      "metrics_represented_in_json": [
+        "dssat_coefficients",
+        "aez_or_region",
+        "named_sites",
+        "yield",
+        "sowing_or_planting_window",
+        "planting_density_or_spacing",
+        "fertilizer_or_nitrogen",
+        "maturity_or_phenology",
+        "disease_or_stress",
+        "soil_or_climate"
+      ],
+      "metrics_detected_but_not_represented": [],
+      "metrics_not_applicable_or_not_detected": []
+    },
+    {
+      "paper": "file.pdf",
+      "cultivar_mentions_detected": [
+        "Deka_lb",
+        "DEKA_LB",
+        "DK41",
+        "DK43",
+        "Duma",
+        "H511",
+        "H513",
+        "H613",
+        "katumani",
+        "KATUMANI",
+        "Katumani",
+        "Pioneer"
+      ],
+      "records": 9,
+      "cultivars_in_json": [
+        "katumani",
+        "DK41",
+        "DK43",
+        "H513",
+        "Deka_lb",
+        "Duma",
+        "H613",
+        "Pioneer",
+        "H511"
+      ],
+      "metrics_represented_in_json": [
+        "dssat_coefficients",
+        "aez_or_region",
+        "named_sites",
+        "yield",
+        "sowing_or_planting_window",
+        "planting_density_or_spacing",
+        "fertilizer_or_nitrogen",
+        "maturity_or_phenology",
+        "disease_or_stress",
+        "soil_or_climate"
+      ],
+      "metrics_detected_but_not_represented": [],
+      "metrics_not_applicable_or_not_detected": []
+    },
+    {
+      "paper": "s10113-025-02403-y.pdf",
+      "cultivar_mentions_detected": [
+        "H614"
+      ],
+      "records": 1,
+      "cultivars_in_json": [
+        "H614"
+      ],
+      "metrics_represented_in_json": [
+        "aez_or_region",
+        "named_sites",
+        "yield",
+        "sowing_or_planting_window",
+        "fertilizer_or_nitrogen",
+        "maturity_or_phenology",
+        "disease_or_stress",
+        "soil_or_climate"
+      ],
+      "metrics_detected_but_not_represented": [
+        {
+          "metric": "planting_density_or_spacing",
+          "evidence_snippet": "et al. 2015). Other needed information, including sowing depth and density, was specified based on the recommended local prac- tices. The sowing density for each simulation season was approximated to be 50,000 plants per hectare with intra and inter-row spacing at 25 cm and 75 cm, respectively. The DSSAT-CERES-Maize model was configured with sowing dates assessed fr"
+        }
+      ],
+      "metrics_not_applicable_or_not_detected": [
+        "dssat_coefficients"
+      ]
+    },
+    {
+      "paper": "s41598-024-62623-w.pdf",
+      "cultivar_mentions_detected": [],
+      "records": 0,
+      "cultivars_in_json": [],
+      "metrics_represented_in_json": [],
+      "metrics_detected_but_not_represented": [],
+      "metrics_not_applicable_or_not_detected": [
+        "dssat_coefficients",
+        "aez_or_region",
+        "named_sites",
+        "yield",
+        "sowing_or_planting_window",
+        "planting_density_or_spacing",
+        "fertilizer_or_nitrogen",
+        "maturity_or_phenology",
+        "disease_or_stress",
+        "soil_or_climate"
+      ]
+    },
+    {
+      "paper": "s42106-022-00220-5.pdf",
+      "cultivar_mentions_detected": [
+        "H614",
+        "KH600-23A"
+      ],
+      "records": 2,
+      "cultivars_in_json": [
+        "H614",
+        "KH600-23A"
+      ],
+      "metrics_represented_in_json": [
+        "dssat_coefficients",
+        "aez_or_region",
+        "named_sites",
+        "yield",
+        "sowing_or_planting_window",
+        "planting_density_or_spacing",
+        "fertilizer_or_nitrogen",
+        "maturity_or_phenology",
+        "disease_or_stress",
+        "soil_or_climate"
+      ],
+      "metrics_detected_but_not_represented": [],
+      "metrics_not_applicable_or_not_detected": []
+    },
+    {
+      "paper": "s42106-025-00341-7.pdf",
+      "cultivar_mentions_detected": [
+        "BH-660",
+        "BH540",
+        "Ecavel",
+        "H511",
+        "H513",
+        "H614",
+        "H628",
+        "Katumani",
+        "Melkassa 1",
+        "Melkassa I",
+        "MH-16",
+        "Situka",
+        "UH6303"
+      ],
+      "records": 13,
+      "cultivars_in_json": [
+        "BH-660",
+        "H614",
+        "BH540",
+        "Melkassa I",
+        "Situka",
+        "Katumani",
+        "MH-16",
+        "UH6303",
+        "H628",
+        "Ecavel",
+        "H511",
+        "H513",
+        "Melkassa 1"
+      ],
+      "metrics_represented_in_json": [
+        "dssat_coefficients",
+        "aez_or_region",
+        "named_sites",
+        "yield",
+        "sowing_or_planting_window",
+        "planting_density_or_spacing",
+        "fertilizer_or_nitrogen",
+        "maturity_or_phenology",
+        "disease_or_stress",
+        "soil_or_climate"
+      ],
+      "metrics_detected_but_not_represented": [],
+      "metrics_not_applicable_or_not_detected": []
+    }
+  ],
+  "known_non_extractable": [
+    {
+      "paper": "s10113-025-02403-y.pdf",
+      "metric": "dssat_coefficients",
+      "reason": "The paper says calibrated H614 coefficients were adopted from Kipkulei et al. (2022), but it does not print P1/P2/P5/G2/G3/PHINT values in the extractable paper text."
+    },
+    {
+      "paper": "s41598-024-62623-w.pdf",
+      "metric": "cultivar_records",
+      "reason": "The paper has regional crop-modeling/remote-sensing information but no named cultivar mentions detected for CultivarDB records."
+    }
+  ],
+  "caveat": "This audit checks target CultivarDB metric categories, not every sentence-level fact in every paper."
+}

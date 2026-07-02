@@ -1,0 +1,1113 @@
+{
+  "generated_at": "2026-06-26T12:10:36.133826+00:00",
+  "source_type": "paper_based_rag",
+  "input_papers": [
+    "/Users/saichetannandikanti/Desktop/CAESAR/CultivarDB-RAG/input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+    "/Users/saichetannandikanti/Desktop/CAESAR/CultivarDB-RAG/input_papers/file.pdf",
+    "/Users/saichetannandikanti/Desktop/CAESAR/CultivarDB-RAG/input_papers/s10113-025-02403-y.pdf",
+    "/Users/saichetannandikanti/Desktop/CAESAR/CultivarDB-RAG/input_papers/s41598-024-62623-w.pdf",
+    "/Users/saichetannandikanti/Desktop/CAESAR/CultivarDB-RAG/input_papers/s42106-022-00220-5.pdf",
+    "/Users/saichetannandikanti/Desktop/CAESAR/CultivarDB-RAG/input_papers/s42106-025-00341-7.pdf"
+  ],
+  "llm_configured": true,
+  "records": [
+    {
+      "cultivar_name": "H614",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "AEZ II and AEZ III",
+      "characteristics": {
+        "data": {
+          "maturity_class": "long-maturing",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "5312 (AEZ II), 4400 (least feasible, study area)",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "requires more heat units to attain anthesis and reach physiological maturity than H612",
+          "agro_ecological_zone": "AEZ II, AEZ III",
+          "adaptation_notes": "H614 performed better than H612 across all AEZs; reduced likelihood of yield decline; optimal with early March or early May sowing.",
+          "normal_planting_window": "early March or early May (AEZ II and III)",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+        "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+        "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+        "coefficients": {},
+        "notes": ""
+      }
+    },
+    {
+      "cultivar_name": "H614",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Trans Nzoia and Uasin Gishu counties",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "NA",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s10113-025-02403-y.pdf",
+        "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s10113-025-02403-y.pdf",
+        "source_url": "input_papers/s10113-025-02403-y.pdf#page=4",
+        "coefficients": {},
+        "notes": "The paper states that DSSAT genotype coefficients for H614 were used and were default values reported in Kipkulei et al. (2022), but does not provide the actual coefficients."
+      }
+    },
+    {
+      "cultivar_name": "H614",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Trans Nzoia County",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "191",
+          "average_yield_kg_ha": "4150",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "H614 is one of the oldest cultivars and is popular among farmers, especially in high-altitude regions.",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-022-00220-5.pdf",
+        "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+        "confidence": "medium"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-022-00220-5.pdf",
+        "source_url": "input_papers/s42106-022-00220-5.pdf#page=6",
+        "coefficients": {},
+        "notes": ""
+      }
+    },
+    {
+      "cultivar_name": "KH600-23A",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Trans Nzoia County",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "209",
+          "average_yield_kg_ha": "5209",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "The cultivar is relatively new, with a yield potential between 9.5 and 15 tonnes per hectare, out-performing other cultivars that have been in existence. The KH600-23A cultivar needed more heat units to attain the juvenile and physiological maturity stages than the H614 cultivar. The combination of early sowing dates, the KH600-23A cultivar, and the highest nitrogen fertilization was found to be a feasible strategy for enhancing maize yield in the study area.",
+          "normal_planting_window": "Sowing in late February and early March may be beneficial to farmers in boosting yields. Planting in mid-February under nitrogen fertilization of 75 kg ha−1 with equal top dressing amount is recommended.",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-022-00220-5.pdf",
+        "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-022-00220-5.pdf",
+        "source_url": "input_papers/s42106-022-00220-5.pdf#page=6",
+        "coefficients": {},
+        "notes": ""
+      }
+    },
+    {
+      "cultivar_name": "BH-660",
+      "crop": "MZ",
+      "country": "Ethiopia",
+      "location": "Bako National Maize Research Center",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "NA",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficients": {},
+        "notes": ""
+      }
+    },
+    {
+      "cultivar_name": "H614",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Trans Nzoia",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "NA",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "medium"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficients": {},
+        "notes": ""
+      }
+    },
+    {
+      "cultivar_name": "BH540",
+      "crop": "MZ",
+      "country": "Ethiopia",
+      "location": "Hawassa",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "NA",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "medium"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficients": {},
+        "notes": "BH540 is listed as a DSSAT-calibrated cultivar for Hawassa, Ethiopia, but no genotype coefficients are provided in the retrieved context."
+      }
+    },
+    {
+      "cultivar_name": "Melkassa I",
+      "crop": "MZ",
+      "country": "Ethiopia",
+      "location": "Melkassa",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "NA",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=2",
+        "confidence": "medium"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+        "coefficients": {},
+        "notes": ""
+      }
+    },
+    {
+      "cultivar_name": "Situka",
+      "crop": "MZ",
+      "country": "Tanzania",
+      "location": "Dodoma",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "NA",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {},
+        "notes": ""
+      }
+    },
+    {
+      "cultivar_name": "Katumani",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Katumani",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "NA",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+        "confidence": "medium"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+        "coefficients": {},
+        "notes": "No DSSAT genotype coefficients for Katumani are reported in the paper."
+      }
+    },
+    {
+      "cultivar_name": "MH-16",
+      "crop": "MZ",
+      "country": "Uganda",
+      "location": "Masindi",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "NA",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {},
+        "notes": "No DSSAT genotype coefficients for MH-16 are reported in the provided context."
+      }
+    },
+    {
+      "cultivar_name": "UH6303",
+      "crop": "MZ",
+      "country": "Tanzania",
+      "location": "Njombe",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "NA",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+        "confidence": "medium"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {},
+        "notes": "No DSSAT genotype coefficients for UH6303 are reported in the provided context."
+      }
+    },
+    {
+      "cultivar_name": "H628",
+      "crop": "MZ",
+      "country": "Tanzania",
+      "location": "Njombe",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "NA",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "confidence": "medium"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {},
+        "notes": "No DSSAT genotype coefficients for H628 are provided in the retrieved context."
+      }
+    },
+    {
+      "cultivar_name": "Ecavel",
+      "crop": "MZ",
+      "country": "Rwanda",
+      "location": "Ruzizi plains",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "NA",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {},
+        "notes": ""
+      }
+    },
+    {
+      "cultivar_name": "H511",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Embu",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "NA",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {},
+        "notes": "No DSSAT genotype coefficients for H511 are reported in the provided context."
+      }
+    },
+    {
+      "cultivar_name": "H513",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Embu",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "NA",
+          "normal_planting_window": "NA",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {},
+        "notes": "No DSSAT genotype coefficients for H513 are reported in the provided context."
+      }
+    }
+  ],
+  "sample_db": {
+    "crop": "MZ",
+    "country": "NA",
+    "cultivars": {
+      "H614": {
+        "cultivar_name": "H614",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "NA",
+            "normal_planting_window": "NA",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "medium"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficients": {},
+          "notes": ""
+        }
+      },
+      "KH600-23A": {
+        "cultivar_name": "KH600-23A",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "209",
+            "average_yield_kg_ha": "5209",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "The cultivar is relatively new, with a yield potential between 9.5 and 15 tonnes per hectare, out-performing other cultivars that have been in existence. The KH600-23A cultivar needed more heat units to attain the juvenile and physiological maturity stages than the H614 cultivar. The combination of early sowing dates, the KH600-23A cultivar, and the highest nitrogen fertilization was found to be a feasible strategy for enhancing maize yield in the study area.",
+            "normal_planting_window": "Sowing in late February and early March may be beneficial to farmers in boosting yields. Planting in mid-February under nitrogen fertilization of 75 kg ha−1 with equal top dressing amount is recommended.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=6",
+          "coefficients": {},
+          "notes": ""
+        }
+      },
+      "BH-660": {
+        "cultivar_name": "BH-660",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "NA",
+            "normal_planting_window": "NA",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficients": {},
+          "notes": ""
+        }
+      },
+      "BH540": {
+        "cultivar_name": "BH540",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "NA",
+            "normal_planting_window": "NA",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "medium"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficients": {},
+          "notes": "BH540 is listed as a DSSAT-calibrated cultivar for Hawassa, Ethiopia, but no genotype coefficients are provided in the retrieved context."
+        }
+      },
+      "Melkassa I": {
+        "cultivar_name": "Melkassa I",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "NA",
+            "normal_planting_window": "NA",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=2",
+          "confidence": "medium"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+          "coefficients": {},
+          "notes": ""
+        }
+      },
+      "Situka": {
+        "cultivar_name": "Situka",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "NA",
+            "normal_planting_window": "NA",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {},
+          "notes": ""
+        }
+      },
+      "Katumani": {
+        "cultivar_name": "Katumani",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "NA",
+            "normal_planting_window": "NA",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+          "confidence": "medium"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients for Katumani are reported in the paper."
+        }
+      },
+      "MH-16": {
+        "cultivar_name": "MH-16",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "NA",
+            "normal_planting_window": "NA",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients for MH-16 are reported in the provided context."
+        }
+      },
+      "UH6303": {
+        "cultivar_name": "UH6303",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "NA",
+            "normal_planting_window": "NA",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+          "confidence": "medium"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients for UH6303 are reported in the provided context."
+        }
+      },
+      "H628": {
+        "cultivar_name": "H628",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "NA",
+            "normal_planting_window": "NA",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "confidence": "medium"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients for H628 are provided in the retrieved context."
+        }
+      },
+      "Ecavel": {
+        "cultivar_name": "Ecavel",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "NA",
+            "normal_planting_window": "NA",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {},
+          "notes": ""
+        }
+      },
+      "H511": {
+        "cultivar_name": "H511",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "NA",
+            "normal_planting_window": "NA",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients for H511 are reported in the provided context."
+        }
+      },
+      "H513": {
+        "cultivar_name": "H513",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "NA",
+            "normal_planting_window": "NA",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients for H513 are reported in the provided context."
+        }
+      }
+    }
+  }
+}

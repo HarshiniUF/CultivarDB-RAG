@@ -50,6 +50,13 @@ class KeywordRetriever:
         scored.sort(key=lambda item: (item[0], -item[1].page), reverse=True)
         return [chunk for _, chunk in scored[:top_k]]
 
+    def chunks_for_page(self, source_file: str, page: int) -> List[PaperChunk]:
+        return [
+            chunk
+            for chunk in self._chunks
+            if chunk.source_file == source_file and chunk.page == page
+        ]
+
 
 def context_text(chunks: Iterable[PaperChunk], max_chars: int = 14000) -> str:
     parts = []

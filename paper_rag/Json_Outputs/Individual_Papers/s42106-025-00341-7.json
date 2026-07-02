@@ -1,0 +1,3693 @@
+{
+  "source_file": "s42106-025-00341-7.pdf",
+  "record_count": 13,
+  "records": [
+    {
+      "cultivar_name": "BH-660",
+      "crop": "MZ",
+      "country": "Ethiopia",
+      "location": "Bako National Maize Research Center",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "cool sub-humid to humid",
+          "adaptation_notes": "Bako is identified as a high potential maize production site with favourable climate and extended rainfall seasons. The region is suitable for maize cultivation and has been used for DSSAT-CERES-Maize model calibration and evaluation. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Di-ammonium phosphate (DAP) rate was adopted for Bako stations. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+          "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+          "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "Bako National Maize Research Center"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Bako National Maize Research Center",
+            "location_type": "site",
+            "agro_ecological_zone": "cool sub-humid to humid",
+            "season": "NA",
+            "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm; 53,333 plants/ha; DAP fertilizer rate adopted for Bako stations",
+            "relation_scope": "cultivar_specific",
+            "evidence": "BH-660 was calibrated and evaluated at Bako National Maize Research Center, Ethiopia, which is a high potential maize production site with favourable climate and extended rainfall seasons. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Di-ammonium phosphate (DAP) rate was adopted for Bako stations.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study_area",
+            "location_type": "study_area",
+            "agro_ecological_zone": "cool sub-humid to humid",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "The study was conducted in five EA countries where maize is largely grown, including Ethiopia. Bako is among the sites with high potential for maize production and favourable climate.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=2",
+            "confidence": "medium"
+          }
+        ],
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {
+          "P1": 260.0,
+          "P2": 0.75,
+          "P5": 850.0,
+          "G2": 800.0,
+          "G3": 8.5,
+          "PHINT": 49.0
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "H614",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Trans Nzoia",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "cool sub-humid to humid agroecologies",
+          "adaptation_notes": "Trans Nzoia is identified as a high potential maize production region with a climate ranging from cool sub-humid to humid agroecologies and extended rainfall seasons. The study notes that such regions have high maize yield potential and less yield variation under baseline conditions. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+          "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+          "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "Trans Nzoia"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Trans Nzoia",
+            "location_type": "county",
+            "agro_ecological_zone": "cool sub-humid to humid agroecologies",
+            "season": "NA",
+            "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm, plant population 53,333 plants/ha, planting depth 10 cm, nitrogen fertilization rate similar to Hoima, Uganda (70 kg/ha at sowing, 25 kg/ha top dressing at 30 days)",
+            "relation_scope": "cultivar_specific",
+            "evidence": "H614 was calibrated for Trans Nzoia, Kenya. Trans Nzoia is described as having high maize production potential with a cool sub-humid to humid climate and extended rainfall seasons. For all studied regions, a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha. The nitrogen fertilization rate was similar to Hoima, Uganda (70 kg/ha at sowing, 25 kg/ha top dressing at 30 days).",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study area",
+            "location_type": "study_area",
+            "agro_ecological_zone": "cool sub-humid to humid agroecologies; moderate to low yields in Wami, Morogoro, and Dodoma",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "The study area includes Trans Nzoia and other regions with varying agroecological zones. Trans Nzoia is among the regions with high maize production potential due to favorable climate.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=8",
+            "confidence": "medium"
+          }
+        ],
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {
+          "P1": 290.8,
+          "P2": 0.47,
+          "P5": 921.2,
+          "G2": 796.8,
+          "G3": 5.26,
+          "PHINT": 39.74
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "BH540",
+      "crop": "MZ",
+      "country": "Ethiopia",
+      "location": "Hawassa",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": [
+            "humid",
+            "sub-humid",
+            "semihumid"
+          ],
+          "adaptation_notes": "BH540 was calibrated and evaluated for Hawassa and Ziway, Ethiopia, in a region with climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons. High maize production potential was observed in these regions under baseline climate. All cultivars were simulated with uniform management: 25 cm x 75 cm spacing, 53,333 plants/ha, 10 cm planting depth, and region-specific nitrogen rates. Adaptation practices such as tied ridges, micro-dosing, mulching, and small-scale irrigation are recommended for drier areas, but not specifically for Hawassa. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+          "normal_planting_window": "Sowing date for Hawassa: 15 June (Abera et al., 2018).",
+          "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha; 10 cm planting depth.",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": [
+            "Hawassa",
+            "Ziway"
+          ]
+        },
+        "location_contexts": [
+          {
+            "location_name": "Hawassa",
+            "location_type": "site",
+            "agro_ecological_zone": "humid|sub-humid",
+            "season": "NA",
+            "management_context": "25 cm x 75 cm spacing; 53,333 plants/ha; 10 cm planting depth; region-specific nitrogen rates",
+            "relation_scope": "cultivar_specific",
+            "evidence": "BH540 was calibrated and evaluated for Hawassa, Ethiopia, in a region with climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons. Sowing date for Hawassa: 15 June (Abera et al., 2018).",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "Ziway",
+            "location_type": "site",
+            "agro_ecological_zone": "sub-humid|semihumid",
+            "season": "NA",
+            "management_context": "25 cm x 75 cm spacing; 53,333 plants/ha; 10 cm planting depth; region-specific nitrogen rates",
+            "relation_scope": "cultivar_specific",
+            "evidence": "BH540 was calibrated and evaluated for Ziway, Ethiopia, in a region with climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        ],
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {
+          "P1": 220.1,
+          "P2": 0.86,
+          "P5": 840.1,
+          "G2": 266.2,
+          "G3": 10.65,
+          "PHINT": 38.9
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "Melkassa I",
+      "crop": "MZ",
+      "country": "Ethiopia",
+      "location": "Melkassa",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "The effect of nitrogen-fertilizer and optimal plant population on the profitability of maize plots in the Wami river sub-basin, Tanzania: A bio-economic simulation approach. An integrated crop model and GIS decision support system for assisting agronomic decision making under climate change. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The calibration process determines the cultivar coefficients that govern the accumulation of temperature heat units and plant development from emergence to physiological matu­ rity (Jones et al., 2003).",
+          "normal_planting_window": "Projecting maize yield under local-scale climate change scenar­ ios using crop models: Sensitivity to sowing dates, cultivar, and nitrogen fertilizer rates.",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Melkassa",
+            "location_type": "site",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Melkassa I Melkassa Ethiopia",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        ],
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {},
+        "notes": ""
+      }
+    },
+    {
+      "cultivar_name": "Situka",
+      "crop": "MZ",
+      "country": "Tanzania",
+      "location": "Dodoma",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+          "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Dodoma",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Situka Dodoma Tanzania (Lana et al., 2018)",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "Morogoro",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Situka Morogoro Tanzania (Mourice et al., 2015)",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        ],
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {
+          "P1": 199.5,
+          "P2": 0.5,
+          "P5": 672.0,
+          "G2": 673.0,
+          "G3": 10.03,
+          "PHINT": 42.8
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "Katumani",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Katumani",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "Katumani is located in a semi-arid zone in Kenya and is expected to experience a maize production decline of -25% to -30% under an extreme temperature rise of +3°C and a 30% decline in precipitation. Increased precipitation can compensate for yield losses from elevated temperatures, with a potential yield gain of 16% under increased precipitation and warming. Site-specific soil, water, and land management adaptation strategies are recommended, including soil and water conservation for dry regions and varying sowing dates for semi-humid to humid zones. Nutrient enhancement and cultivar variation are also suggested as feasible adaptation strategies. For the nitrogen fertilization application, the recom­ mended amounts in the published studies were adopted. Maize Yield in Different Sites Under the Baseline Period Maize yield was stimulated for the study sites under the synthetic climate change scenarios. The results show that warm­ ing accompanied by a decrease in precipitation might favour the highland areas, whereas the drought-prone regions might be severely affected. The calibration process determines the cultivar coefficients that govern the accumulation of temperature heat units and plant development from emergence to physiological matu­ rity (Jones et al., 2003).",
+          "normal_planting_window": "Strategies for soil and water conservation are recommended for dry regions, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": [
+            "Katumani",
+            "Kenya"
+          ]
+        },
+        "location_contexts": [
+          {
+            "location_name": "Katumani",
+            "location_type": "site",
+            "agro_ecological_zone": "semi-arid",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "The analysis points to adverse effects in the semi-arid zones, with maize production in Katumani (Kenya)... expected to decline by -25% to -30% under an extreme temperature rise of +3°C and a 30% decline in precipitation. The results also reveal that increased precipitation will compensate for yield losses resulting from elevated temperatures in both arid and humid zones. The potential yield gain under increased precipitation and warming is 16%... in Katumani...",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study area (East Africa, including Katumani, Kenya)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "dry to subhumid",
+            "season": "baseline (1981–2010) and synthetic climate scenarios",
+            "management_context": "locally adopted cultivars, site-specific adaptation strategies recommended",
+            "relation_scope": "study_area",
+            "evidence": "We used calibrated cultivar coefficients of locally adopted varieties in twelve sites across the region. Consequently, we generated synthetic scenarios of precipitation and temperature changes... to characterize the impact of climate change on maize production across the region.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+            "confidence": "medium"
+          }
+        ],
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {
+          "P1": 172.0,
+          "P2": 0.5,
+          "P5": 999.0,
+          "G2": 398.0,
+          "G3": 6.27,
+          "PHINT": 75.0
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "MH-16",
+      "crop": "MZ",
+      "country": "Uganda",
+      "location": "Masindi",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+          "normal_planting_window": "Specific sites; 1) ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": [
+            "Masindi",
+            "Hoima"
+          ]
+        },
+        "location_contexts": [
+          {
+            "location_name": "Masindi and Hoima",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "MH-16 was calibrated for Masindi and Hoima, Uganda.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study_area",
+            "location_type": "study_area",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "All cultivars were evaluated across the full study area in East Africa.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=2",
+            "confidence": "medium"
+          }
+        ],
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {
+          "P1": 245.3,
+          "P2": 0.28,
+          "P5": 843.0,
+          "G2": 417.3,
+          "G3": 7.87,
+          "PHINT": 75.0
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "UH6303",
+      "crop": "MZ",
+      "country": "Tanzania",
+      "location": "Njombe",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+          "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Njombe",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "UH6303, H628 Njombe Tanzania (Mtongori et al., 2015)",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        ],
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {
+          "P1": 310.0,
+          "P2": 0.5,
+          "P5": 800.0,
+          "G2": 580.0,
+          "G3": 6.0,
+          "PHINT": 38.0
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "H628",
+      "crop": "MZ",
+      "country": "Tanzania",
+      "location": "Njombe",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+          "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+          "planting_density": "53,333 plants/ha; 25 cm x 75 cm row/intra-row spacing",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "Njombe"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Njombe",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "Nitrogen fertilization was 64 kg N/ha and a top dressing amount of 36 kg N/ha",
+            "relation_scope": "cultivar_specific",
+            "evidence": "UH6303, H628 Njombe Tanzania (Mtongori et al., 2015)",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study_area",
+            "location_type": "study_area",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm adopted giving a plant population of 53,333 plants/ha. The planting depth was set to 10 cm.",
+            "relation_scope": "study_area",
+            "evidence": "For all the studied regions a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+            "confidence": "medium"
+          }
+        ],
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {
+          "P1": 315.0,
+          "P2": 0.5,
+          "P5": 800.0,
+          "G2": 470.0,
+          "G3": 4.5,
+          "PHINT": 38.9
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "Ecavel",
+      "crop": "MZ",
+      "country": "Rwanda",
+      "location": "Ruzizi plains",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+          "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Ruzizi plains",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Ecavel was calibrated for the Ruzizi plains region covering Rwanda-Burundi (Bagula et al., 2022).",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        ],
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {
+          "P1": 212.0,
+          "P2": 0.75,
+          "P5": 800.0,
+          "G2": 800.0,
+          "G3": 8.5,
+          "PHINT": 40.0
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "H511",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Embu",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "humid, sub-humid",
+          "adaptation_notes": "Embu is described as having a climate ranging from cool sub-humid to humid agro-ecologies with extended rainfall seasons. The study notes that Embu is among the regions with high potential for maize production under baseline climate, but also among the lowest average production sites in some scenarios. Nitrogen fertilizer rate for Embu was 60 kg N/ha. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Planting depth was set to 10 cm. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+          "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+          "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "Embu"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Embu",
+            "location_type": "county",
+            "agro_ecological_zone": "humid, sub-humid",
+            "season": "NA",
+            "management_context": "Nitrogen fertilizer rate: 60 kg N/ha; Planting density: 25 cm x 75 cm (53,333 plants/ha); Planting depth: 10 cm",
+            "relation_scope": "cultivar_specific",
+            "evidence": "H511 was calibrated and evaluated for Embu, Kenya. Embu is described as having a climate ranging from cool sub-humid to humid agro-ecologies with extended rainfall seasons. Nitrogen fertilizer rate for Embu was 60 kg N/ha. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Planting depth was set to 10 cm.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study area (East Africa)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "humid, sub-humid, semi-humid",
+            "season": "NA",
+            "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm (53,333 plants/ha) applied to all studied regions.",
+            "relation_scope": "study_area",
+            "evidence": "For all the studied regions a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+            "confidence": "medium"
+          }
+        ],
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {
+          "P1": 190.0,
+          "P2": 0.6,
+          "P5": 725.0,
+          "G2": 550.0,
+          "G3": 7.9,
+          "PHINT": 42.0
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "H513",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Embu",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+          "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": [
+            "Embu"
+          ]
+        },
+        "location_contexts": [
+          {
+            "location_name": "Embu",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "H511, H513 were calibrated and evaluated for Embu, Kenya.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study area (East Africa)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "The study synthesized DSSAT-CERES-Maize model calibrated and evaluated experiments to analyze the sensitivity of climatic variables on maize yield in the region. We used calibrated cultivar coefficients of locally adopted varieties in twelve sites across the region.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+            "confidence": "medium"
+          }
+        ],
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {
+          "P1": 205.0,
+          "P2": 0.6,
+          "P5": 760.5,
+          "G2": 690.0,
+          "G3": 8.7,
+          "PHINT": 40.0
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    },
+    {
+      "cultivar_name": "Melkassa 1",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "NA",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": "NA",
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": "NA",
+          "adaptation_notes": "Agronomic adaptation strategies under climate change for winter durum wheat and tomato in Southern Italy: Irrigation and nitrogen fertilization. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The calibration process determines the cultivar coefficients that govern the accumulation of temperature heat units and plant development from emergence to physiological matu­ rity (Jones et al., 2003).",
+          "normal_planting_window": "Projecting maize yield under local-scale climate change scenar­ ios using crop models: Sensitivity to sowing dates, cultivar, and nitrogen fertilizer rates.",
+          "planting_density": "NA",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": "NA"
+        },
+        "location_contexts": [
+          {
+            "location_name": "Kenya",
+            "location_type": "study_area",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_or_paper",
+            "evidence": "Derived from normalized paper-level location fields.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+            "confidence": "low"
+          }
+        ],
+        "source": "s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+        "confidence": "low"
+      },
+      "coefficients": {
+        "found": true,
+        "source": "RAG: s42106-025-00341-7.pdf",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "coefficients": {
+          "P1": 101.5,
+          "P2": 0.75,
+          "P5": 685.0,
+          "G2": 375.0,
+          "G3": 11.65,
+          "PHINT": 40.0
+        },
+        "notes": "Extracted from a paper-reported DSSAT coefficient table."
+      }
+    }
+  ],
+  "sample_db": {
+    "crop": "MZ",
+    "country": "NA",
+    "cultivars": {
+      "BH-660": {
+        "cultivar_name": "BH-660",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "cool sub-humid to humid",
+            "adaptation_notes": "Bako is identified as a high potential maize production site with favourable climate and extended rainfall seasons. The region is suitable for maize cultivation and has been used for DSSAT-CERES-Maize model calibration and evaluation. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Di-ammonium phosphate (DAP) rate was adopted for Bako stations. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Bako National Maize Research Center"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Bako National Maize Research Center",
+              "location_type": "site",
+              "agro_ecological_zone": "cool sub-humid to humid",
+              "season": "NA",
+              "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm; 53,333 plants/ha; DAP fertilizer rate adopted for Bako stations",
+              "relation_scope": "cultivar_specific",
+              "evidence": "BH-660 was calibrated and evaluated at Bako National Maize Research Center, Ethiopia, which is a high potential maize production site with favourable climate and extended rainfall seasons. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Di-ammonium phosphate (DAP) rate was adopted for Bako stations.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study_area",
+              "location_type": "study_area",
+              "agro_ecological_zone": "cool sub-humid to humid",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "study_area",
+              "evidence": "The study was conducted in five EA countries where maize is largely grown, including Ethiopia. Bako is among the sites with high potential for maize production and favourable climate.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=2",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 260.0,
+            "P2": 0.75,
+            "P5": 850.0,
+            "G2": 800.0,
+            "G3": 8.5,
+            "PHINT": 49.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "H614": {
+        "cultivar_name": "H614",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "cool sub-humid to humid agroecologies",
+            "adaptation_notes": "Trans Nzoia is identified as a high potential maize production region with a climate ranging from cool sub-humid to humid agroecologies and extended rainfall seasons. The study notes that such regions have high maize yield potential and less yield variation under baseline conditions. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Trans Nzoia"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Trans Nzoia",
+              "location_type": "county",
+              "agro_ecological_zone": "cool sub-humid to humid agroecologies",
+              "season": "NA",
+              "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm, plant population 53,333 plants/ha, planting depth 10 cm, nitrogen fertilization rate similar to Hoima, Uganda (70 kg/ha at sowing, 25 kg/ha top dressing at 30 days)",
+              "relation_scope": "cultivar_specific",
+              "evidence": "H614 was calibrated for Trans Nzoia, Kenya. Trans Nzoia is described as having high maize production potential with a cool sub-humid to humid climate and extended rainfall seasons. For all studied regions, a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha. The nitrogen fertilization rate was similar to Hoima, Uganda (70 kg/ha at sowing, 25 kg/ha top dressing at 30 days).",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study area",
+              "location_type": "study_area",
+              "agro_ecological_zone": "cool sub-humid to humid agroecologies; moderate to low yields in Wami, Morogoro, and Dodoma",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "study_area",
+              "evidence": "The study area includes Trans Nzoia and other regions with varying agroecological zones. Trans Nzoia is among the regions with high maize production potential due to favorable climate.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=8",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 290.8,
+            "P2": 0.47,
+            "P5": 921.2,
+            "G2": 796.8,
+            "G3": 5.26,
+            "PHINT": 39.74
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "BH540": {
+        "cultivar_name": "BH540",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "humid",
+              "sub-humid",
+              "semihumid"
+            ],
+            "adaptation_notes": "BH540 was calibrated and evaluated for Hawassa and Ziway, Ethiopia, in a region with climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons. High maize production potential was observed in these regions under baseline climate. All cultivars were simulated with uniform management: 25 cm x 75 cm spacing, 53,333 plants/ha, 10 cm planting depth, and region-specific nitrogen rates. Adaptation practices such as tied ridges, micro-dosing, mulching, and small-scale irrigation are recommended for drier areas, but not specifically for Hawassa. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "Sowing date for Hawassa: 15 June (Abera et al., 2018).",
+            "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha; 10 cm planting depth.",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Hawassa",
+              "Ziway"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "Hawassa",
+              "location_type": "site",
+              "agro_ecological_zone": "humid|sub-humid",
+              "season": "NA",
+              "management_context": "25 cm x 75 cm spacing; 53,333 plants/ha; 10 cm planting depth; region-specific nitrogen rates",
+              "relation_scope": "cultivar_specific",
+              "evidence": "BH540 was calibrated and evaluated for Hawassa, Ethiopia, in a region with climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons. Sowing date for Hawassa: 15 June (Abera et al., 2018).",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "Ziway",
+              "location_type": "site",
+              "agro_ecological_zone": "sub-humid|semihumid",
+              "season": "NA",
+              "management_context": "25 cm x 75 cm spacing; 53,333 plants/ha; 10 cm planting depth; region-specific nitrogen rates",
+              "relation_scope": "cultivar_specific",
+              "evidence": "BH540 was calibrated and evaluated for Ziway, Ethiopia, in a region with climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 220.1,
+            "P2": 0.86,
+            "P5": 840.1,
+            "G2": 266.2,
+            "G3": 10.65,
+            "PHINT": 38.9
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "Melkassa I": {
+        "cultivar_name": "Melkassa I",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "The effect of nitrogen-fertilizer and optimal plant population on the profitability of maize plots in the Wami river sub-basin, Tanzania: A bio-economic simulation approach. An integrated crop model and GIS decision support system for assisting agronomic decision making under climate change. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The calibration process determines the cultivar coefficients that govern the accumulation of temperature heat units and plant development from emergence to physiological matu­ rity (Jones et al., 2003).",
+            "normal_planting_window": "Projecting maize yield under local-scale climate change scenar­ ios using crop models: Sensitivity to sowing dates, cultivar, and nitrogen fertilizer rates.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Melkassa",
+              "location_type": "site",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Melkassa I Melkassa Ethiopia",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {},
+          "notes": ""
+        }
+      },
+      "Situka": {
+        "cultivar_name": "Situka",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Dodoma",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Situka Dodoma Tanzania (Lana et al., 2018)",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "Morogoro",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Situka Morogoro Tanzania (Mourice et al., 2015)",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 199.5,
+            "P2": 0.5,
+            "P5": 672.0,
+            "G2": 673.0,
+            "G3": 10.03,
+            "PHINT": 42.8
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "Katumani": {
+        "cultivar_name": "Katumani",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "Katumani is located in a semi-arid zone in Kenya and is expected to experience a maize production decline of -25% to -30% under an extreme temperature rise of +3°C and a 30% decline in precipitation. Increased precipitation can compensate for yield losses from elevated temperatures, with a potential yield gain of 16% under increased precipitation and warming. Site-specific soil, water, and land management adaptation strategies are recommended, including soil and water conservation for dry regions and varying sowing dates for semi-humid to humid zones. Nutrient enhancement and cultivar variation are also suggested as feasible adaptation strategies. For the nitrogen fertilization application, the recom­ mended amounts in the published studies were adopted. Maize Yield in Different Sites Under the Baseline Period Maize yield was stimulated for the study sites under the synthetic climate change scenarios. The results show that warm­ ing accompanied by a decrease in precipitation might favour the highland areas, whereas the drought-prone regions might be severely affected. The calibration process determines the cultivar coefficients that govern the accumulation of temperature heat units and plant development from emergence to physiological matu­ rity (Jones et al., 2003).",
+            "normal_planting_window": "Strategies for soil and water conservation are recommended for dry regions, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Katumani",
+              "Kenya"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "Katumani",
+              "location_type": "site",
+              "agro_ecological_zone": "semi-arid",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "The analysis points to adverse effects in the semi-arid zones, with maize production in Katumani (Kenya)... expected to decline by -25% to -30% under an extreme temperature rise of +3°C and a 30% decline in precipitation. The results also reveal that increased precipitation will compensate for yield losses resulting from elevated temperatures in both arid and humid zones. The potential yield gain under increased precipitation and warming is 16%... in Katumani...",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study area (East Africa, including Katumani, Kenya)",
+              "location_type": "study_area",
+              "agro_ecological_zone": "dry to subhumid",
+              "season": "baseline (1981–2010) and synthetic climate scenarios",
+              "management_context": "locally adopted cultivars, site-specific adaptation strategies recommended",
+              "relation_scope": "study_area",
+              "evidence": "We used calibrated cultivar coefficients of locally adopted varieties in twelve sites across the region. Consequently, we generated synthetic scenarios of precipitation and temperature changes... to characterize the impact of climate change on maize production across the region.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 172.0,
+            "P2": 0.5,
+            "P5": 999.0,
+            "G2": 398.0,
+            "G3": 6.27,
+            "PHINT": 75.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "MH-16": {
+        "cultivar_name": "MH-16",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "Specific sites; 1) ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Masindi",
+              "Hoima"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "Masindi and Hoima",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "MH-16 was calibrated for Masindi and Hoima, Uganda.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study_area",
+              "location_type": "study_area",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "study_area",
+              "evidence": "All cultivars were evaluated across the full study area in East Africa.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=2",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 245.3,
+            "P2": 0.28,
+            "P5": 843.0,
+            "G2": 417.3,
+            "G3": 7.87,
+            "PHINT": 75.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "UH6303": {
+        "cultivar_name": "UH6303",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Njombe",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "UH6303, H628 Njombe Tanzania (Mtongori et al., 2015)",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 310.0,
+            "P2": 0.5,
+            "P5": 800.0,
+            "G2": 580.0,
+            "G3": 6.0,
+            "PHINT": 38.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "H628": {
+        "cultivar_name": "H628",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "53,333 plants/ha; 25 cm x 75 cm row/intra-row spacing",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Njombe"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Njombe",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "Nitrogen fertilization was 64 kg N/ha and a top dressing amount of 36 kg N/ha",
+              "relation_scope": "cultivar_specific",
+              "evidence": "UH6303, H628 Njombe Tanzania (Mtongori et al., 2015)",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study_area",
+              "location_type": "study_area",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm adopted giving a plant population of 53,333 plants/ha. The planting depth was set to 10 cm.",
+              "relation_scope": "study_area",
+              "evidence": "For all the studied regions a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 315.0,
+            "P2": 0.5,
+            "P5": 800.0,
+            "G2": 470.0,
+            "G3": 4.5,
+            "PHINT": 38.9
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "Ecavel": {
+        "cultivar_name": "Ecavel",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Ruzizi plains",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Ecavel was calibrated for the Ruzizi plains region covering Rwanda-Burundi (Bagula et al., 2022).",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 212.0,
+            "P2": 0.75,
+            "P5": 800.0,
+            "G2": 800.0,
+            "G3": 8.5,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "H511": {
+        "cultivar_name": "H511",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "humid, sub-humid",
+            "adaptation_notes": "Embu is described as having a climate ranging from cool sub-humid to humid agro-ecologies with extended rainfall seasons. The study notes that Embu is among the regions with high potential for maize production under baseline climate, but also among the lowest average production sites in some scenarios. Nitrogen fertilizer rate for Embu was 60 kg N/ha. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Planting depth was set to 10 cm. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Embu"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu",
+              "location_type": "county",
+              "agro_ecological_zone": "humid, sub-humid",
+              "season": "NA",
+              "management_context": "Nitrogen fertilizer rate: 60 kg N/ha; Planting density: 25 cm x 75 cm (53,333 plants/ha); Planting depth: 10 cm",
+              "relation_scope": "cultivar_specific",
+              "evidence": "H511 was calibrated and evaluated for Embu, Kenya. Embu is described as having a climate ranging from cool sub-humid to humid agro-ecologies with extended rainfall seasons. Nitrogen fertilizer rate for Embu was 60 kg N/ha. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Planting depth was set to 10 cm.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study area (East Africa)",
+              "location_type": "study_area",
+              "agro_ecological_zone": "humid, sub-humid, semi-humid",
+              "season": "NA",
+              "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm (53,333 plants/ha) applied to all studied regions.",
+              "relation_scope": "study_area",
+              "evidence": "For all the studied regions a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 190.0,
+            "P2": 0.6,
+            "P5": 725.0,
+            "G2": 550.0,
+            "G3": 7.9,
+            "PHINT": 42.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "H513": {
+        "cultivar_name": "H513",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Embu"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "H511, H513 were calibrated and evaluated for Embu, Kenya.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study area (East Africa)",
+              "location_type": "study_area",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "study_area",
+              "evidence": "The study synthesized DSSAT-CERES-Maize model calibrated and evaluated experiments to analyze the sensitivity of climatic variables on maize yield in the region. We used calibrated cultivar coefficients of locally adopted varieties in twelve sites across the region.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 205.0,
+            "P2": 0.6,
+            "P5": 760.5,
+            "G2": 690.0,
+            "G3": 8.7,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "Melkassa 1": {
+        "cultivar_name": "Melkassa 1",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "Agronomic adaptation strategies under climate change for winter durum wheat and tomato in Southern Italy: Irrigation and nitrogen fertilization. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The calibration process determines the cultivar coefficients that govern the accumulation of temperature heat units and plant development from emergence to physiological matu­ rity (Jones et al., 2003).",
+            "normal_planting_window": "Projecting maize yield under local-scale climate change scenar­ ios using crop models: Sensitivity to sowing dates, cultivar, and nitrogen fertilizer rates.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Kenya",
+              "location_type": "study_area",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_or_paper",
+              "evidence": "Derived from normalized paper-level location fields.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+              "confidence": "low"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+          "confidence": "low"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 101.5,
+            "P2": 0.75,
+            "P5": 685.0,
+            "G2": 375.0,
+            "G3": 11.65,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    }
+  },
+  "web_index": {
+    "by_crop": {
+      "MZ": [
+        {
+          "record_id": "s42106-025-00341-7-bh-660-1",
+          "cultivar_name": "BH-660",
+          "crop": "MZ",
+          "country": "Ethiopia",
+          "location": "Bako National Maize Research Center",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-bh540-3",
+          "cultivar_name": "BH540",
+          "crop": "MZ",
+          "country": "Ethiopia",
+          "location": "Hawassa",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-ecavel-10",
+          "cultivar_name": "Ecavel",
+          "crop": "MZ",
+          "country": "Rwanda",
+          "location": "Ruzizi plains",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-h511-11",
+          "cultivar_name": "H511",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-h513-12",
+          "cultivar_name": "H513",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-h614-2",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-h628-9",
+          "cultivar_name": "H628",
+          "crop": "MZ",
+          "country": "Tanzania",
+          "location": "Njombe",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-katumani-6",
+          "cultivar_name": "Katumani",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Katumani",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-mh-16-7",
+          "cultivar_name": "MH-16",
+          "crop": "MZ",
+          "country": "Uganda",
+          "location": "Masindi",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-melkassa-1-13",
+          "cultivar_name": "Melkassa 1",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "NA",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-melkassa-i-4",
+          "cultivar_name": "Melkassa I",
+          "crop": "MZ",
+          "country": "Ethiopia",
+          "location": "Melkassa",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": false
+        },
+        {
+          "record_id": "s42106-025-00341-7-situka-5",
+          "cultivar_name": "Situka",
+          "crop": "MZ",
+          "country": "Tanzania",
+          "location": "Dodoma",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-uh6303-8",
+          "cultivar_name": "UH6303",
+          "crop": "MZ",
+          "country": "Tanzania",
+          "location": "Njombe",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        }
+      ]
+    },
+    "by_country": {
+      "Ethiopia": [
+        {
+          "record_id": "s42106-025-00341-7-bh-660-1",
+          "cultivar_name": "BH-660",
+          "crop": "MZ",
+          "country": "Ethiopia",
+          "location": "Bako National Maize Research Center",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-bh540-3",
+          "cultivar_name": "BH540",
+          "crop": "MZ",
+          "country": "Ethiopia",
+          "location": "Hawassa",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-melkassa-i-4",
+          "cultivar_name": "Melkassa I",
+          "crop": "MZ",
+          "country": "Ethiopia",
+          "location": "Melkassa",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": false
+        }
+      ],
+      "Kenya": [
+        {
+          "record_id": "s42106-025-00341-7-h511-11",
+          "cultivar_name": "H511",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-h513-12",
+          "cultivar_name": "H513",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-h614-2",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-katumani-6",
+          "cultivar_name": "Katumani",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Katumani",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-melkassa-1-13",
+          "cultivar_name": "Melkassa 1",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "NA",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        }
+      ],
+      "Rwanda": [
+        {
+          "record_id": "s42106-025-00341-7-ecavel-10",
+          "cultivar_name": "Ecavel",
+          "crop": "MZ",
+          "country": "Rwanda",
+          "location": "Ruzizi plains",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        }
+      ],
+      "Tanzania": [
+        {
+          "record_id": "s42106-025-00341-7-h628-9",
+          "cultivar_name": "H628",
+          "crop": "MZ",
+          "country": "Tanzania",
+          "location": "Njombe",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-situka-5",
+          "cultivar_name": "Situka",
+          "crop": "MZ",
+          "country": "Tanzania",
+          "location": "Dodoma",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        },
+        {
+          "record_id": "s42106-025-00341-7-uh6303-8",
+          "cultivar_name": "UH6303",
+          "crop": "MZ",
+          "country": "Tanzania",
+          "location": "Njombe",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        }
+      ],
+      "Uganda": [
+        {
+          "record_id": "s42106-025-00341-7-mh-16-7",
+          "cultivar_name": "MH-16",
+          "crop": "MZ",
+          "country": "Uganda",
+          "location": "Masindi",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true
+        }
+      ]
+    },
+    "by_location": {
+      "Bako National Maize Research Center": [
+        {
+          "record_id": "s42106-025-00341-7-bh-660-1",
+          "cultivar_name": "BH-660",
+          "crop": "MZ",
+          "country": "Ethiopia",
+          "location": "Bako National Maize Research Center",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Bako National Maize Research Center",
+            "location_type": "site",
+            "agro_ecological_zone": "cool sub-humid to humid",
+            "season": "NA",
+            "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm; 53,333 plants/ha; DAP fertilizer rate adopted for Bako stations",
+            "relation_scope": "cultivar_specific",
+            "evidence": "BH-660 was calibrated and evaluated at Bako National Maize Research Center, Ethiopia, which is a high potential maize production site with favourable climate and extended rainfall seasons. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Di-ammonium phosphate (DAP) rate was adopted for Bako stations.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "Dodoma": [
+        {
+          "record_id": "s42106-025-00341-7-situka-5",
+          "cultivar_name": "Situka",
+          "crop": "MZ",
+          "country": "Tanzania",
+          "location": "Dodoma",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Dodoma",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Situka Dodoma Tanzania (Lana et al., 2018)",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "Embu": [
+        {
+          "record_id": "s42106-025-00341-7-h511-11",
+          "cultivar_name": "H511",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Embu",
+            "location_type": "county",
+            "agro_ecological_zone": "humid, sub-humid",
+            "season": "NA",
+            "management_context": "Nitrogen fertilizer rate: 60 kg N/ha; Planting density: 25 cm x 75 cm (53,333 plants/ha); Planting depth: 10 cm",
+            "relation_scope": "cultivar_specific",
+            "evidence": "H511 was calibrated and evaluated for Embu, Kenya. Embu is described as having a climate ranging from cool sub-humid to humid agro-ecologies with extended rainfall seasons. Nitrogen fertilizer rate for Embu was 60 kg N/ha. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Planting depth was set to 10 cm.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "s42106-025-00341-7-h513-12",
+          "cultivar_name": "H513",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Embu",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "H511, H513 were calibrated and evaluated for Embu, Kenya.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "Hawassa": [
+        {
+          "record_id": "s42106-025-00341-7-bh540-3",
+          "cultivar_name": "BH540",
+          "crop": "MZ",
+          "country": "Ethiopia",
+          "location": "Hawassa",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Hawassa",
+            "location_type": "site",
+            "agro_ecological_zone": "humid|sub-humid",
+            "season": "NA",
+            "management_context": "25 cm x 75 cm spacing; 53,333 plants/ha; 10 cm planting depth; region-specific nitrogen rates",
+            "relation_scope": "cultivar_specific",
+            "evidence": "BH540 was calibrated and evaluated for Hawassa, Ethiopia, in a region with climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons. Sowing date for Hawassa: 15 June (Abera et al., 2018).",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "Katumani": [
+        {
+          "record_id": "s42106-025-00341-7-katumani-6",
+          "cultivar_name": "Katumani",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Katumani",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Katumani",
+            "location_type": "site",
+            "agro_ecological_zone": "semi-arid",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "The analysis points to adverse effects in the semi-arid zones, with maize production in Katumani (Kenya)... expected to decline by -25% to -30% under an extreme temperature rise of +3°C and a 30% decline in precipitation. The results also reveal that increased precipitation will compensate for yield losses resulting from elevated temperatures in both arid and humid zones. The potential yield gain under increased precipitation and warming is 16%... in Katumani...",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+            "confidence": "high"
+          }
+        }
+      ],
+      "Kenya": [
+        {
+          "record_id": "s42106-025-00341-7-melkassa-1-13",
+          "cultivar_name": "Melkassa 1",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "NA",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Kenya",
+            "location_type": "study_area",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_or_paper",
+            "evidence": "Derived from normalized paper-level location fields.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+            "confidence": "low"
+          }
+        }
+      ],
+      "Masindi and Hoima": [
+        {
+          "record_id": "s42106-025-00341-7-mh-16-7",
+          "cultivar_name": "MH-16",
+          "crop": "MZ",
+          "country": "Uganda",
+          "location": "Masindi",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Masindi and Hoima",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "MH-16 was calibrated for Masindi and Hoima, Uganda.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "Melkassa": [
+        {
+          "record_id": "s42106-025-00341-7-melkassa-i-4",
+          "cultivar_name": "Melkassa I",
+          "crop": "MZ",
+          "country": "Ethiopia",
+          "location": "Melkassa",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "Melkassa",
+            "location_type": "site",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Melkassa I Melkassa Ethiopia",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "Morogoro": [
+        {
+          "record_id": "s42106-025-00341-7-situka-5",
+          "cultivar_name": "Situka",
+          "crop": "MZ",
+          "country": "Tanzania",
+          "location": "Dodoma",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Morogoro",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Situka Morogoro Tanzania (Mourice et al., 2015)",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "Njombe": [
+        {
+          "record_id": "s42106-025-00341-7-h628-9",
+          "cultivar_name": "H628",
+          "crop": "MZ",
+          "country": "Tanzania",
+          "location": "Njombe",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Njombe",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "Nitrogen fertilization was 64 kg N/ha and a top dressing amount of 36 kg N/ha",
+            "relation_scope": "cultivar_specific",
+            "evidence": "UH6303, H628 Njombe Tanzania (Mtongori et al., 2015)",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        },
+        {
+          "record_id": "s42106-025-00341-7-uh6303-8",
+          "cultivar_name": "UH6303",
+          "crop": "MZ",
+          "country": "Tanzania",
+          "location": "Njombe",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Njombe",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "UH6303, H628 Njombe Tanzania (Mtongori et al., 2015)",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "Ruzizi plains": [
+        {
+          "record_id": "s42106-025-00341-7-ecavel-10",
+          "cultivar_name": "Ecavel",
+          "crop": "MZ",
+          "country": "Rwanda",
+          "location": "Ruzizi plains",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Ruzizi plains",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Ecavel was calibrated for the Ruzizi plains region covering Rwanda-Burundi (Bagula et al., 2022).",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "Trans Nzoia": [
+        {
+          "record_id": "s42106-025-00341-7-h614-2",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Trans Nzoia",
+            "location_type": "county",
+            "agro_ecological_zone": "cool sub-humid to humid agroecologies",
+            "season": "NA",
+            "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm, plant population 53,333 plants/ha, planting depth 10 cm, nitrogen fertilization rate similar to Hoima, Uganda (70 kg/ha at sowing, 25 kg/ha top dressing at 30 days)",
+            "relation_scope": "cultivar_specific",
+            "evidence": "H614 was calibrated for Trans Nzoia, Kenya. Trans Nzoia is described as having high maize production potential with a cool sub-humid to humid climate and extended rainfall seasons. For all studied regions, a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha. The nitrogen fertilization rate was similar to Hoima, Uganda (70 kg/ha at sowing, 25 kg/ha top dressing at 30 days).",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "Ziway": [
+        {
+          "record_id": "s42106-025-00341-7-bh540-3",
+          "cultivar_name": "BH540",
+          "crop": "MZ",
+          "country": "Ethiopia",
+          "location": "Hawassa",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "Ziway",
+            "location_type": "site",
+            "agro_ecological_zone": "sub-humid|semihumid",
+            "season": "NA",
+            "management_context": "25 cm x 75 cm spacing; 53,333 plants/ha; 10 cm planting depth; region-specific nitrogen rates",
+            "relation_scope": "cultivar_specific",
+            "evidence": "BH540 was calibrated and evaluated for Ziway, Ethiopia, in a region with climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "study area": [
+        {
+          "record_id": "s42106-025-00341-7-h614-2",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "study area",
+            "location_type": "study_area",
+            "agro_ecological_zone": "cool sub-humid to humid agroecologies; moderate to low yields in Wami, Morogoro, and Dodoma",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "The study area includes Trans Nzoia and other regions with varying agroecological zones. Trans Nzoia is among the regions with high maize production potential due to favorable climate.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=8",
+            "confidence": "medium"
+          }
+        }
+      ],
+      "study area (East Africa)": [
+        {
+          "record_id": "s42106-025-00341-7-h511-11",
+          "cultivar_name": "H511",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "study area (East Africa)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "humid, sub-humid, semi-humid",
+            "season": "NA",
+            "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm (53,333 plants/ha) applied to all studied regions.",
+            "relation_scope": "study_area",
+            "evidence": "For all the studied regions a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+            "confidence": "medium"
+          }
+        },
+        {
+          "record_id": "s42106-025-00341-7-h513-12",
+          "cultivar_name": "H513",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Embu",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "study area (East Africa)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "The study synthesized DSSAT-CERES-Maize model calibrated and evaluated experiments to analyze the sensitivity of climatic variables on maize yield in the region. We used calibrated cultivar coefficients of locally adopted varieties in twelve sites across the region.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+            "confidence": "medium"
+          }
+        }
+      ],
+      "study area (East Africa, including Katumani, Kenya)": [
+        {
+          "record_id": "s42106-025-00341-7-katumani-6",
+          "cultivar_name": "Katumani",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Katumani",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "study area (East Africa, including Katumani, Kenya)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "dry to subhumid",
+            "season": "baseline (1981–2010) and synthetic climate scenarios",
+            "management_context": "locally adopted cultivars, site-specific adaptation strategies recommended",
+            "relation_scope": "study_area",
+            "evidence": "We used calibrated cultivar coefficients of locally adopted varieties in twelve sites across the region. Consequently, we generated synthetic scenarios of precipitation and temperature changes... to characterize the impact of climate change on maize production across the region.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+            "confidence": "medium"
+          }
+        }
+      ],
+      "study_area": [
+        {
+          "record_id": "s42106-025-00341-7-bh-660-1",
+          "cultivar_name": "BH-660",
+          "crop": "MZ",
+          "country": "Ethiopia",
+          "location": "Bako National Maize Research Center",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "study_area",
+            "location_type": "study_area",
+            "agro_ecological_zone": "cool sub-humid to humid",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "The study was conducted in five EA countries where maize is largely grown, including Ethiopia. Bako is among the sites with high potential for maize production and favourable climate.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=2",
+            "confidence": "medium"
+          }
+        },
+        {
+          "record_id": "s42106-025-00341-7-h628-9",
+          "cultivar_name": "H628",
+          "crop": "MZ",
+          "country": "Tanzania",
+          "location": "Njombe",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "study_area",
+            "location_type": "study_area",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm adopted giving a plant population of 53,333 plants/ha. The planting depth was set to 10 cm.",
+            "relation_scope": "study_area",
+            "evidence": "For all the studied regions a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+            "confidence": "medium"
+          }
+        },
+        {
+          "record_id": "s42106-025-00341-7-mh-16-7",
+          "cultivar_name": "MH-16",
+          "crop": "MZ",
+          "country": "Uganda",
+          "location": "Masindi",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "has_coefficients": true,
+          "location_context": {
+            "location_name": "study_area",
+            "location_type": "study_area",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "All cultivars were evaluated across the full study area in East Africa.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=2",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    "by_cultivar": {
+      "s42106-025-00341-7-bh-660-1": {
+        "record_id": "s42106-025-00341-7-bh-660-1",
+        "cultivar_name": "BH-660",
+        "crop": "MZ",
+        "country": "Ethiopia",
+        "location": "Bako National Maize Research Center",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Bako National Maize Research Center",
+            "location_type": "site",
+            "agro_ecological_zone": "cool sub-humid to humid",
+            "season": "NA",
+            "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm; 53,333 plants/ha; DAP fertilizer rate adopted for Bako stations",
+            "relation_scope": "cultivar_specific",
+            "evidence": "BH-660 was calibrated and evaluated at Bako National Maize Research Center, Ethiopia, which is a high potential maize production site with favourable climate and extended rainfall seasons. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Di-ammonium phosphate (DAP) rate was adopted for Bako stations.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study_area",
+            "location_type": "study_area",
+            "agro_ecological_zone": "cool sub-humid to humid",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "The study was conducted in five EA countries where maize is largely grown, including Ethiopia. Bako is among the sites with high potential for maize production and favourable climate.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=2",
+            "confidence": "medium"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "cool sub-humid to humid",
+            "adaptation_notes": "Bako is identified as a high potential maize production site with favourable climate and extended rainfall seasons. The region is suitable for maize cultivation and has been used for DSSAT-CERES-Maize model calibration and evaluation. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Di-ammonium phosphate (DAP) rate was adopted for Bako stations. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Bako National Maize Research Center"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Bako National Maize Research Center",
+              "location_type": "site",
+              "agro_ecological_zone": "cool sub-humid to humid",
+              "season": "NA",
+              "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm; 53,333 plants/ha; DAP fertilizer rate adopted for Bako stations",
+              "relation_scope": "cultivar_specific",
+              "evidence": "BH-660 was calibrated and evaluated at Bako National Maize Research Center, Ethiopia, which is a high potential maize production site with favourable climate and extended rainfall seasons. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Di-ammonium phosphate (DAP) rate was adopted for Bako stations.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study_area",
+              "location_type": "study_area",
+              "agro_ecological_zone": "cool sub-humid to humid",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "study_area",
+              "evidence": "The study was conducted in five EA countries where maize is largely grown, including Ethiopia. Bako is among the sites with high potential for maize production and favourable climate.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=2",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 260.0,
+            "P2": 0.75,
+            "P5": 850.0,
+            "G2": 800.0,
+            "G3": 8.5,
+            "PHINT": 49.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "s42106-025-00341-7-bh540-3": {
+        "record_id": "s42106-025-00341-7-bh540-3",
+        "cultivar_name": "BH540",
+        "crop": "MZ",
+        "country": "Ethiopia",
+        "location": "Hawassa",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Hawassa",
+            "location_type": "site",
+            "agro_ecological_zone": "humid|sub-humid",
+            "season": "NA",
+            "management_context": "25 cm x 75 cm spacing; 53,333 plants/ha; 10 cm planting depth; region-specific nitrogen rates",
+            "relation_scope": "cultivar_specific",
+            "evidence": "BH540 was calibrated and evaluated for Hawassa, Ethiopia, in a region with climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons. Sowing date for Hawassa: 15 June (Abera et al., 2018).",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "Ziway",
+            "location_type": "site",
+            "agro_ecological_zone": "sub-humid|semihumid",
+            "season": "NA",
+            "management_context": "25 cm x 75 cm spacing; 53,333 plants/ha; 10 cm planting depth; region-specific nitrogen rates",
+            "relation_scope": "cultivar_specific",
+            "evidence": "BH540 was calibrated and evaluated for Ziway, Ethiopia, in a region with climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "humid",
+              "sub-humid",
+              "semihumid"
+            ],
+            "adaptation_notes": "BH540 was calibrated and evaluated for Hawassa and Ziway, Ethiopia, in a region with climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons. High maize production potential was observed in these regions under baseline climate. All cultivars were simulated with uniform management: 25 cm x 75 cm spacing, 53,333 plants/ha, 10 cm planting depth, and region-specific nitrogen rates. Adaptation practices such as tied ridges, micro-dosing, mulching, and small-scale irrigation are recommended for drier areas, but not specifically for Hawassa. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "Sowing date for Hawassa: 15 June (Abera et al., 2018).",
+            "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha; 10 cm planting depth.",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Hawassa",
+              "Ziway"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "Hawassa",
+              "location_type": "site",
+              "agro_ecological_zone": "humid|sub-humid",
+              "season": "NA",
+              "management_context": "25 cm x 75 cm spacing; 53,333 plants/ha; 10 cm planting depth; region-specific nitrogen rates",
+              "relation_scope": "cultivar_specific",
+              "evidence": "BH540 was calibrated and evaluated for Hawassa, Ethiopia, in a region with climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons. Sowing date for Hawassa: 15 June (Abera et al., 2018).",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "Ziway",
+              "location_type": "site",
+              "agro_ecological_zone": "sub-humid|semihumid",
+              "season": "NA",
+              "management_context": "25 cm x 75 cm spacing; 53,333 plants/ha; 10 cm planting depth; region-specific nitrogen rates",
+              "relation_scope": "cultivar_specific",
+              "evidence": "BH540 was calibrated and evaluated for Ziway, Ethiopia, in a region with climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 220.1,
+            "P2": 0.86,
+            "P5": 840.1,
+            "G2": 266.2,
+            "G3": 10.65,
+            "PHINT": 38.9
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "s42106-025-00341-7-ecavel-10": {
+        "record_id": "s42106-025-00341-7-ecavel-10",
+        "cultivar_name": "Ecavel",
+        "crop": "MZ",
+        "country": "Rwanda",
+        "location": "Ruzizi plains",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Ruzizi plains",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Ecavel was calibrated for the Ruzizi plains region covering Rwanda-Burundi (Bagula et al., 2022).",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Ruzizi plains",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Ecavel was calibrated for the Ruzizi plains region covering Rwanda-Burundi (Bagula et al., 2022).",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 212.0,
+            "P2": 0.75,
+            "P5": 800.0,
+            "G2": 800.0,
+            "G3": 8.5,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "s42106-025-00341-7-h511-11": {
+        "record_id": "s42106-025-00341-7-h511-11",
+        "cultivar_name": "H511",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Embu",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Embu",
+            "location_type": "county",
+            "agro_ecological_zone": "humid, sub-humid",
+            "season": "NA",
+            "management_context": "Nitrogen fertilizer rate: 60 kg N/ha; Planting density: 25 cm x 75 cm (53,333 plants/ha); Planting depth: 10 cm",
+            "relation_scope": "cultivar_specific",
+            "evidence": "H511 was calibrated and evaluated for Embu, Kenya. Embu is described as having a climate ranging from cool sub-humid to humid agro-ecologies with extended rainfall seasons. Nitrogen fertilizer rate for Embu was 60 kg N/ha. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Planting depth was set to 10 cm.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study area (East Africa)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "humid, sub-humid, semi-humid",
+            "season": "NA",
+            "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm (53,333 plants/ha) applied to all studied regions.",
+            "relation_scope": "study_area",
+            "evidence": "For all the studied regions a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+            "confidence": "medium"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "humid, sub-humid",
+            "adaptation_notes": "Embu is described as having a climate ranging from cool sub-humid to humid agro-ecologies with extended rainfall seasons. The study notes that Embu is among the regions with high potential for maize production under baseline climate, but also among the lowest average production sites in some scenarios. Nitrogen fertilizer rate for Embu was 60 kg N/ha. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Planting depth was set to 10 cm. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Embu"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu",
+              "location_type": "county",
+              "agro_ecological_zone": "humid, sub-humid",
+              "season": "NA",
+              "management_context": "Nitrogen fertilizer rate: 60 kg N/ha; Planting density: 25 cm x 75 cm (53,333 plants/ha); Planting depth: 10 cm",
+              "relation_scope": "cultivar_specific",
+              "evidence": "H511 was calibrated and evaluated for Embu, Kenya. Embu is described as having a climate ranging from cool sub-humid to humid agro-ecologies with extended rainfall seasons. Nitrogen fertilizer rate for Embu was 60 kg N/ha. Uniform intra/inter row spacing of 25 cm x 75 cm was adopted, giving a plant population of 53,333 plants/ha. Planting depth was set to 10 cm.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study area (East Africa)",
+              "location_type": "study_area",
+              "agro_ecological_zone": "humid, sub-humid, semi-humid",
+              "season": "NA",
+              "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm (53,333 plants/ha) applied to all studied regions.",
+              "relation_scope": "study_area",
+              "evidence": "For all the studied regions a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 190.0,
+            "P2": 0.6,
+            "P5": 725.0,
+            "G2": 550.0,
+            "G3": 7.9,
+            "PHINT": 42.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "s42106-025-00341-7-h513-12": {
+        "record_id": "s42106-025-00341-7-h513-12",
+        "cultivar_name": "H513",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Embu",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Embu",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "H511, H513 were calibrated and evaluated for Embu, Kenya.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study area (East Africa)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "The study synthesized DSSAT-CERES-Maize model calibrated and evaluated experiments to analyze the sensitivity of climatic variables on maize yield in the region. We used calibrated cultivar coefficients of locally adopted varieties in twelve sites across the region.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+            "confidence": "medium"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Embu"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "Embu",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "H511, H513 were calibrated and evaluated for Embu, Kenya.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study area (East Africa)",
+              "location_type": "study_area",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "study_area",
+              "evidence": "The study synthesized DSSAT-CERES-Maize model calibrated and evaluated experiments to analyze the sensitivity of climatic variables on maize yield in the region. We used calibrated cultivar coefficients of locally adopted varieties in twelve sites across the region.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 205.0,
+            "P2": 0.6,
+            "P5": 760.5,
+            "G2": 690.0,
+            "G3": 8.7,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "s42106-025-00341-7-h614-2": {
+        "record_id": "s42106-025-00341-7-h614-2",
+        "cultivar_name": "H614",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Trans Nzoia",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Trans Nzoia",
+            "location_type": "county",
+            "agro_ecological_zone": "cool sub-humid to humid agroecologies",
+            "season": "NA",
+            "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm, plant population 53,333 plants/ha, planting depth 10 cm, nitrogen fertilization rate similar to Hoima, Uganda (70 kg/ha at sowing, 25 kg/ha top dressing at 30 days)",
+            "relation_scope": "cultivar_specific",
+            "evidence": "H614 was calibrated for Trans Nzoia, Kenya. Trans Nzoia is described as having high maize production potential with a cool sub-humid to humid climate and extended rainfall seasons. For all studied regions, a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha. The nitrogen fertilization rate was similar to Hoima, Uganda (70 kg/ha at sowing, 25 kg/ha top dressing at 30 days).",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study area",
+            "location_type": "study_area",
+            "agro_ecological_zone": "cool sub-humid to humid agroecologies; moderate to low yields in Wami, Morogoro, and Dodoma",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "The study area includes Trans Nzoia and other regions with varying agroecological zones. Trans Nzoia is among the regions with high maize production potential due to favorable climate.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=8",
+            "confidence": "medium"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "cool sub-humid to humid agroecologies",
+            "adaptation_notes": "Trans Nzoia is identified as a high potential maize production region with a climate ranging from cool sub-humid to humid agroecologies and extended rainfall seasons. The study notes that such regions have high maize yield potential and less yield variation under baseline conditions. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Trans Nzoia"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Trans Nzoia",
+              "location_type": "county",
+              "agro_ecological_zone": "cool sub-humid to humid agroecologies",
+              "season": "NA",
+              "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm, plant population 53,333 plants/ha, planting depth 10 cm, nitrogen fertilization rate similar to Hoima, Uganda (70 kg/ha at sowing, 25 kg/ha top dressing at 30 days)",
+              "relation_scope": "cultivar_specific",
+              "evidence": "H614 was calibrated for Trans Nzoia, Kenya. Trans Nzoia is described as having high maize production potential with a cool sub-humid to humid climate and extended rainfall seasons. For all studied regions, a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha. The nitrogen fertilization rate was similar to Hoima, Uganda (70 kg/ha at sowing, 25 kg/ha top dressing at 30 days).",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study area",
+              "location_type": "study_area",
+              "agro_ecological_zone": "cool sub-humid to humid agroecologies; moderate to low yields in Wami, Morogoro, and Dodoma",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "study_area",
+              "evidence": "The study area includes Trans Nzoia and other regions with varying agroecological zones. Trans Nzoia is among the regions with high maize production potential due to favorable climate.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=8",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 290.8,
+            "P2": 0.47,
+            "P5": 921.2,
+            "G2": 796.8,
+            "G3": 5.26,
+            "PHINT": 39.74
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "s42106-025-00341-7-h628-9": {
+        "record_id": "s42106-025-00341-7-h628-9",
+        "cultivar_name": "H628",
+        "crop": "MZ",
+        "country": "Tanzania",
+        "location": "Njombe",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Njombe",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "Nitrogen fertilization was 64 kg N/ha and a top dressing amount of 36 kg N/ha",
+            "relation_scope": "cultivar_specific",
+            "evidence": "UH6303, H628 Njombe Tanzania (Mtongori et al., 2015)",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study_area",
+            "location_type": "study_area",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm adopted giving a plant population of 53,333 plants/ha. The planting depth was set to 10 cm.",
+            "relation_scope": "study_area",
+            "evidence": "For all the studied regions a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+            "confidence": "medium"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "53,333 plants/ha; 25 cm x 75 cm row/intra-row spacing",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Njombe"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Njombe",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "Nitrogen fertilization was 64 kg N/ha and a top dressing amount of 36 kg N/ha",
+              "relation_scope": "cultivar_specific",
+              "evidence": "UH6303, H628 Njombe Tanzania (Mtongori et al., 2015)",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study_area",
+              "location_type": "study_area",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "Uniform intra/inter row spacing of 25 cm x 75 cm adopted giving a plant population of 53,333 plants/ha. The planting depth was set to 10 cm.",
+              "relation_scope": "study_area",
+              "evidence": "For all the studied regions a uniform intra/inter row spacing of 25 cm x 75 cm was adopted giving a plant population of 53,333 plants/ha.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 315.0,
+            "P2": 0.5,
+            "P5": 800.0,
+            "G2": 470.0,
+            "G3": 4.5,
+            "PHINT": 38.9
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "s42106-025-00341-7-katumani-6": {
+        "record_id": "s42106-025-00341-7-katumani-6",
+        "cultivar_name": "Katumani",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Katumani",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+        "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Katumani",
+            "location_type": "site",
+            "agro_ecological_zone": "semi-arid",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "The analysis points to adverse effects in the semi-arid zones, with maize production in Katumani (Kenya)... expected to decline by -25% to -30% under an extreme temperature rise of +3°C and a 30% decline in precipitation. The results also reveal that increased precipitation will compensate for yield losses resulting from elevated temperatures in both arid and humid zones. The potential yield gain under increased precipitation and warming is 16%... in Katumani...",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study area (East Africa, including Katumani, Kenya)",
+            "location_type": "study_area",
+            "agro_ecological_zone": "dry to subhumid",
+            "season": "baseline (1981–2010) and synthetic climate scenarios",
+            "management_context": "locally adopted cultivars, site-specific adaptation strategies recommended",
+            "relation_scope": "study_area",
+            "evidence": "We used calibrated cultivar coefficients of locally adopted varieties in twelve sites across the region. Consequently, we generated synthetic scenarios of precipitation and temperature changes... to characterize the impact of climate change on maize production across the region.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+            "confidence": "medium"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "Katumani is located in a semi-arid zone in Kenya and is expected to experience a maize production decline of -25% to -30% under an extreme temperature rise of +3°C and a 30% decline in precipitation. Increased precipitation can compensate for yield losses from elevated temperatures, with a potential yield gain of 16% under increased precipitation and warming. Site-specific soil, water, and land management adaptation strategies are recommended, including soil and water conservation for dry regions and varying sowing dates for semi-humid to humid zones. Nutrient enhancement and cultivar variation are also suggested as feasible adaptation strategies. For the nitrogen fertilization application, the recom­ mended amounts in the published studies were adopted. Maize Yield in Different Sites Under the Baseline Period Maize yield was stimulated for the study sites under the synthetic climate change scenarios. The results show that warm­ ing accompanied by a decrease in precipitation might favour the highland areas, whereas the drought-prone regions might be severely affected. The calibration process determines the cultivar coefficients that govern the accumulation of temperature heat units and plant development from emergence to physiological matu­ rity (Jones et al., 2003).",
+            "normal_planting_window": "Strategies for soil and water conservation are recommended for dry regions, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Katumani",
+              "Kenya"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "Katumani",
+              "location_type": "site",
+              "agro_ecological_zone": "semi-arid",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "The analysis points to adverse effects in the semi-arid zones, with maize production in Katumani (Kenya)... expected to decline by -25% to -30% under an extreme temperature rise of +3°C and a 30% decline in precipitation. The results also reveal that increased precipitation will compensate for yield losses resulting from elevated temperatures in both arid and humid zones. The potential yield gain under increased precipitation and warming is 16%... in Katumani...",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study area (East Africa, including Katumani, Kenya)",
+              "location_type": "study_area",
+              "agro_ecological_zone": "dry to subhumid",
+              "season": "baseline (1981–2010) and synthetic climate scenarios",
+              "management_context": "locally adopted cultivars, site-specific adaptation strategies recommended",
+              "relation_scope": "study_area",
+              "evidence": "We used calibrated cultivar coefficients of locally adopted varieties in twelve sites across the region. Consequently, we generated synthetic scenarios of precipitation and temperature changes... to characterize the impact of climate change on maize production across the region.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 172.0,
+            "P2": 0.5,
+            "P5": 999.0,
+            "G2": 398.0,
+            "G3": 6.27,
+            "PHINT": 75.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "s42106-025-00341-7-melkassa-1-13": {
+        "record_id": "s42106-025-00341-7-melkassa-1-13",
+        "cultivar_name": "Melkassa 1",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "NA",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+        "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Kenya",
+            "location_type": "study_area",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_or_paper",
+            "evidence": "Derived from normalized paper-level location fields.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+            "confidence": "low"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "Agronomic adaptation strategies under climate change for winter durum wheat and tomato in Southern Italy: Irrigation and nitrogen fertilization. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The calibration process determines the cultivar coefficients that govern the accumulation of temperature heat units and plant development from emergence to physiological matu­ rity (Jones et al., 2003).",
+            "normal_planting_window": "Projecting maize yield under local-scale climate change scenar­ ios using crop models: Sensitivity to sowing dates, cultivar, and nitrogen fertilizer rates.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Kenya",
+              "location_type": "study_area",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_or_paper",
+              "evidence": "Derived from normalized paper-level location fields.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+              "confidence": "low"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+          "confidence": "low"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 101.5,
+            "P2": 0.75,
+            "P5": 685.0,
+            "G2": 375.0,
+            "G3": 11.65,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "s42106-025-00341-7-melkassa-i-4": {
+        "record_id": "s42106-025-00341-7-melkassa-i-4",
+        "cultivar_name": "Melkassa I",
+        "crop": "MZ",
+        "country": "Ethiopia",
+        "location": "Melkassa",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "has_coefficients": false,
+        "location_contexts": [
+          {
+            "location_name": "Melkassa",
+            "location_type": "site",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Melkassa I Melkassa Ethiopia",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "The effect of nitrogen-fertilizer and optimal plant population on the profitability of maize plots in the Wami river sub-basin, Tanzania: A bio-economic simulation approach. An integrated crop model and GIS decision support system for assisting agronomic decision making under climate change. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The calibration process determines the cultivar coefficients that govern the accumulation of temperature heat units and plant development from emergence to physiological matu­ rity (Jones et al., 2003).",
+            "normal_planting_window": "Projecting maize yield under local-scale climate change scenar­ ios using crop models: Sensitivity to sowing dates, cultivar, and nitrogen fertilizer rates.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Melkassa",
+              "location_type": "site",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Melkassa I Melkassa Ethiopia",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {},
+          "notes": ""
+        }
+      },
+      "s42106-025-00341-7-mh-16-7": {
+        "record_id": "s42106-025-00341-7-mh-16-7",
+        "cultivar_name": "MH-16",
+        "crop": "MZ",
+        "country": "Uganda",
+        "location": "Masindi",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Masindi and Hoima",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "MH-16 was calibrated for Masindi and Hoima, Uganda.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "study_area",
+            "location_type": "study_area",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "study_area",
+            "evidence": "All cultivars were evaluated across the full study area in East Africa.",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=2",
+            "confidence": "medium"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "Specific sites; 1) ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Masindi",
+              "Hoima"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "Masindi and Hoima",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "MH-16 was calibrated for Masindi and Hoima, Uganda.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "study_area",
+              "location_type": "study_area",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "study_area",
+              "evidence": "All cultivars were evaluated across the full study area in East Africa.",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=2",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 245.3,
+            "P2": 0.28,
+            "P5": 843.0,
+            "G2": 417.3,
+            "G3": 7.87,
+            "PHINT": 75.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "s42106-025-00341-7-situka-5": {
+        "record_id": "s42106-025-00341-7-situka-5",
+        "cultivar_name": "Situka",
+        "crop": "MZ",
+        "country": "Tanzania",
+        "location": "Dodoma",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Dodoma",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Situka Dodoma Tanzania (Lana et al., 2018)",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          },
+          {
+            "location_name": "Morogoro",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "Situka Morogoro Tanzania (Mourice et al., 2015)",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Dodoma",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Situka Dodoma Tanzania (Lana et al., 2018)",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            },
+            {
+              "location_name": "Morogoro",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "Situka Morogoro Tanzania (Mourice et al., 2015)",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 199.5,
+            "P2": 0.5,
+            "P5": 672.0,
+            "G2": 673.0,
+            "G3": 10.03,
+            "PHINT": 42.8
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "s42106-025-00341-7-uh6303-8": {
+        "record_id": "s42106-025-00341-7-uh6303-8",
+        "cultivar_name": "UH6303",
+        "crop": "MZ",
+        "country": "Tanzania",
+        "location": "Njombe",
+        "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+        "coefficient_source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+        "has_coefficients": true,
+        "location_contexts": [
+          {
+            "location_name": "Njombe",
+            "location_type": "region",
+            "agro_ecological_zone": "NA",
+            "season": "NA",
+            "management_context": "NA",
+            "relation_scope": "cultivar_specific",
+            "evidence": "UH6303, H628 Njombe Tanzania (Mtongori et al., 2015)",
+            "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+            "confidence": "high"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "location_contexts": [
+            {
+              "location_name": "Njombe",
+              "location_type": "region",
+              "agro_ecological_zone": "NA",
+              "season": "NA",
+              "management_context": "NA",
+              "relation_scope": "cultivar_specific",
+              "evidence": "UH6303, H628 Njombe Tanzania (Mtongori et al., 2015)",
+              "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+              "confidence": "high"
+            }
+          ],
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 310.0,
+            "P2": 0.5,
+            "P5": 800.0,
+            "G2": 580.0,
+            "G3": 6.0,
+            "PHINT": 38.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    }
+  }
+}

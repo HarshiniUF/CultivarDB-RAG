@@ -17,6 +17,14 @@ To process every bundled paper:
 python -m paper_rag.run_pipeline input_papers/
 ```
 
-The output is written to `paper_based_cultivar_db.json` by default. It contains
-both `records` and a `sample_db` block whose cultivar entries mirror
-`sampleDB.json`.
+The combined output is written to
+`Paper_Rag/Json_Outputs/paper_based_cultivar_db.json` by default. It contains:
+
+- `records`: one structured entry per paper/cultivar.
+- `sample_db`: a `sampleDB.json`-compatible cultivar map.
+- `web_index`: crop, country, cultivar, and location indexes for UI filtering.
+- `characteristics.location_contexts`: per-cultivar location/season/management
+  relationships with evidence and source pages.
+
+The pipeline also writes one JSON file per input paper to
+`Paper_Rag/Json_Outputs/Individual_Papers/`, including zero-record papers.

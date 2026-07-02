@@ -1,0 +1,476 @@
+{
+  "source_file": "s10113-025-02403-y.pdf",
+  "record_count": 1,
+  "records": [
+    {
+      "cultivar_name": "H614",
+      "crop": "MZ",
+      "country": "Kenya",
+      "location": "Trans Nzoia and Uasin Gishu counties",
+      "characteristics": {
+        "data": {
+          "maturity_class": "NA",
+          "relative_maturity": "NA",
+          "days_to_maturity": "NA",
+          "average_yield_kg_ha": [
+            "Baseline: 2,900–5,800 kg/ha",
+            "Future (RCP4.5): 2,500–4,500 kg/ha",
+            "Future (RCP8.5): 2,500–3,900 kg/ha"
+          ],
+          "plant_height_cm": "NA",
+          "growth_habit": "NA",
+          "disease_resistance": [],
+          "stress_tolerance": {
+            "drought": "NA",
+            "heat": "NA"
+          },
+          "growing_degree_days": "NA",
+          "agro_ecological_zone": [
+            "NA"
+          ],
+          "adaptation_notes": "Yield declines projected for mid-century (−7% to −20%) and end-of-century (−22% to −41%) periods, mainly due to increased temperature and suppressed precipitation during main sowing window (March–May). Adaptation spots identified in southern Uasin Gishu and eastern Trans Nzoia; hotspots in northern Trans Nzoia. Agronomic, vegetative, and soil/water management measures recommended to bridge yield gaps. The model outputs include water and nitrogen balance, leaf area index, biomass and grain yield (Liu et al. Solar radiation values for the study region were increased by 10% to account for increased intensity under climate change (Jabeen et al. https://​doi.​org/​10.​ 1007/​s12571-​022-​01288-7 Falconnier GN, Corbeels M, Boote KJ, Affholder F, Adam M et al (2020) Modelling climate change impacts on maize yields under low nitrogen input conditions in sub-Saharan Africa. The DSSAT-CERES-Maize model runs on a daily time step and simulates leaf, root and stem growth, phenology, and canopy development (Jones et al.",
+          "normal_planting_window": "March–May (main sowing window); suppressed precipitation projected for this window in future scenarios.",
+          "planting_density": "50,000 plants per hectare",
+          "harvest_time": "NA",
+          "season_suitability": "NA",
+          "major_crop_areas": [
+            "Trans Nzoia County",
+            "Uasin Gishu County",
+            "southern Uasin Gishu",
+            "eastern Trans Nzoia",
+            "northern Trans Nzoia"
+          ]
+        },
+        "location_contexts": [
+          {
+            "location_name": "Trans Nzoia and Uasin Gishu counties",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "Baseline (1984–2013), Mid-century (2041–2070), End-of-century (2071–2100)",
+            "management_context": "Simulated with DSSAT-CERES-Maize for H614; climate scenarios RCP4.5 and RCP8.5; main sowing window March–May",
+            "relation_scope": "study_area",
+            "evidence": "This study examines the current and projected influence of climate change on maize yields in two major maize-producing counties of Kenya. Utilizing the calibrated and evaluated DSSAT-CERES-Maize model for the H614 maize cultivar, we investigated the projected impact of climate change on maize production with reference to a baseline period (1984–2013). Simulations were conducted for the mid-century period (2041–2070) and end-of-century period (2071–2100) using projected climate data from regional climate models under two RCP scenarios.",
+            "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+            "confidence": "high"
+          },
+          {
+            "location_name": "southern Uasin Gishu County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "Mid-century and end-of-century periods",
+            "management_context": "Adaptation spots under RCP4.5; decreased yields projected",
+            "relation_scope": "study_area",
+            "evidence": "Adaptation spots under RCP4.5 were located mostly in the southern regions of Uasin Gishu County.",
+            "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+            "confidence": "medium"
+          },
+          {
+            "location_name": "eastern Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "Mid-century period",
+            "management_context": "Adaptation spots under RCP4.5; decreased yields projected",
+            "relation_scope": "study_area",
+            "evidence": "Some eastern parts of Trans Nzoia County revealed decreased yields in the mid-century period.",
+            "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+            "confidence": "medium"
+          },
+          {
+            "location_name": "northern Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "Mid-century and end-of-century periods",
+            "management_context": "Hotspots under RCP8.5; significant low-yield zones projected",
+            "relation_scope": "study_area",
+            "evidence": "The RCP8.5 scenario, however, revealed a slight difference in the representation of adaptation spots in Trans Nzoia County. Some northern parts of the county were mapped as hotspots.",
+            "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+            "confidence": "medium"
+          }
+        ],
+        "source": "s10113-025-02403-y.pdf",
+        "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+        "confidence": "high"
+      },
+      "coefficients": {
+        "found": false,
+        "source": "RAG: s10113-025-02403-y.pdf",
+        "source_url": "input_papers/s10113-025-02403-y.pdf#page=4",
+        "coefficients": {},
+        "notes": "Cultivar coefficients for H614 were adopted from Kipkulei et al. (2022), but no DSSAT genotype coefficient values are reported in this paper."
+      }
+    }
+  ],
+  "sample_db": {
+    "crop": "MZ",
+    "country": "Kenya",
+    "cultivars": {
+      "H614": {
+        "cultivar_name": "H614",
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": [
+              "Baseline: 2,900–5,800 kg/ha",
+              "Future (RCP4.5): 2,500–4,500 kg/ha",
+              "Future (RCP8.5): 2,500–3,900 kg/ha"
+            ],
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "NA"
+            ],
+            "adaptation_notes": "Yield declines projected for mid-century (−7% to −20%) and end-of-century (−22% to −41%) periods, mainly due to increased temperature and suppressed precipitation during main sowing window (March–May). Adaptation spots identified in southern Uasin Gishu and eastern Trans Nzoia; hotspots in northern Trans Nzoia. Agronomic, vegetative, and soil/water management measures recommended to bridge yield gaps. The model outputs include water and nitrogen balance, leaf area index, biomass and grain yield (Liu et al. Solar radiation values for the study region were increased by 10% to account for increased intensity under climate change (Jabeen et al. https://​doi.​org/​10.​ 1007/​s12571-​022-​01288-7 Falconnier GN, Corbeels M, Boote KJ, Affholder F, Adam M et al (2020) Modelling climate change impacts on maize yields under low nitrogen input conditions in sub-Saharan Africa. The DSSAT-CERES-Maize model runs on a daily time step and simulates leaf, root and stem growth, phenology, and canopy development (Jones et al.",
+            "normal_planting_window": "March–May (main sowing window); suppressed precipitation projected for this window in future scenarios.",
+            "planting_density": "50,000 plants per hectare",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Trans Nzoia County",
+              "Uasin Gishu County",
+              "southern Uasin Gishu",
+              "eastern Trans Nzoia",
+              "northern Trans Nzoia"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "Trans Nzoia and Uasin Gishu counties",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "Baseline (1984–2013), Mid-century (2041–2070), End-of-century (2071–2100)",
+              "management_context": "Simulated with DSSAT-CERES-Maize for H614; climate scenarios RCP4.5 and RCP8.5; main sowing window March–May",
+              "relation_scope": "study_area",
+              "evidence": "This study examines the current and projected influence of climate change on maize yields in two major maize-producing counties of Kenya. Utilizing the calibrated and evaluated DSSAT-CERES-Maize model for the H614 maize cultivar, we investigated the projected impact of climate change on maize production with reference to a baseline period (1984–2013). Simulations were conducted for the mid-century period (2041–2070) and end-of-century period (2071–2100) using projected climate data from regional climate models under two RCP scenarios.",
+              "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+              "confidence": "high"
+            },
+            {
+              "location_name": "southern Uasin Gishu County",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "Mid-century and end-of-century periods",
+              "management_context": "Adaptation spots under RCP4.5; decreased yields projected",
+              "relation_scope": "study_area",
+              "evidence": "Adaptation spots under RCP4.5 were located mostly in the southern regions of Uasin Gishu County.",
+              "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+              "confidence": "medium"
+            },
+            {
+              "location_name": "eastern Trans Nzoia County",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "Mid-century period",
+              "management_context": "Adaptation spots under RCP4.5; decreased yields projected",
+              "relation_scope": "study_area",
+              "evidence": "Some eastern parts of Trans Nzoia County revealed decreased yields in the mid-century period.",
+              "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+              "confidence": "medium"
+            },
+            {
+              "location_name": "northern Trans Nzoia County",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "Mid-century and end-of-century periods",
+              "management_context": "Hotspots under RCP8.5; significant low-yield zones projected",
+              "relation_scope": "study_area",
+              "evidence": "The RCP8.5 scenario, however, revealed a slight difference in the representation of adaptation spots in Trans Nzoia County. Some northern parts of the county were mapped as hotspots.",
+              "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s10113-025-02403-y.pdf",
+          "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s10113-025-02403-y.pdf",
+          "source_url": "input_papers/s10113-025-02403-y.pdf#page=4",
+          "coefficients": {},
+          "notes": "Cultivar coefficients for H614 were adopted from Kipkulei et al. (2022), but no DSSAT genotype coefficient values are reported in this paper."
+        }
+      }
+    }
+  },
+  "web_index": {
+    "by_crop": {
+      "MZ": [
+        {
+          "record_id": "s10113-025-02403-y-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia and Uasin Gishu counties",
+          "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+          "coefficient_source_url": "input_papers/s10113-025-02403-y.pdf#page=4",
+          "has_coefficients": false
+        }
+      ]
+    },
+    "by_country": {
+      "Kenya": [
+        {
+          "record_id": "s10113-025-02403-y-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia and Uasin Gishu counties",
+          "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+          "coefficient_source_url": "input_papers/s10113-025-02403-y.pdf#page=4",
+          "has_coefficients": false
+        }
+      ]
+    },
+    "by_location": {
+      "Trans Nzoia and Uasin Gishu counties": [
+        {
+          "record_id": "s10113-025-02403-y-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia and Uasin Gishu counties",
+          "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+          "coefficient_source_url": "input_papers/s10113-025-02403-y.pdf#page=4",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "Trans Nzoia and Uasin Gishu counties",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "Baseline (1984–2013), Mid-century (2041–2070), End-of-century (2071–2100)",
+            "management_context": "Simulated with DSSAT-CERES-Maize for H614; climate scenarios RCP4.5 and RCP8.5; main sowing window March–May",
+            "relation_scope": "study_area",
+            "evidence": "This study examines the current and projected influence of climate change on maize yields in two major maize-producing counties of Kenya. Utilizing the calibrated and evaluated DSSAT-CERES-Maize model for the H614 maize cultivar, we investigated the projected impact of climate change on maize production with reference to a baseline period (1984–2013). Simulations were conducted for the mid-century period (2041–2070) and end-of-century period (2071–2100) using projected climate data from regional climate models under two RCP scenarios.",
+            "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+            "confidence": "high"
+          }
+        }
+      ],
+      "eastern Trans Nzoia County": [
+        {
+          "record_id": "s10113-025-02403-y-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia and Uasin Gishu counties",
+          "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+          "coefficient_source_url": "input_papers/s10113-025-02403-y.pdf#page=4",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "eastern Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "Mid-century period",
+            "management_context": "Adaptation spots under RCP4.5; decreased yields projected",
+            "relation_scope": "study_area",
+            "evidence": "Some eastern parts of Trans Nzoia County revealed decreased yields in the mid-century period.",
+            "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+            "confidence": "medium"
+          }
+        }
+      ],
+      "northern Trans Nzoia County": [
+        {
+          "record_id": "s10113-025-02403-y-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia and Uasin Gishu counties",
+          "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+          "coefficient_source_url": "input_papers/s10113-025-02403-y.pdf#page=4",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "northern Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "Mid-century and end-of-century periods",
+            "management_context": "Hotspots under RCP8.5; significant low-yield zones projected",
+            "relation_scope": "study_area",
+            "evidence": "The RCP8.5 scenario, however, revealed a slight difference in the representation of adaptation spots in Trans Nzoia County. Some northern parts of the county were mapped as hotspots.",
+            "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+            "confidence": "medium"
+          }
+        }
+      ],
+      "southern Uasin Gishu County": [
+        {
+          "record_id": "s10113-025-02403-y-h614-1",
+          "cultivar_name": "H614",
+          "crop": "MZ",
+          "country": "Kenya",
+          "location": "Trans Nzoia and Uasin Gishu counties",
+          "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+          "coefficient_source_url": "input_papers/s10113-025-02403-y.pdf#page=4",
+          "has_coefficients": false,
+          "location_context": {
+            "location_name": "southern Uasin Gishu County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "Mid-century and end-of-century periods",
+            "management_context": "Adaptation spots under RCP4.5; decreased yields projected",
+            "relation_scope": "study_area",
+            "evidence": "Adaptation spots under RCP4.5 were located mostly in the southern regions of Uasin Gishu County.",
+            "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    "by_cultivar": {
+      "s10113-025-02403-y-h614-1": {
+        "record_id": "s10113-025-02403-y-h614-1",
+        "cultivar_name": "H614",
+        "crop": "MZ",
+        "country": "Kenya",
+        "location": "Trans Nzoia and Uasin Gishu counties",
+        "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+        "coefficient_source_url": "input_papers/s10113-025-02403-y.pdf#page=4",
+        "has_coefficients": false,
+        "location_contexts": [
+          {
+            "location_name": "Trans Nzoia and Uasin Gishu counties",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "Baseline (1984–2013), Mid-century (2041–2070), End-of-century (2071–2100)",
+            "management_context": "Simulated with DSSAT-CERES-Maize for H614; climate scenarios RCP4.5 and RCP8.5; main sowing window March–May",
+            "relation_scope": "study_area",
+            "evidence": "This study examines the current and projected influence of climate change on maize yields in two major maize-producing counties of Kenya. Utilizing the calibrated and evaluated DSSAT-CERES-Maize model for the H614 maize cultivar, we investigated the projected impact of climate change on maize production with reference to a baseline period (1984–2013). Simulations were conducted for the mid-century period (2041–2070) and end-of-century period (2071–2100) using projected climate data from regional climate models under two RCP scenarios.",
+            "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+            "confidence": "high"
+          },
+          {
+            "location_name": "southern Uasin Gishu County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "Mid-century and end-of-century periods",
+            "management_context": "Adaptation spots under RCP4.5; decreased yields projected",
+            "relation_scope": "study_area",
+            "evidence": "Adaptation spots under RCP4.5 were located mostly in the southern regions of Uasin Gishu County.",
+            "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+            "confidence": "medium"
+          },
+          {
+            "location_name": "eastern Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "Mid-century period",
+            "management_context": "Adaptation spots under RCP4.5; decreased yields projected",
+            "relation_scope": "study_area",
+            "evidence": "Some eastern parts of Trans Nzoia County revealed decreased yields in the mid-century period.",
+            "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+            "confidence": "medium"
+          },
+          {
+            "location_name": "northern Trans Nzoia County",
+            "location_type": "county",
+            "agro_ecological_zone": "NA",
+            "season": "Mid-century and end-of-century periods",
+            "management_context": "Hotspots under RCP8.5; significant low-yield zones projected",
+            "relation_scope": "study_area",
+            "evidence": "The RCP8.5 scenario, however, revealed a slight difference in the representation of adaptation spots in Trans Nzoia County. Some northern parts of the county were mapped as hotspots.",
+            "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+            "confidence": "medium"
+          }
+        ],
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": [
+              "Baseline: 2,900–5,800 kg/ha",
+              "Future (RCP4.5): 2,500–4,500 kg/ha",
+              "Future (RCP8.5): 2,500–3,900 kg/ha"
+            ],
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "NA"
+            ],
+            "adaptation_notes": "Yield declines projected for mid-century (−7% to −20%) and end-of-century (−22% to −41%) periods, mainly due to increased temperature and suppressed precipitation during main sowing window (March–May). Adaptation spots identified in southern Uasin Gishu and eastern Trans Nzoia; hotspots in northern Trans Nzoia. Agronomic, vegetative, and soil/water management measures recommended to bridge yield gaps. The model outputs include water and nitrogen balance, leaf area index, biomass and grain yield (Liu et al. Solar radiation values for the study region were increased by 10% to account for increased intensity under climate change (Jabeen et al. https://​doi.​org/​10.​ 1007/​s12571-​022-​01288-7 Falconnier GN, Corbeels M, Boote KJ, Affholder F, Adam M et al (2020) Modelling climate change impacts on maize yields under low nitrogen input conditions in sub-Saharan Africa. The DSSAT-CERES-Maize model runs on a daily time step and simulates leaf, root and stem growth, phenology, and canopy development (Jones et al.",
+            "normal_planting_window": "March–May (main sowing window); suppressed precipitation projected for this window in future scenarios.",
+            "planting_density": "50,000 plants per hectare",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Trans Nzoia County",
+              "Uasin Gishu County",
+              "southern Uasin Gishu",
+              "eastern Trans Nzoia",
+              "northern Trans Nzoia"
+            ]
+          },
+          "location_contexts": [
+            {
+              "location_name": "Trans Nzoia and Uasin Gishu counties",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "Baseline (1984–2013), Mid-century (2041–2070), End-of-century (2071–2100)",
+              "management_context": "Simulated with DSSAT-CERES-Maize for H614; climate scenarios RCP4.5 and RCP8.5; main sowing window March–May",
+              "relation_scope": "study_area",
+              "evidence": "This study examines the current and projected influence of climate change on maize yields in two major maize-producing counties of Kenya. Utilizing the calibrated and evaluated DSSAT-CERES-Maize model for the H614 maize cultivar, we investigated the projected impact of climate change on maize production with reference to a baseline period (1984–2013). Simulations were conducted for the mid-century period (2041–2070) and end-of-century period (2071–2100) using projected climate data from regional climate models under two RCP scenarios.",
+              "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+              "confidence": "high"
+            },
+            {
+              "location_name": "southern Uasin Gishu County",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "Mid-century and end-of-century periods",
+              "management_context": "Adaptation spots under RCP4.5; decreased yields projected",
+              "relation_scope": "study_area",
+              "evidence": "Adaptation spots under RCP4.5 were located mostly in the southern regions of Uasin Gishu County.",
+              "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+              "confidence": "medium"
+            },
+            {
+              "location_name": "eastern Trans Nzoia County",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "Mid-century period",
+              "management_context": "Adaptation spots under RCP4.5; decreased yields projected",
+              "relation_scope": "study_area",
+              "evidence": "Some eastern parts of Trans Nzoia County revealed decreased yields in the mid-century period.",
+              "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+              "confidence": "medium"
+            },
+            {
+              "location_name": "northern Trans Nzoia County",
+              "location_type": "county",
+              "agro_ecological_zone": "NA",
+              "season": "Mid-century and end-of-century periods",
+              "management_context": "Hotspots under RCP8.5; significant low-yield zones projected",
+              "relation_scope": "study_area",
+              "evidence": "The RCP8.5 scenario, however, revealed a slight difference in the representation of adaptation spots in Trans Nzoia County. Some northern parts of the county were mapped as hotspots.",
+              "source_url": "input_papers/s10113-025-02403-y.pdf#page=6",
+              "confidence": "medium"
+            }
+          ],
+          "source": "s10113-025-02403-y.pdf",
+          "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s10113-025-02403-y.pdf",
+          "source_url": "input_papers/s10113-025-02403-y.pdf#page=4",
+          "coefficients": {},
+          "notes": "Cultivar coefficients for H614 were adopted from Kipkulei et al. (2022), but no DSSAT genotype coefficient values are reported in this paper."
+        }
+      }
+    }
+  }
+}

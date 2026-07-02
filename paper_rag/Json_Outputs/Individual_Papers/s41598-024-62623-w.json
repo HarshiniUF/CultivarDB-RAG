@@ -1,0 +1,16 @@
+{
+  "source_file": "s41598-024-62623-w.pdf",
+  "record_count": 0,
+  "records": [],
+  "sample_db": {
+    "crop": "NA",
+    "country": "NA",
+    "cultivars": {}
+  },
+  "web_index": {
+    "by_crop": {},
+    "by_country": {},
+    "by_location": {},
+    "by_cultivar": {}
+  }
+}
