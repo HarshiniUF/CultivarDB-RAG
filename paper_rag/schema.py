@@ -213,8 +213,8 @@ def records_to_sample_db(records: List[CultivarRecord], generated_at: str | None
     countries = sorted({record.country for record in records if record.country != NA})
     crops = sorted({record.crop for record in records if record.crop != NA})
     return {
-        "crop": crops[0] if len(crops) == 1 else NA,
-        "country": countries[0] if len(countries) == 1 else NA,
+        "crop": _single_or_joined(crops),
+        "country": _single_or_joined(countries),
         "generated_at": generated_at or NA,
         "total_zones": len(zones),
         "processed": len(zones),
@@ -332,6 +332,12 @@ def _location_context(
         "source_url": _clean_value(source_url),
         "confidence": _clean_value(confidence) or "low",
     }
+
+
+def _single_or_joined(values: List[str]) -> str:
+    if not values:
+        return NA
+    return values[0] if len(values) == 1 else ", ".join(values)
 
 
 def _record_zone_names(record: CultivarRecord) -> List[str]:
