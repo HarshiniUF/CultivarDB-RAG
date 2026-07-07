@@ -18,13 +18,41 @@ python -m paper_rag.run_pipeline input_papers/
 ```
 
 The combined output is written to
-`Paper_Rag/Json_Outputs/paper_based_cultivar_db.json` by default. It contains:
+`Paper_Rag/Json_Outputs/paper_based_cultivar_db.json` by default. The file now
+matches the `sampleDB.json` layout:
 
-- `records`: one structured entry per paper/cultivar.
-- `sample_db`: a `sampleDB.json`-compatible cultivar map.
-- `web_index`: crop, country, cultivar, and location indexes for UI filtering.
-- `characteristics.location_contexts`: per-cultivar location/season/management
-  relationships with evidence and source pages.
+- `crop`
+- `country`
+- `generated_at`
+- `total_zones`
+- `processed`
+- `summary.total_cultivars_identified`
+- `zones.<zone>.<cultivar>.characteristics`
+- `zones.<zone>.<cultivar>.coefficients`
 
-The pipeline also writes one JSON file per input paper to
-`Paper_Rag/Json_Outputs/Individual_Papers/`, including zero-record papers.
+By default, the pipeline writes only this combined JSON file.
+
+To support the three planned data sources (LLM baseline, paper RAG, and
+GARDIAN/API records), each run also writes combine-ready standardized outputs:
+
+- `Paper_Rag/Json_Outputs/Standardized/unified_cultivar_records.json`
+- `Paper_Rag/Json_Outputs/Standardized/unified_cultivar_records.csv`
+- `Paper_Rag/Json_Outputs/Standardized/unified_schema.json`
+- `Paper_Rag/Json_Outputs/Standardized/agent_cultivar_lookup.json`
+- `Paper_Rag/Json_Outputs/Standardized/merged_cultivar_database.json`
+
+Pass `--write-auxiliary-outputs` to generate these helper files. They keep the same top-level columns across sources. Rich paper-specific
+details such as `location_contexts` remain available, but optional, so future
+LLM and GARDIAN outputs can be merged without changing the schema. The
+standardized rows include a normalized `cultivar_key` so aliases such as
+`SC-627` and `SC627` can be merged for downstream APIs and field agents.
+
+For DSSAT workflows, records with complete paper-reported coefficients are also
+exported to:
+
+- `Paper_Rag/Json_Outputs/DSSAT_Outputs/MZCER_RAG.CUL`
+- `Paper_Rag/Json_Outputs/DSSAT_Outputs/cultivar_coefficients.csv`
+- `Paper_Rag/Json_Outputs/DSSAT_Outputs/dssat_export_manifest.json`
+
+The pipeline only creates cultivar coefficient exports from reported values; it
+does not invent `.ECO` or `.SPE` parameters when papers do not provide them.

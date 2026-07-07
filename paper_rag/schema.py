@@ -194,21 +194,40 @@ def normalize_location_contexts(record: CultivarRecord) -> List[Dict[str, Any]]:
     ]
 
 
-def records_to_sample_db(records: List[CultivarRecord]) -> Dict[str, Any]:
-    cultivars: Dict[str, Any] = {}
+def records_to_sample_db(records: List[CultivarRecord], generated_at: str | None = None) -> Dict[str, Any]:
+    zones: Dict[str, Dict[str, Any]] = {}
+    cultivar_zones: Dict[str, set[str]] = {}
+
     for record in records:
-        cultivars[record.cultivar_name] = {
-            "cultivar_name": record.cultivar_name,
-            "characteristics": record.characteristics,
-            "coefficients": record.coefficients,
-        }
+        for zone_name in _record_zone_names(record):
+            zones.setdefault(zone_name, {})
+            cultivar_zones.setdefault(record.cultivar_name, set()).add(zone_name)
+            cultivar_record = _sample_cultivar_record(record)
+            existing = zones[zone_name].get(record.cultivar_name)
+            zones[zone_name][record.cultivar_name] = (
+                _merge_sample_cultivar_records(existing, cultivar_record)
+                if existing
+                else cultivar_record
+            )
 
     countries = sorted({record.country for record in records if record.country != NA})
     crops = sorted({record.crop for record in records if record.crop != NA})
     return {
         "crop": crops[0] if len(crops) == 1 else NA,
         "country": countries[0] if len(countries) == 1 else NA,
-        "cultivars": cultivars,
+        "generated_at": generated_at or NA,
+        "total_zones": len(zones),
+        "processed": len(zones),
+        "summary": {
+            "total_cultivars_identified": {
+                cultivar: sorted(zone_names)
+                for cultivar, zone_names in sorted(cultivar_zones.items())
+            }
+        },
+        "zones": {
+            zone_name: dict(sorted(cultivars.items()))
+            for zone_name, cultivars in sorted(zones.items())
+        },
     }
 
 
@@ -313,6 +332,144 @@ def _location_context(
         "source_url": _clean_value(source_url),
         "confidence": _clean_value(confidence) or "low",
     }
+
+
+def _record_zone_names(record: CultivarRecord) -> List[str]:
+    zones = []
+    for context in record.characteristics.get("location_contexts", []):
+        if not isinstance(context, dict):
+            continue
+        for key in ("agro_ecological_zone", "location_name"):
+            value = _clean_value(context.get(key))
+            if value != NA:
+                zones.append(value)
+                break
+    data = record.characteristics.get("data", {})
+    if not zones:
+        for value in (data.get("agro_ecological_zone"), record.location, data.get("major_crop_areas")):
+            clean = _clean_value(value)
+            if clean != NA:
+                zones.append(clean)
+                break
+    if not zones:
+        zones.append("Unspecified")
+
+    unique_zones = []
+    seen = set()
+    for zone in zones:
+        clean = zone.strip()
+        key = clean.lower()
+        if clean and key not in seen:
+            seen.add(key)
+            unique_zones.append(clean)
+    return unique_zones
+
+
+def _sample_cultivar_record(record: CultivarRecord) -> Dict[str, Any]:
+    characteristics = {
+        "data": _sample_characteristics_data(record.characteristics.get("data", {})),
+        "source": record.characteristics.get("source", NA),
+        "source_url": record.characteristics.get("source_url", NA),
+        "confidence": record.characteristics.get("confidence", "low"),
+    }
+    coefficients = {
+        "found": bool(record.coefficients.get("found")),
+        "source": record.coefficients.get("source", f"RAG: {characteristics['source']}"),
+        "source_url": record.coefficients.get("source_url"),
+        "coefficients": {
+            field: record.coefficients.get("coefficients", {}).get(field)
+            for field in COEFFICIENT_FIELDS
+            if field in record.coefficients.get("coefficients", {})
+        },
+        "notes": record.coefficients.get("notes", ""),
+    }
+    return {"characteristics": characteristics, "coefficients": coefficients}
+
+
+def _sample_characteristics_data(data: Dict[str, Any]) -> Dict[str, Any]:
+    sample_data = {}
+    for key, default_value in CHARACTERISTIC_FIELDS.items():
+        value = data.get(key, default_value)
+        if isinstance(default_value, dict):
+            clean_value = value if isinstance(value, dict) else {}
+            sample_data[key] = {
+                nested_key: clean_value.get(nested_key, nested_default)
+                for nested_key, nested_default in default_value.items()
+            }
+        elif isinstance(default_value, list):
+            sample_data[key] = value if isinstance(value, list) else ([] if value in (None, "", NA) else [value])
+        else:
+            sample_data[key] = value if value not in (None, "") else NA
+    return sample_data
+
+
+def _merge_sample_cultivar_records(existing: Dict[str, Any], incoming: Dict[str, Any]) -> Dict[str, Any]:
+    merged = json.loads(json.dumps(existing))
+    existing_data = merged["characteristics"]["data"]
+    incoming_data = incoming["characteristics"]["data"]
+    for key, incoming_value in incoming_data.items():
+        existing_value = existing_data.get(key)
+        if key == "disease_resistance":
+            existing_data[key] = _merge_lists(existing_value or [], incoming_value or [])
+        elif key == "stress_tolerance":
+            existing_data[key] = {
+                stress_key: _prefer_value(existing_value.get(stress_key), incoming_value.get(stress_key))
+                for stress_key in CHARACTERISTIC_FIELDS["stress_tolerance"]
+            }
+        else:
+            existing_data[key] = _prefer_value(existing_value, incoming_value)
+
+    if not merged["coefficients"].get("found") and incoming["coefficients"].get("found"):
+        merged["coefficients"] = incoming["coefficients"]
+    elif merged["coefficients"].get("found") and incoming["coefficients"].get("found"):
+        merged["coefficients"]["notes"] = _merge_notes(
+            merged["coefficients"].get("notes", ""),
+            incoming["coefficients"].get("notes", ""),
+        )
+
+    merged["characteristics"]["source"] = _merge_sources(
+        merged["characteristics"].get("source"),
+        incoming["characteristics"].get("source"),
+    )
+    merged["characteristics"]["source_url"] = _merge_sources(
+        merged["characteristics"].get("source_url"),
+        incoming["characteristics"].get("source_url"),
+    )
+    return merged
+
+
+def _prefer_value(existing: Any, incoming: Any) -> Any:
+    if existing in (None, "", NA) and incoming not in (None, "", NA):
+        return incoming
+    return existing if existing not in (None, "") else NA
+
+
+def _merge_lists(existing: List[Any], incoming: List[Any]) -> List[Any]:
+    merged = []
+    seen = set()
+    for value in [*existing, *incoming]:
+        key = str(value).lower()
+        if value and key not in seen:
+            seen.add(key)
+            merged.append(value)
+    return merged
+
+
+def _merge_sources(existing: Any, incoming: Any) -> Any:
+    values = []
+    for source in (existing, incoming):
+        if isinstance(source, list):
+            values.extend(source)
+        elif source not in (None, "", NA):
+            values.append(source)
+    merged = _merge_lists([], values)
+    if not merged:
+        return NA
+    return merged[0] if len(merged) == 1 else merged
+
+
+def _merge_notes(existing: str, incoming: str) -> str:
+    return " ".join(_merge_lists([], [existing, incoming]))
 
 
 def _split_locations(value: Any) -> List[str]:

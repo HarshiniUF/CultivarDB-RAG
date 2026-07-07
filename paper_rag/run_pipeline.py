@@ -9,9 +9,10 @@ from typing import List
 from .cultivar_discovery import discover_cultivars
 from .extractor import extract_records
 from .llm_client import OpenAICompatibleClient, load_dotenv
+from .output_exports import write_dssat_exports, write_standardized_outputs
 from .pdf_loader import load_many
 from .retriever import KeywordRetriever
-from .schema import records_to_sample_db, records_to_web_index, write_individual_outputs
+from .schema import records_to_sample_db, write_individual_outputs
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -29,26 +30,24 @@ def main() -> None:
     retriever = KeywordRetriever(chunks)
     records = extract_records(candidates, retriever, llm)
 
-    output = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-        "source_type": "paper_based_rag",
-        "input_papers": [str(path) for path in papers],
-        "llm_configured": llm.configured,
-        "records": [record.to_dict() for record in records],
-        "sample_db": records_to_sample_db(records),
-        "web_index": records_to_web_index(records),
-    }
+    generated_at = datetime.now(timezone.utc).isoformat()
+    output = records_to_sample_db(records, generated_at=generated_at)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    individual_dir = args.individual_output_dir or args.output.parent / "Individual_Papers"
-    individual_outputs = write_individual_outputs(
-        records,
-        individual_dir,
-        source_files=[path.name for path in papers],
-    )
     print(f"Wrote {len(records)} records to {args.output}")
-    print(f"Wrote {len(individual_outputs)} individual paper JSON files to {individual_dir}")
+    if args.write_auxiliary_outputs:
+        individual_dir = args.individual_output_dir or args.output.parent / "Individual_Papers"
+        individual_outputs = write_individual_outputs(
+            records,
+            individual_dir,
+            source_files=[path.name for path in papers],
+        )
+        standardized_outputs = write_standardized_outputs(records, args.output.parent / "Standardized")
+        dssat_outputs = write_dssat_exports(records, args.output.parent / "DSSAT_Outputs")
+        print(f"Wrote {len(individual_outputs)} individual paper JSON files to {individual_dir}")
+        print(f"Wrote standardized combine-ready outputs to {standardized_outputs['unified_json']}")
+        print(f"Wrote DSSAT coefficient exports to {dssat_outputs['manifest']}")
     if not llm.configured:
         print("OPENAI_API_KEY was not set; output used heuristic discovery/extraction only.")
 
@@ -77,7 +76,12 @@ def parse_args() -> argparse.Namespace:
         "--individual-output-dir",
         type=Path,
         default=None,
-        help="Directory for one JSON file per input paper. Defaults to <output_dir>/Individual_Papers.",
+        help="Directory for one JSON file per input paper when --write-auxiliary-outputs is set.",
+    )
+    parser.add_argument(
+        "--write-auxiliary-outputs",
+        action="store_true",
+        help="Also write individual-paper, standardized, and DSSAT helper outputs. Default writes only the combined JSON.",
     )
     return parser.parse_args()
 

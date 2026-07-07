@@ -16,15 +16,23 @@ class PaperChunk:
 
 def load_pdf_chunks(pdf_path: Path, chunk_size: int = 1400, overlap: int = 180) -> List[PaperChunk]:
     try:
-        import fitz  # PyMuPDF
+        import pymupdf as pdf_engine
     except ImportError as exc:
+        try:
+            import fitz as pdf_engine  # PyMuPDF legacy import name
+        except ImportError:
+            raise RuntimeError(
+                "PyMuPDF is required to read PDFs. Install dependencies with "
+                "`python -m pip install -r paper_rag/requirements.txt`."
+            ) from exc
+    if not hasattr(pdf_engine, "open"):
         raise RuntimeError(
-            "PyMuPDF is required to read PDFs. Install dependencies with "
-            "`python -m pip install -r paper_rag/requirements.txt`."
-        ) from exc
+            "A non-PyMuPDF `fitz`/`pymupdf` package was imported. Reinstall dependencies with "
+            "`python -m pip install --upgrade --force-reinstall PyMuPDF`."
+        )
 
     chunks: List[PaperChunk] = []
-    with fitz.open(pdf_path) as doc:
+    with pdf_engine.open(pdf_path) as doc:
         for page_index, page in enumerate(doc, start=1):
             page_text = page.get_text("text") or ""
             for block_index, (kind, text) in enumerate(_segment_page(page_text)):
