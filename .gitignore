@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+~$*.docx
+
+paper_rag/.env
+paper_rag/chroma_db/
+paper_rag/paper_based_cultivar_db.json
+paper_rag/*output*.json
+Paper_Rag/Json_Outputs/*.json

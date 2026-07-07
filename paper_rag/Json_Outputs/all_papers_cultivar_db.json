@@ -1,0 +1,2441 @@
+{
+  "crop": "MZ",
+  "country": "Ethiopia, Kenya, Malawi, Rwanda, Tanzania, Uganda",
+  "generated_at": "2026-07-07T18:38:55.794274+00:00",
+  "total_zones": 33,
+  "processed": 33,
+  "summary": {
+    "total_cultivars_identified": {
+      "BH-660": [
+        "cool sub-humid to humid"
+      ],
+      "BH540": [
+        "cool sub-humid to humid agro-ecologies"
+      ],
+      "DEKA_LB": [
+        "LM3",
+        "LM4",
+        "LM5",
+        "UM2, UM3, LM3, LM4, LM5"
+      ],
+      "DK41": [
+        "LM3 semihumid",
+        "LM4 low potential",
+        "LM5 low potential",
+        "UM2, UM3, LM3, LM4, LM5"
+      ],
+      "DK43": [
+        "UM2, UM3, LM3, LM4, LM5"
+      ],
+      "Duma": [
+        "UM2, UM3, LM3, LM4, LM5"
+      ],
+      "Ecavel": [
+        "Ruzizi plains"
+      ],
+      "H511": [
+        "Embu",
+        "Embu research farm",
+        "LM4",
+        "LM5",
+        "UM2, UM3, LM3, LM4, LM5"
+      ],
+      "H513": [
+        "LM3",
+        "UM2",
+        "UM2, UM3, LM3, LM4, LM5",
+        "UM3",
+        "cool sub-humid to humid agroecologies"
+      ],
+      "H612": [
+        "AEZ I (humid), AEZ II (subhumid), AEZ III (semihumid)"
+      ],
+      "H613": [
+        "UM2, UM3, LM3, LM4, LM5"
+      ],
+      "H614": [
+        "AEZ I (humid)",
+        "AEZ I, AEZ II, AEZ III",
+        "AEZ II (subhumid)",
+        "AEZ III (semihumid)",
+        "Trans Nzoia County",
+        "Trans Nzoia and Uasin Gishu counties",
+        "Uasin Gishu County",
+        "cool sub-humid|humid"
+      ],
+      "H628": [
+        "Njombe"
+      ],
+      "KH600-23A": [
+        "Eastern, Western, Northern, Southern Trans Nzoia County",
+        "Trans Nzoia County"
+      ],
+      "Katumani": [
+        "Katumani",
+        "Kenya"
+      ],
+      "MH-16": [
+        "Masindi and Hoima",
+        "mid-altitude agro-ecological zone"
+      ],
+      "MH16": [
+        "Kenya"
+      ],
+      "Melkassa 1": [
+        "Kenya"
+      ],
+      "Melkassa I": [
+        "Melkassa"
+      ],
+      "Pioneer": [
+        "UM2, UM3, LM3, LM4, LM5"
+      ],
+      "SC-627": [
+        "mid-altitude agro-ecological zone"
+      ],
+      "SC627": [
+        "mid-altitude agro-ecological zone"
+      ],
+      "Situka": [
+        "Dodoma",
+        "Morogoro"
+      ],
+      "UH6303": [
+        "Njombe"
+      ],
+      "katumani": [
+        "UM2",
+        "UM2, UM3, LM3, LM4, LM5"
+      ]
+    }
+  },
+  "zones": {
+    "AEZ I (humid)": {
+      "H614": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "long-maturing",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "AEZ II: 5312 kg/ha; AEZ III: 5137 kg/ha; AEZ I: 4937 kg/ha; Study area minimum: 4400 kg/ha; Calibrated mean: 4134 kg/ha (simulated), 4150 kg/ha (observed)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [
+              "high resistance to pest attacks"
+            ],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "requires more heat units to attain anthesis and reach physiological maturity",
+            "agro_ecological_zone": "AEZ I (humid), AEZ II (subhumid), AEZ III (semihumid)",
+            "adaptation_notes": "H614 is a popular cultivar in the Kenyan highlands, suitable for local growing conditions, and shows high production potential. It performs better than H612, with a reduced likelihood of yield decline across AEZs. Yield can be enhanced beyond current averages by adjusting sowing dates and adopting H614, especially with recommended nitrogen fertilization (75 kg N/ha). However, the increment is possible if the nutrient management aligns with the government-recommended nitrogen fertilization of 75 kg N ha−1 (Chebet et al., 2017). Soil variables at five depths (0–20, 20–40, 40–60, 60–80, and 80–100 cm) were entered into the SBuild module in DSSAT. The experimental fields were optimally managed, and necessary measures, including weed control, fertilizer application, and pest and disease control, were applied based on standard agronomic practices. cross hybrids in the East Africa region, the model calibration results indicated that H614 require more heat units to attain anthesis and reach physiological maturity.",
+            "normal_planting_window": "Early March and early May are optimal in AEZ II and III; sowing between early March and mid-March and early May is preferable in AEZ I.",
+            "planting_density": "25 cm between plants, 75 cm between rows, ~53,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Uasin Gishu County, Trans Nzoia County, Katuke, Sabwani, Olngatongo"
+          },
+          "source": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "coefficients": {
+            "P1": 290.8,
+            "P2": 0.471,
+            "P5": 921.2,
+            "G2": 796.8,
+            "G3": 5.26,
+            "PHINT": 39.74
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "AEZ I (humid), AEZ II (subhumid), AEZ III (semihumid)": {
+      "H612": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "Low across all AEZs; probability of yield below 5000 kg ha−1 is above 90% in all AEZs",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "Requires fewer temperature degree units to reach maturity compared to H614",
+            "agro_ecological_zone": "AEZ I (humid), AEZ II (subhumid), AEZ III (semihumid)",
+            "adaptation_notes": "H612 showed a high probability of low production compared to H614, with >90% chance of yield below 5000 kg/ha in all AEZs. Its production was not significantly different across AEZs. Sowing in mid-March demonstrated high yield potential for H612 in all AEZs, but overall, H614 outperformed H612. H612 was originally released in Kenya and its DSSAT coefficients were calibrated in the southern highlands of Tanzania, a region with similar climate. 2.7 Model application and spatial assessment 2.7.1 Evaluation of agronomic practices The study used the parameterized DSSAT-CERES-Maize model to evaluate various agronomic practices, namely, adjusting sowing dates (SDs) and cultivars, incorporating organic amendments with the recommended nitrogen fertilizer levels and tillage practices, and supplementing rainfed agriculture with varying levels of irrigation. Soil variables at five depths (0–20, 20–40, 40–60, 60–80, and 80–100 cm) were entered into the SBuild module in DSSAT. The experimental fields were optimally managed, and necessary measures, including weed control, fertilizer application, and pest and disease control, were applied based on standard agronomic practices. In addition to the calibrated coefficients from the on-farm experiments, the study also assessed the H612 cultivar, for maturity.",
+            "normal_planting_window": "Sowing in mid-March demonstrated high yield potential for H612 in all AEZs.",
+            "planting_density": "Recommended practice: 25 cm between plants and 75 cm between rows, ~53,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Uasin Gishu County; study area covers western Kenya across AEZ I, II, III"
+          },
+          "source": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "coefficients": {
+            "P1": 130.0,
+            "P2": 0.5,
+            "P5": 390.0,
+            "G2": 825.0,
+            "G3": 10.15,
+            "PHINT": 75.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "AEZ I, AEZ II, AEZ III": {
+      "H614": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "long-maturing",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "AEZ II: 5312 kg/ha; AEZ III: 5137 kg/ha; AEZ I: 4937 kg/ha; Study area minimum: 4400 kg/ha; Calibrated mean: 4134 kg/ha (simulated), 4150 kg/ha (observed)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [
+              "high resistance to pest attacks"
+            ],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "requires more heat units to attain anthesis and reach physiological maturity",
+            "agro_ecological_zone": "AEZ I (humid), AEZ II (subhumid), AEZ III (semihumid)",
+            "adaptation_notes": "H614 is a popular cultivar in the Kenyan highlands, suitable for local growing conditions, and shows high production potential. It performs better than H612, with a reduced likelihood of yield decline across AEZs. Yield can be enhanced beyond current averages by adjusting sowing dates and adopting H614, especially with recommended nitrogen fertilization (75 kg N/ha). However, the increment is possible if the nutrient management aligns with the government-recommended nitrogen fertilization of 75 kg N ha−1 (Chebet et al., 2017). Soil variables at five depths (0–20, 20–40, 40–60, 60–80, and 80–100 cm) were entered into the SBuild module in DSSAT. The experimental fields were optimally managed, and necessary measures, including weed control, fertilizer application, and pest and disease control, were applied based on standard agronomic practices. cross hybrids in the East Africa region, the model calibration results indicated that H614 require more heat units to attain anthesis and reach physiological maturity.",
+            "normal_planting_window": "Early March and early May are optimal in AEZ II and III; sowing between early March and mid-March and early May is preferable in AEZ I.",
+            "planting_density": "25 cm between plants, 75 cm between rows, ~53,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Uasin Gishu County, Trans Nzoia County, Katuke, Sabwani, Olngatongo"
+          },
+          "source": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "coefficients": {
+            "P1": 290.8,
+            "P2": 0.471,
+            "P5": 921.2,
+            "G2": 796.8,
+            "G3": 5.26,
+            "PHINT": 39.74
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "AEZ II (subhumid)": {
+      "H614": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "long-maturing",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "AEZ II: 5312 kg/ha; AEZ III: 5137 kg/ha; AEZ I: 4937 kg/ha; Study area minimum: 4400 kg/ha; Calibrated mean: 4134 kg/ha (simulated), 4150 kg/ha (observed)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [
+              "high resistance to pest attacks"
+            ],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "requires more heat units to attain anthesis and reach physiological maturity",
+            "agro_ecological_zone": "AEZ I (humid), AEZ II (subhumid), AEZ III (semihumid)",
+            "adaptation_notes": "H614 is a popular cultivar in the Kenyan highlands, suitable for local growing conditions, and shows high production potential. It performs better than H612, with a reduced likelihood of yield decline across AEZs. Yield can be enhanced beyond current averages by adjusting sowing dates and adopting H614, especially with recommended nitrogen fertilization (75 kg N/ha). However, the increment is possible if the nutrient management aligns with the government-recommended nitrogen fertilization of 75 kg N ha−1 (Chebet et al., 2017). Soil variables at five depths (0–20, 20–40, 40–60, 60–80, and 80–100 cm) were entered into the SBuild module in DSSAT. The experimental fields were optimally managed, and necessary measures, including weed control, fertilizer application, and pest and disease control, were applied based on standard agronomic practices. cross hybrids in the East Africa region, the model calibration results indicated that H614 require more heat units to attain anthesis and reach physiological maturity.",
+            "normal_planting_window": "Early March and early May are optimal in AEZ II and III; sowing between early March and mid-March and early May is preferable in AEZ I.",
+            "planting_density": "25 cm between plants, 75 cm between rows, ~53,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Uasin Gishu County, Trans Nzoia County, Katuke, Sabwani, Olngatongo"
+          },
+          "source": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "coefficients": {
+            "P1": 290.8,
+            "P2": 0.471,
+            "P5": 921.2,
+            "G2": 796.8,
+            "G3": 5.26,
+            "PHINT": 39.74
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "AEZ III (semihumid)": {
+      "H614": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "long-maturing",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "AEZ II: 5312 kg/ha; AEZ III: 5137 kg/ha; AEZ I: 4937 kg/ha; Study area minimum: 4400 kg/ha; Calibrated mean: 4134 kg/ha (simulated), 4150 kg/ha (observed)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [
+              "high resistance to pest attacks"
+            ],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "requires more heat units to attain anthesis and reach physiological maturity",
+            "agro_ecological_zone": "AEZ I (humid), AEZ II (subhumid), AEZ III (semihumid)",
+            "adaptation_notes": "H614 is a popular cultivar in the Kenyan highlands, suitable for local growing conditions, and shows high production potential. It performs better than H612, with a reduced likelihood of yield decline across AEZs. Yield can be enhanced beyond current averages by adjusting sowing dates and adopting H614, especially with recommended nitrogen fertilization (75 kg N/ha). However, the increment is possible if the nutrient management aligns with the government-recommended nitrogen fertilization of 75 kg N ha−1 (Chebet et al., 2017). Soil variables at five depths (0–20, 20–40, 40–60, 60–80, and 80–100 cm) were entered into the SBuild module in DSSAT. The experimental fields were optimally managed, and necessary measures, including weed control, fertilizer application, and pest and disease control, were applied based on standard agronomic practices. cross hybrids in the East Africa region, the model calibration results indicated that H614 require more heat units to attain anthesis and reach physiological maturity.",
+            "normal_planting_window": "Early March and early May are optimal in AEZ II and III; sowing between early March and mid-March and early May is preferable in AEZ I.",
+            "planting_density": "25 cm between plants, 75 cm between rows, ~53,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Uasin Gishu County, Trans Nzoia County, Katuke, Sabwani, Olngatongo"
+          },
+          "source": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "coefficients": {
+            "P1": 290.8,
+            "P2": 0.471,
+            "P5": 921.2,
+            "G2": 796.8,
+            "G3": 5.26,
+            "PHINT": 39.74
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "Dodoma": {
+      "Situka": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 199.5,
+            "P2": 0.5,
+            "P5": 672.0,
+            "G2": 673.0,
+            "G3": 10.03,
+            "PHINT": 42.8
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "Eastern, Western, Northern, Southern Trans Nzoia County": {
+      "KH600-23A": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "late-maturing",
+            "relative_maturity": "NA",
+            "days_to_maturity": "209 (observed), 206 (simulated)",
+            "average_yield_kg_ha": "5209 (observed), 5316 (simulated); yield potential 9500–15000 kg/ha; 6148 kg/ha under N3 nitrogen application",
+            "plant_height_cm": "NA",
+            "growth_habit": "semiflint",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "KH600-23A is a relatively new, late-maturing, semiflint, white maize cultivar with high yield potential (9.5–15 t/ha), out-performing older cultivars. It requires more heat units to reach maturity than H614. Early sowing (mid-February to early March) and high nitrogen fertilization (N3, 75–100 kg N/ha) significantly enhance yields. The cultivar is recommended for adoption in Trans Nzoia County due to yield stability under optimum nitrogen. Soil quality improvements are advised for western and northern parts due to negative yield trends. The cultivar is owned by ADC and was first released in 2008. The contribution of the main effect of nitrogen application levels on the maize yields was also significant. 5) and soil water content were the variables with complete data at all sites and were therefore used for the evaluation (Figures S3-S5 in the supplementary file). The statistics showed that farmers could improve production by 52% if cultivar KH600-23A was planted in mid-February under nitrogen fertilization of 75 kg ­ha−1 with equal top dressing amount compared to the latest sowing date, with low nitrogen level and the slightly low yielding H614 cultivar. The calibration results from the present study showed that the KH600-23A cultivar needed more heat units to attain the juvenile and physiological maturity stages than the H614 cultivar.",
+            "normal_planting_window": "Early March to mid-March; mid-February sowing under high nitrogen is optimal",
+            "planting_density": "53,333 plants per hectare",
+            "harvest_time": "NA",
+            "season_suitability": "Long rainy season (March–November)",
+            "major_crop_areas": "Trans Nzoia County; eastern, western, northern, southern regions"
+          },
+          "source": "s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "coefficients": {
+            "P1": 345.6,
+            "P2": 0.5,
+            "P5": 971.2,
+            "G2": 777.3,
+            "G3": 7.12,
+            "PHINT": 36.78
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "Embu": {
+      "H511": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 190.0,
+            "P2": 0.6,
+            "P5": 725.0,
+            "G2": 550.0,
+            "G3": 7.9,
+            "PHINT": 42.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "Embu research farm": {
+      "H511": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 137.7; DSSAT: 139.7",
+            "average_yield_kg_ha": "Observed: 4677.3; DSSAT: 4428.7 (Embu, average of three seasons)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "longer duration varieties (H511, H513) maintain yield better under warming than short-duration Katumani",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H511 is a medium duration maize variety, calibrated and validated for DSSAT using experimental data from Embu research farm. It is recommended for cultivation in AEZs LM5 (LR season) and LM4 (SR season) as per adaptation strategies. Longer duration varieties like H511 are less negatively impacted by climate change compared to short-duration varieties. Optimal yields are achieved with early planting within the recommended window and appropriate plant population and nitrogen management. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 15–30 Oct (LM4), 1–15 Nov (LM5)",
+            "planting_density": "LM4 (SR): 50,000 plants/ha; LM5 (LR): 60,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "LR season (LM5), SR season (LM4)",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 190.0,
+            "P2": 0.6,
+            "P5": 725.0,
+            "G2": 550.0,
+            "G3": 7.9,
+            "PHINT": 42.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "Katumani": {
+      "Katumani": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "Model simulated low yield in Katumani area of Kenya; region receives high seasonal and inter-annual rainfall variability and has increased frequency of dry seasons. Climate change scenarios show Katumani (Kenya) expected to decline by -25% to -30% under extreme temperature rise (+3°C) and 30% decline in precipitation. Increased precipitation can compensate for yield losses, with potential yield gain under increased precipitation and warming of 16% in Katumani. Site-specific soil, water, and land management adaptation strategies are recommended, including soil and water conservation for dry regions and varying sowing dates for semi-humid to humid zones. Nutrient enhancement and cultivar variation might be feasible. For the nitrogen fertilization application, the recom­ mended amounts in the published studies were adopted. Maize Yield in Different Sites Under the Baseline Period Maize yield was stimulated for the study sites under the synthetic climate change scenarios. The results show that warm­ ing accompanied by a decrease in precipitation might favour the highland areas, whereas the drought-prone regions might be severely affected. The calibration process determines the cultivar coefficients that govern the accumulation of temperature heat units and plant development from emergence to physiological matu­ rity (Jones et al., 2003).",
+            "normal_planting_window": "Strategies for soil and water conservation are recommended for dry regions, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Katumani",
+              "Kenya"
+            ]
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 172.0,
+            "P2": 0.5,
+            "P5": 999.0,
+            "G2": 398.0,
+            "G3": 6.27,
+            "PHINT": 75.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "Kenya": {
+      "Katumani": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "Model simulated low yield in Katumani area of Kenya; region receives high seasonal and inter-annual rainfall variability and has increased frequency of dry seasons. Climate change scenarios show Katumani (Kenya) expected to decline by -25% to -30% under extreme temperature rise (+3°C) and 30% decline in precipitation. Increased precipitation can compensate for yield losses, with potential yield gain under increased precipitation and warming of 16% in Katumani. Site-specific soil, water, and land management adaptation strategies are recommended, including soil and water conservation for dry regions and varying sowing dates for semi-humid to humid zones. Nutrient enhancement and cultivar variation might be feasible. For the nitrogen fertilization application, the recom­ mended amounts in the published studies were adopted. Maize Yield in Different Sites Under the Baseline Period Maize yield was stimulated for the study sites under the synthetic climate change scenarios. The results show that warm­ ing accompanied by a decrease in precipitation might favour the highland areas, whereas the drought-prone regions might be severely affected. The calibration process determines the cultivar coefficients that govern the accumulation of temperature heat units and plant development from emergence to physiological matu­ rity (Jones et al., 2003).",
+            "normal_planting_window": "Strategies for soil and water conservation are recommended for dry regions, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Katumani",
+              "Kenya"
+            ]
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=1",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 172.0,
+            "P2": 0.5,
+            "P5": 999.0,
+            "G2": 398.0,
+            "G3": 6.27,
+            "PHINT": 75.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "MH16": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "Some of the crop management data required to simulate DSSAT included crop, cultivar, planting date, row and plant spacing, fertilizer levels, tillage practices and organic amendments (Jones et al., 2003). values of weather parameters, crop management and soil properties during the 2007–2008 cropping season of the experiment. Yields of velvet beans and pigeonpea were very low due to competition for light, moisture stress and pest attacks, respectively. Genetic coefﬁcients were estimated by using observed silking and maturity dates and grain yield of the maize variety SC627 for all treatments during the growing season with remaining seasons 2008–2009 to 2011–2012 used for subsequent model evaluation (Sarkar and Kar, 2006; Saseendran et al., 2013).",
+            "normal_planting_window": "NA",
+            "planting_density": "53,333 plants ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "1-s2.0-S0167198714000944-main.pdf",
+          "source_url": "input_papers/1-s2.0-S0167198714000944-main.pdf#page=4",
+          "confidence": "medium"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: 1-s2.0-S0167198714000944-main.pdf",
+          "source_url": "input_papers/1-s2.0-S0167198714000944-main.pdf#page=4",
+          "coefficients": {},
+          "notes": "Values for MH16 were used as baseline in DSSAT 4.5, but no explicit DSSAT genotype coefficients for MH16 are reported in the paper."
+        }
+      },
+      "Melkassa 1": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "Agronomic adaptation strategies under climate change for winter durum wheat and tomato in Southern Italy: Irrigation and nitrogen fertilization. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The calibration process determines the cultivar coefficients that govern the accumulation of temperature heat units and plant development from emergence to physiological matu­ rity (Jones et al., 2003).",
+            "normal_planting_window": "Projecting maize yield under local-scale climate change scenar­ ios using crop models: Sensitivity to sowing dates, cultivar, and nitrogen fertilizer rates.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=4",
+          "confidence": "low"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 101.5,
+            "P2": 0.75,
+            "P5": 685.0,
+            "G2": 375.0,
+            "G3": 11.65,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "LM3": {
+      "DEKA_LB": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "long-duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": [
+              "5,000–6,000 (farmer-reported, Table 3, page 8)"
+            ],
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "UM2 (Upper Midland 2)",
+              "UM3 (Upper Midland 3)",
+              "LM3 (Lower Midland 3)",
+              "LM4 (Lower Midland 4)",
+              "LM5 (Lower Midland 5)"
+            ],
+            "adaptation_notes": "DEKA_LB is a long-duration maize variety used as a model equivalent for DK41 in Embu county, Kenya. It is recommended for low potential AEZs (LM4, LM5) and is part of adaptation strategies for climate change, maintaining yield under increased temperatures. Optimal management includes specific planting windows, plant populations, and nitrogen rates by AEZ and season. DEKA_LB is considered more resilient to climate change compared to short-duration varieties. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+            "normal_planting_window": [
+              "LM3: 15–30 Mar (LR), 1–15 Oct (SR)",
+              "LM4: 15–30 Mar (LR), 15–30 Oct (SR)",
+              "LM5: 1–15 Nov (SR)"
+            ],
+            "planting_density": [
+              "LM3: 50,000 plants/ha (LR), 40,000 plants/ha (SR)",
+              "LM4: 50,000 plants/ha (LR), 50,000 plants/ha (SR)",
+              "LM5: 40,000 plants/ha (SR)"
+            ],
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; especially recommended for SR season in LM3, LM4, LM5",
+            "major_crop_areas": [
+              "Embu county",
+              "Kavutiri",
+              "Gachuka",
+              "Machanga"
+            ]
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "For Deka_lb, the study used the default parameters from the DSSAT model; no paper-reported DSSAT genotype coefficients are provided."
+        }
+      },
+      "H513": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "Long duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 141.0; DSSAT: 137.0; APSIM: 137.0",
+            "average_yield_kg_ha": "Observed: 5282.7; DSSAT: 5027.7; APSIM: 4597.3",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "Long-duration varieties (H513) maintain yield better under increased temperature and shorter rainfall than short-duration varieties.",
+              "heat": "Long-duration varieties (H513) maintain yield better under increased temperature and shorter rainfall than short-duration varieties."
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H513 is a long-duration maize variety, better adapted to climate change than short-duration varieties like Katumani. It is recommended for high potential AEZs (UM2, UM3, LM3) and is part of the optimal adaptation strategy for these zones. Yields are higher when planted early within the optimal window. H513 is less negatively impacted by increased temperature and shortened crop duration than short-duration varieties. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3, LM3), 1–15 Nov (UM2)",
+            "planting_density": "50,000 plants/ha for LR season; 40,000 plants/ha for SR season",
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; optimal in both with AEZ-specific recommendations",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=17",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 205.0,
+            "P2": 0.6,
+            "P5": 760.5,
+            "G2": 690.0,
+            "G3": 8.7,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "LM3 semihumid": {
+      "DK41": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium-short",
+            "relative_maturity": "3.5 to 4.5 months",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "5000–6000",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "UM2 humid",
+              "UM3 subhumid",
+              "LM3 semihumid",
+              "LM4 low potential",
+              "LM5 low potential"
+            ],
+            "adaptation_notes": "DK41 (represented as Deka_lb in DSSAT) is recommended for LM3, LM4, and LM5 AEZs, especially in SR season. In LM3 and LM5, Deka_lb is the optimal variety for SR season, with planting windows and nitrogen rates specified. In LM4, Deka_lb is optimal for both LR and SR seasons. DSSAT simulations indicate higher yield increases in high potential AEZs (UM2, UM3, LM3) and negative impacts in low potential AEZs (LM4, LM5). Early planting within the optimal window increases yields. Plant population and nitrogen rates are AEZ-specific. 3.2.7 Impacts of soil fertility and nitrogen application. Important characteristics of the representative soil profiles used with crop simulation models and the agro-ecological zones they represent. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+            "normal_planting_window": [
+              "LM3: 1–15 Oct (SR season)",
+              "LM4: 15–30 Mar (LR season), 15–30 Oct (SR season)",
+              "LM5: 1–15 Nov (SR season)"
+            ],
+            "planting_density": [
+              "LM3: 50,000 plants/ha (SR season)",
+              "LM4: 50,000 plants/ha (LR and SR seasons)",
+              "LM5: 40,000 plants/ha (SR season)"
+            ],
+            "harvest_time": "NA",
+            "season_suitability": "SR season optimal for DK41 (Deka_lb) in LM3, LM4, LM5; LR season optimal in LM4",
+            "major_crop_areas": [
+              "Embu county",
+              "Kavutiri",
+              "Gachuka",
+              "Machanga",
+              "UM2",
+              "UM3",
+              "LM3",
+              "LM4",
+              "LM5"
+            ]
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "DSSAT genotype coefficients for DK41 (Deka_lb) are not reported in the paper. Only generic descriptions and table headers are present."
+        }
+      }
+    },
+    "LM4": {
+      "DEKA_LB": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "long-duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": [
+              "5,000–6,000 (farmer-reported, Table 3, page 8)"
+            ],
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "UM2 (Upper Midland 2)",
+              "UM3 (Upper Midland 3)",
+              "LM3 (Lower Midland 3)",
+              "LM4 (Lower Midland 4)",
+              "LM5 (Lower Midland 5)"
+            ],
+            "adaptation_notes": "DEKA_LB is a long-duration maize variety used as a model equivalent for DK41 in Embu county, Kenya. It is recommended for low potential AEZs (LM4, LM5) and is part of adaptation strategies for climate change, maintaining yield under increased temperatures. Optimal management includes specific planting windows, plant populations, and nitrogen rates by AEZ and season. DEKA_LB is considered more resilient to climate change compared to short-duration varieties. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+            "normal_planting_window": [
+              "LM3: 15–30 Mar (LR), 1–15 Oct (SR)",
+              "LM4: 15–30 Mar (LR), 15–30 Oct (SR)",
+              "LM5: 1–15 Nov (SR)"
+            ],
+            "planting_density": [
+              "LM3: 50,000 plants/ha (LR), 40,000 plants/ha (SR)",
+              "LM4: 50,000 plants/ha (LR), 50,000 plants/ha (SR)",
+              "LM5: 40,000 plants/ha (SR)"
+            ],
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; especially recommended for SR season in LM3, LM4, LM5",
+            "major_crop_areas": [
+              "Embu county",
+              "Kavutiri",
+              "Gachuka",
+              "Machanga"
+            ]
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "For Deka_lb, the study used the default parameters from the DSSAT model; no paper-reported DSSAT genotype coefficients are provided."
+        }
+      },
+      "H511": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 137.7; DSSAT: 139.7",
+            "average_yield_kg_ha": "Observed: 4677.3; DSSAT: 4428.7 (Embu, average of three seasons)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "longer duration varieties (H511, H513) maintain yield better under warming than short-duration Katumani",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H511 is a medium duration maize variety, calibrated and validated for DSSAT using experimental data from Embu research farm. It is recommended for cultivation in AEZs LM5 (LR season) and LM4 (SR season) as per adaptation strategies. Longer duration varieties like H511 are less negatively impacted by climate change compared to short-duration varieties. Optimal yields are achieved with early planting within the recommended window and appropriate plant population and nitrogen management. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 15–30 Oct (LM4), 1–15 Nov (LM5)",
+            "planting_density": "LM4 (SR): 50,000 plants/ha; LM5 (LR): 60,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "LR season (LM5), SR season (LM4)",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 190.0,
+            "P2": 0.6,
+            "P5": 725.0,
+            "G2": 550.0,
+            "G3": 7.9,
+            "PHINT": 42.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "LM4 low potential": {
+      "DK41": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium-short",
+            "relative_maturity": "3.5 to 4.5 months",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "5000–6000",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "UM2 humid",
+              "UM3 subhumid",
+              "LM3 semihumid",
+              "LM4 low potential",
+              "LM5 low potential"
+            ],
+            "adaptation_notes": "DK41 (represented as Deka_lb in DSSAT) is recommended for LM3, LM4, and LM5 AEZs, especially in SR season. In LM3 and LM5, Deka_lb is the optimal variety for SR season, with planting windows and nitrogen rates specified. In LM4, Deka_lb is optimal for both LR and SR seasons. DSSAT simulations indicate higher yield increases in high potential AEZs (UM2, UM3, LM3) and negative impacts in low potential AEZs (LM4, LM5). Early planting within the optimal window increases yields. Plant population and nitrogen rates are AEZ-specific. 3.2.7 Impacts of soil fertility and nitrogen application. Important characteristics of the representative soil profiles used with crop simulation models and the agro-ecological zones they represent. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+            "normal_planting_window": [
+              "LM3: 1–15 Oct (SR season)",
+              "LM4: 15–30 Mar (LR season), 15–30 Oct (SR season)",
+              "LM5: 1–15 Nov (SR season)"
+            ],
+            "planting_density": [
+              "LM3: 50,000 plants/ha (SR season)",
+              "LM4: 50,000 plants/ha (LR and SR seasons)",
+              "LM5: 40,000 plants/ha (SR season)"
+            ],
+            "harvest_time": "NA",
+            "season_suitability": "SR season optimal for DK41 (Deka_lb) in LM3, LM4, LM5; LR season optimal in LM4",
+            "major_crop_areas": [
+              "Embu county",
+              "Kavutiri",
+              "Gachuka",
+              "Machanga",
+              "UM2",
+              "UM3",
+              "LM3",
+              "LM4",
+              "LM5"
+            ]
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "DSSAT genotype coefficients for DK41 (Deka_lb) are not reported in the paper. Only generic descriptions and table headers are present."
+        }
+      }
+    },
+    "LM5": {
+      "DEKA_LB": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "long-duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": [
+              "5,000–6,000 (farmer-reported, Table 3, page 8)"
+            ],
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "UM2 (Upper Midland 2)",
+              "UM3 (Upper Midland 3)",
+              "LM3 (Lower Midland 3)",
+              "LM4 (Lower Midland 4)",
+              "LM5 (Lower Midland 5)"
+            ],
+            "adaptation_notes": "DEKA_LB is a long-duration maize variety used as a model equivalent for DK41 in Embu county, Kenya. It is recommended for low potential AEZs (LM4, LM5) and is part of adaptation strategies for climate change, maintaining yield under increased temperatures. Optimal management includes specific planting windows, plant populations, and nitrogen rates by AEZ and season. DEKA_LB is considered more resilient to climate change compared to short-duration varieties. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+            "normal_planting_window": [
+              "LM3: 15–30 Mar (LR), 1–15 Oct (SR)",
+              "LM4: 15–30 Mar (LR), 15–30 Oct (SR)",
+              "LM5: 1–15 Nov (SR)"
+            ],
+            "planting_density": [
+              "LM3: 50,000 plants/ha (LR), 40,000 plants/ha (SR)",
+              "LM4: 50,000 plants/ha (LR), 50,000 plants/ha (SR)",
+              "LM5: 40,000 plants/ha (SR)"
+            ],
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; especially recommended for SR season in LM3, LM4, LM5",
+            "major_crop_areas": [
+              "Embu county",
+              "Kavutiri",
+              "Gachuka",
+              "Machanga"
+            ]
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "For Deka_lb, the study used the default parameters from the DSSAT model; no paper-reported DSSAT genotype coefficients are provided."
+        }
+      },
+      "H511": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 137.7; DSSAT: 139.7",
+            "average_yield_kg_ha": "Observed: 4677.3; DSSAT: 4428.7 (Embu, average of three seasons)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "longer duration varieties (H511, H513) maintain yield better under warming than short-duration Katumani",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H511 is a medium duration maize variety, calibrated and validated for DSSAT using experimental data from Embu research farm. It is recommended for cultivation in AEZs LM5 (LR season) and LM4 (SR season) as per adaptation strategies. Longer duration varieties like H511 are less negatively impacted by climate change compared to short-duration varieties. Optimal yields are achieved with early planting within the recommended window and appropriate plant population and nitrogen management. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 15–30 Oct (LM4), 1–15 Nov (LM5)",
+            "planting_density": "LM4 (SR): 50,000 plants/ha; LM5 (LR): 60,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "LR season (LM5), SR season (LM4)",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 190.0,
+            "P2": 0.6,
+            "P5": 725.0,
+            "G2": 550.0,
+            "G3": 7.9,
+            "PHINT": 42.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "LM5 low potential": {
+      "DK41": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium-short",
+            "relative_maturity": "3.5 to 4.5 months",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "5000–6000",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "UM2 humid",
+              "UM3 subhumid",
+              "LM3 semihumid",
+              "LM4 low potential",
+              "LM5 low potential"
+            ],
+            "adaptation_notes": "DK41 (represented as Deka_lb in DSSAT) is recommended for LM3, LM4, and LM5 AEZs, especially in SR season. In LM3 and LM5, Deka_lb is the optimal variety for SR season, with planting windows and nitrogen rates specified. In LM4, Deka_lb is optimal for both LR and SR seasons. DSSAT simulations indicate higher yield increases in high potential AEZs (UM2, UM3, LM3) and negative impacts in low potential AEZs (LM4, LM5). Early planting within the optimal window increases yields. Plant population and nitrogen rates are AEZ-specific. 3.2.7 Impacts of soil fertility and nitrogen application. Important characteristics of the representative soil profiles used with crop simulation models and the agro-ecological zones they represent. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+            "normal_planting_window": [
+              "LM3: 1–15 Oct (SR season)",
+              "LM4: 15–30 Mar (LR season), 15–30 Oct (SR season)",
+              "LM5: 1–15 Nov (SR season)"
+            ],
+            "planting_density": [
+              "LM3: 50,000 plants/ha (SR season)",
+              "LM4: 50,000 plants/ha (LR and SR seasons)",
+              "LM5: 40,000 plants/ha (SR season)"
+            ],
+            "harvest_time": "NA",
+            "season_suitability": "SR season optimal for DK41 (Deka_lb) in LM3, LM4, LM5; LR season optimal in LM4",
+            "major_crop_areas": [
+              "Embu county",
+              "Kavutiri",
+              "Gachuka",
+              "Machanga",
+              "UM2",
+              "UM3",
+              "LM3",
+              "LM4",
+              "LM5"
+            ]
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "DSSAT genotype coefficients for DK41 (Deka_lb) are not reported in the paper. Only generic descriptions and table headers are present."
+        }
+      }
+    },
+    "Masindi and Hoima": {
+      "MH-16": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "Specific sites; 1) ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Masindi",
+              "Hoima"
+            ]
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 245.3,
+            "P2": 0.28,
+            "P5": 843.0,
+            "G2": 417.3,
+            "G3": 7.87,
+            "PHINT": 75.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "Melkassa": {
+      "Melkassa I": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "The effect of nitrogen-fertilizer and optimal plant population on the profitability of maize plots in the Wami river sub-basin, Tanzania: A bio-economic simulation approach. An integrated crop model and GIS decision support system for assisting agronomic decision making under climate change. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The calibration process determines the cultivar coefficients that govern the accumulation of temperature heat units and plant development from emergence to physiological matu­ rity (Jones et al., 2003).",
+            "normal_planting_window": "Projecting maize yield under local-scale climate change scenar­ ios using crop models: Sensitivity to sowing dates, cultivar, and nitrogen fertilizer rates.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {},
+          "notes": ""
+        }
+      }
+    },
+    "Morogoro": {
+      "Situka": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 199.5,
+            "P2": 0.5,
+            "P5": 672.0,
+            "G2": 673.0,
+            "G3": 10.03,
+            "PHINT": 42.8
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "Njombe": {
+      "H628": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "53,333 plants/ha; 25 cm x 75 cm row/intra-row spacing",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Njombe"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 315.0,
+            "P2": 0.5,
+            "P5": 800.0,
+            "G2": 470.0,
+            "G3": 4.5,
+            "PHINT": 38.9
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "UH6303": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Njombe"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 310.0,
+            "P2": 0.5,
+            "P5": 800.0,
+            "G2": 580.0,
+            "G3": 6.0,
+            "PHINT": 38.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "Ruzizi plains": {
+      "Ecavel": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "NA",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "NA"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 212.0,
+            "P2": 0.75,
+            "P5": 800.0,
+            "G2": 800.0,
+            "G3": 8.5,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "Trans Nzoia County": {
+      "H614": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "long-maturing",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 191, Simulated: 198 (DAS)",
+            "average_yield_kg_ha": "AEZ II: 5312 kg/ha; AEZ III: 5137 kg/ha; AEZ I: 4937 kg/ha; Study area minimum: 4400 kg/ha; Calibrated mean: 4134 kg/ha (simulated), 4150 kg/ha (observed)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [
+              "high resistance to pest attacks"
+            ],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "requires more heat units to attain anthesis and reach physiological maturity",
+            "agro_ecological_zone": "AEZ I (humid), AEZ II (subhumid), AEZ III (semihumid)",
+            "adaptation_notes": "H614 is a popular cultivar in the Kenyan highlands, suitable for local growing conditions, and shows high production potential. It performs better than H612, with a reduced likelihood of yield decline across AEZs. Yield can be enhanced beyond current averages by adjusting sowing dates and adopting H614, especially with recommended nitrogen fertilization (75 kg N/ha). However, the increment is possible if the nutrient management aligns with the government-recommended nitrogen fertilization of 75 kg N ha−1 (Chebet et al., 2017). Soil variables at five depths (0–20, 20–40, 40–60, 60–80, and 80–100 cm) were entered into the SBuild module in DSSAT. The experimental fields were optimally managed, and necessary measures, including weed control, fertilizer application, and pest and disease control, were applied based on standard agronomic practices. cross hybrids in the East Africa region, the model calibration results indicated that H614 require more heat units to attain anthesis and reach physiological maturity.",
+            "normal_planting_window": "Early March and early May are optimal in AEZ II and III; sowing between early March and mid-March and early May is preferable in AEZ I.",
+            "planting_density": "25 cm between plants, 75 cm between rows, ~53,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Uasin Gishu County, Trans Nzoia County, Katuke, Sabwani, Olngatongo"
+          },
+          "source": [
+            "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+            "s42106-022-00220-5.pdf"
+          ],
+          "source_url": [
+            "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+            "input_papers/s42106-022-00220-5.pdf#page=4"
+          ],
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "coefficients": {
+            "P1": 290.8,
+            "P2": 0.471,
+            "P5": 921.2,
+            "G2": 796.8,
+            "G3": 5.26,
+            "PHINT": 39.74
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "KH600-23A": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "late-maturing",
+            "relative_maturity": "NA",
+            "days_to_maturity": "209 (observed), 206 (simulated)",
+            "average_yield_kg_ha": "5209 (observed), 5316 (simulated); yield potential 9500–15000 kg/ha; 6148 kg/ha under N3 nitrogen application",
+            "plant_height_cm": "NA",
+            "growth_habit": "semiflint",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "KH600-23A is a relatively new, late-maturing, semiflint, white maize cultivar with high yield potential (9.5–15 t/ha), out-performing older cultivars. It requires more heat units to reach maturity than H614. Early sowing (mid-February to early March) and high nitrogen fertilization (N3, 75–100 kg N/ha) significantly enhance yields. The cultivar is recommended for adoption in Trans Nzoia County due to yield stability under optimum nitrogen. Soil quality improvements are advised for western and northern parts due to negative yield trends. The cultivar is owned by ADC and was first released in 2008. The contribution of the main effect of nitrogen application levels on the maize yields was also significant. 5) and soil water content were the variables with complete data at all sites and were therefore used for the evaluation (Figures S3-S5 in the supplementary file). The statistics showed that farmers could improve production by 52% if cultivar KH600-23A was planted in mid-February under nitrogen fertilization of 75 kg ­ha−1 with equal top dressing amount compared to the latest sowing date, with low nitrogen level and the slightly low yielding H614 cultivar. The calibration results from the present study showed that the KH600-23A cultivar needed more heat units to attain the juvenile and physiological maturity stages than the H614 cultivar.",
+            "normal_planting_window": "Early March to mid-March; mid-February sowing under high nitrogen is optimal",
+            "planting_density": "53,333 plants per hectare",
+            "harvest_time": "NA",
+            "season_suitability": "Long rainy season (March–November)",
+            "major_crop_areas": "Trans Nzoia County; eastern, western, northern, southern regions"
+          },
+          "source": "s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=4",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-022-00220-5.pdf",
+          "source_url": "input_papers/s42106-022-00220-5.pdf#page=10",
+          "coefficients": {
+            "P1": 345.6,
+            "P2": 0.5,
+            "P5": 971.2,
+            "G2": 777.3,
+            "G3": 7.12,
+            "PHINT": 36.78
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "Trans Nzoia and Uasin Gishu counties": {
+      "H614": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "2,900–5,800 (baseline, study area); 2,500–4,500 (future RCP4.5); 2,500–3,900 (future RCP8.5)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "NA",
+            "adaptation_notes": "H614 is widely grown across the study region due to high resistance to biotic stresses and production stability. Projected yield declines are attributed to increased temperature and varying precipitation, especially suppressed rainfall during the main sowing window (March–May). Adaptation spots with yield decline are mostly in southern Uasin Gishu and eastern Trans Nzoia; stable and more stable zones are also mapped. Agronomic, vegetative, and soil/water management are recommended to bridge yield gaps. The model outputs include water and nitrogen balance, leaf area index, biomass and grain yield (Liu et al. Solar radiation values for the study region were increased by 10% to account for increased intensity under climate change (Jabeen et al. https://​doi.​org/​10.​ 1007/​s12571-​022-​01288-7 Falconnier GN, Corbeels M, Boote KJ, Affholder F, Adam M et al (2020) Modelling climate change impacts on maize yields under low nitrogen input conditions in sub-Saharan Africa. The DSSAT-CERES-Maize model runs on a daily time step and simulates leaf, root and stem growth, phenology, and canopy development (Jones et al.",
+            "normal_planting_window": "Main sowing window: March–May",
+            "planting_density": "50,000 plants per hectare",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Trans Nzoia, Uasin Gishu"
+          },
+          "source": "s10113-025-02403-y.pdf",
+          "source_url": "input_papers/s10113-025-02403-y.pdf#page=1",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: s10113-025-02403-y.pdf",
+          "source_url": "input_papers/s10113-025-02403-y.pdf#page=4",
+          "coefficients": {},
+          "notes": "The model parameters used for calibration are default values reported in Kipkulei et al. (2022), but no DSSAT genotype coefficients are reported in this paper."
+        }
+      }
+    },
+    "UM2": {
+      "H513": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "Long duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 141.0; DSSAT: 137.0; APSIM: 137.0",
+            "average_yield_kg_ha": "Observed: 5282.7; DSSAT: 5027.7; APSIM: 4597.3",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "Long-duration varieties (H513) maintain yield better under increased temperature and shorter rainfall than short-duration varieties.",
+              "heat": "Long-duration varieties (H513) maintain yield better under increased temperature and shorter rainfall than short-duration varieties."
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H513 is a long-duration maize variety, better adapted to climate change than short-duration varieties like Katumani. It is recommended for high potential AEZs (UM2, UM3, LM3) and is part of the optimal adaptation strategy for these zones. Yields are higher when planted early within the optimal window. H513 is less negatively impacted by increased temperature and shortened crop duration than short-duration varieties. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3, LM3), 1–15 Nov (UM2)",
+            "planting_density": "50,000 plants/ha for LR season; 40,000 plants/ha for SR season",
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; optimal in both with AEZ-specific recommendations",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=17",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 205.0,
+            "P2": 0.6,
+            "P5": 760.5,
+            "G2": 690.0,
+            "G3": 8.7,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "katumani": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "short duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 103.5; DSSAT: 105.5; APSIM: 104.0",
+            "average_yield_kg_ha": "Observed: 4060.5; DSSAT: 4058.5; APSIM: 3911.0",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "more negatively impacted by climate change compared to long-duration varieties",
+              "heat": "more negatively impacted by climate change compared to long-duration varieties"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "Katumani is a short duration local cultivar widely adopted by farmers in Kenya. It is more sensitive to climate change than longer duration varieties, with simulated yields declining by 5% (SR season) and 9% (LR season) under RCP 8.5 to end century. Short duration cultivars like Katumani are more negatively impacted by increased temperatures, which shorten the crop cycle and reduce yield potential. Replacing Katumani with long-duration varieties is considered an adaptation option. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR season: mid-March (day 74) to mid-April (day 105); SR season: start of October (day 274) to start of November (day 305) under baseline climate. Under climate change: LR season mid-March (day 74) to end March (day 89); SR season start of November (day 305) to mid-November (day 319).",
+            "planting_density": "30,000 to 50,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "SR and LR seasons; more yield decline in LR season under climate change",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=14",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 100.0,
+            "P2": 0.5,
+            "P5": 554.0,
+            "G2": 550.0,
+            "G3": 10.6,
+            "PHINT": 47.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "UM2, UM3, LM3, LM4, LM5": {
+      "DEKA_LB": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "long-duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": [
+              "5,000–6,000 (farmer-reported, Table 3, page 8)"
+            ],
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "UM2 (Upper Midland 2)",
+              "UM3 (Upper Midland 3)",
+              "LM3 (Lower Midland 3)",
+              "LM4 (Lower Midland 4)",
+              "LM5 (Lower Midland 5)"
+            ],
+            "adaptation_notes": "DEKA_LB is a long-duration maize variety used as a model equivalent for DK41 in Embu county, Kenya. It is recommended for low potential AEZs (LM4, LM5) and is part of adaptation strategies for climate change, maintaining yield under increased temperatures. Optimal management includes specific planting windows, plant populations, and nitrogen rates by AEZ and season. DEKA_LB is considered more resilient to climate change compared to short-duration varieties. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+            "normal_planting_window": [
+              "LM3: 15–30 Mar (LR), 1–15 Oct (SR)",
+              "LM4: 15–30 Mar (LR), 15–30 Oct (SR)",
+              "LM5: 1–15 Nov (SR)"
+            ],
+            "planting_density": [
+              "LM3: 50,000 plants/ha (LR), 40,000 plants/ha (SR)",
+              "LM4: 50,000 plants/ha (LR), 50,000 plants/ha (SR)",
+              "LM5: 40,000 plants/ha (SR)"
+            ],
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; especially recommended for SR season in LM3, LM4, LM5",
+            "major_crop_areas": [
+              "Embu county",
+              "Kavutiri",
+              "Gachuka",
+              "Machanga"
+            ]
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "For Deka_lb, the study used the default parameters from the DSSAT model; no paper-reported DSSAT genotype coefficients are provided."
+        }
+      },
+      "DK41": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium-short",
+            "relative_maturity": "3.5 to 4.5 months",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "5000–6000",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "UM2 humid",
+              "UM3 subhumid",
+              "LM3 semihumid",
+              "LM4 low potential",
+              "LM5 low potential"
+            ],
+            "adaptation_notes": "DK41 (represented as Deka_lb in DSSAT) is recommended for LM3, LM4, and LM5 AEZs, especially in SR season. In LM3 and LM5, Deka_lb is the optimal variety for SR season, with planting windows and nitrogen rates specified. In LM4, Deka_lb is optimal for both LR and SR seasons. DSSAT simulations indicate higher yield increases in high potential AEZs (UM2, UM3, LM3) and negative impacts in low potential AEZs (LM4, LM5). Early planting within the optimal window increases yields. Plant population and nitrogen rates are AEZ-specific. 3.2.7 Impacts of soil fertility and nitrogen application. Important characteristics of the representative soil profiles used with crop simulation models and the agro-ecological zones they represent. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. This included, dates of sowing, days to tasselling and flowering, days to maturity and grain and dry matter yields at harvest.",
+            "normal_planting_window": [
+              "LM3: 1–15 Oct (SR season)",
+              "LM4: 15–30 Mar (LR season), 15–30 Oct (SR season)",
+              "LM5: 1–15 Nov (SR season)"
+            ],
+            "planting_density": [
+              "LM3: 50,000 plants/ha (SR season)",
+              "LM4: 50,000 plants/ha (LR and SR seasons)",
+              "LM5: 40,000 plants/ha (SR season)"
+            ],
+            "harvest_time": "NA",
+            "season_suitability": "SR season optimal for DK41 (Deka_lb) in LM3, LM4, LM5; LR season optimal in LM4",
+            "major_crop_areas": [
+              "Embu county",
+              "Kavutiri",
+              "Gachuka",
+              "Machanga",
+              "UM2",
+              "UM3",
+              "LM3",
+              "LM4",
+              "LM5"
+            ]
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "DSSAT genotype coefficients for DK41 (Deka_lb) are not reported in the paper. Only generic descriptions and table headers are present."
+        }
+      },
+      "DK43": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "6000–7000",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "UM2",
+              "UM3",
+              "LM3",
+              "LM4",
+              "LM5"
+            ],
+            "adaptation_notes": "DK43 is a farmer-used maize variety in Embu county, Kenya, with a reported yield of 6–7 t/ha and a duration of 4–5 months. In crop modeling, DK43 is represented by the H511 variety in DSSAT/CSMs. The study area covers five AEZs (UM2, UM3, LM3, LM4, LM5) with varying soil fertility and climate. The adaptation strategies and management recommendations are based on these AEZs, but DK43-specific management is not detailed. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: mid-March to mid-April; SR: start of October to start of November (study area recommendation)",
+            "planting_density": "30,000–50,000 plants/ha (study area recommendation)",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Embu",
+              "Kavutiri",
+              "Gachuka",
+              "Machanga"
+            ]
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients are reported for DK43. In the crop models, DK43 is represented by H511, but only H511, H513, and Katumani have coefficients reported."
+        }
+      },
+      "Duma": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium",
+            "relative_maturity": "4–5 months",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "6000–7000",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "Duma is mapped to H511 in the DSSAT model. The study area covers five AEZs in Embu county, with Duma (as H511) representing medium-duration, medium-yielding cultivars. Simulations and adaptation strategies are reported for H511 across all AEZs and seasons. Higher yields are associated with high potential AEZs (UM2, UM3, LM3), and lower yields in LM4 and LM5 due to moisture stress. Optimal planting windows and fertilizer recommendations are AEZ- and season-specific. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: mid-March (15–30 Mar); SR: early November (1–15 Nov) in UM2 and LM5, early October (1–15 Oct) in UM3, mid/late October (15–30 Oct) in LM4",
+            "planting_density": "40,000–50,000 plants/ha depending on AEZ and season",
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons",
+            "major_crop_areas": "Embu, Kavutiri, Gachuka, Machanga"
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients are reported for Duma or its model equivalent H511 in the retrieved context."
+        }
+      },
+      "H511": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 137.7; DSSAT: 139.7",
+            "average_yield_kg_ha": "Observed: 4677.3; DSSAT: 4428.7 (Embu, average of three seasons)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "longer duration varieties (H511, H513) maintain yield better under warming than short-duration Katumani",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H511 is a medium duration maize variety, calibrated and validated for DSSAT using experimental data from Embu research farm. It is recommended for cultivation in AEZs LM5 (LR season) and LM4 (SR season) as per adaptation strategies. Longer duration varieties like H511 are less negatively impacted by climate change compared to short-duration varieties. Optimal yields are achieved with early planting within the recommended window and appropriate plant population and nitrogen management. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 15–30 Oct (LM4), 1–15 Nov (LM5)",
+            "planting_density": "LM4 (SR): 50,000 plants/ha; LM5 (LR): 60,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "LR season (LM5), SR season (LM4)",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 190.0,
+            "P2": 0.6,
+            "P5": 725.0,
+            "G2": 550.0,
+            "G3": 7.9,
+            "PHINT": 42.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "H513": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "Long duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 141.0; DSSAT: 137.0; APSIM: 137.0",
+            "average_yield_kg_ha": "Observed: 5282.7; DSSAT: 5027.7; APSIM: 4597.3",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "Long-duration varieties (H513) maintain yield better under increased temperature and shorter rainfall than short-duration varieties.",
+              "heat": "Long-duration varieties (H513) maintain yield better under increased temperature and shorter rainfall than short-duration varieties."
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H513 is a long-duration maize variety, better adapted to climate change than short-duration varieties like Katumani. It is recommended for high potential AEZs (UM2, UM3, LM3) and is part of the optimal adaptation strategy for these zones. Yields are higher when planted early within the optimal window. H513 is less negatively impacted by increased temperature and shortened crop duration than short-duration varieties. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3, LM3), 1–15 Nov (UM2)",
+            "planting_density": "50,000 plants/ha for LR season; 40,000 plants/ha for SR season",
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; optimal in both with AEZ-specific recommendations",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=17",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 205.0,
+            "P2": 0.6,
+            "P5": 760.5,
+            "G2": 690.0,
+            "G3": 8.7,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "H613": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "Long duration (6–8 months, as per Table 3)",
+            "relative_maturity": "Long",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "8000–10000 (as per Table 3, 8–10 t/ha for H613)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H613 is a long-duration, high-yielding maize variety (8–10 t/ha) used by farmers in Embu county, Kenya. In the crop simulation models, H613 is represented by H513, which is recommended as the best performing variety for high potential AEZs (UM2, UM3, LM3) under both baseline and climate change scenarios. Long-duration varieties like H613/H513 are preferred for adaptation to climate change, as they maintain yield levels better than short-duration varieties. Optimal management includes early planting within the recommended window and higher plant populations (up to 50,000 plants/ha) with appropriate nitrogen application (up to 80 kg N/ha). 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3), 1–15 Nov (UM2); see Table 7 for AEZ-specific details",
+            "planting_density": "40,000–50,000 plants/ha (optimal yields at 50,000 plants/ha in high potential AEZs, Table 7)",
+            "harvest_time": "NA",
+            "season_suitability": "Suitable for both LR and SR seasons; performs best in high potential AEZs",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients for H613 (or its model equivalent H513) are reported in the provided context."
+        }
+      },
+      "Pioneer": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "long duration (represented by H513 in model)",
+            "relative_maturity": "NA",
+            "days_to_maturity": "5–6 months",
+            "average_yield_kg_ha": "8000–10000 (as H513 equivalent, Table 3, page 8)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "Pioneer is represented by H513 in the DSSAT model. It is a long-duration, high-yielding variety. Model calibration and validation were performed using experimental data from Embu research farm, and simulations were run for all major AEZs in Embu county. Adaptation strategies recommend H513 (Pioneer equivalent) for high potential AEZs (UM2, UM3) with optimal planting windows and fertilizer rates. Yields are higher in high potential AEZs and with early planting. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3), 1–15 Nov (UM2)",
+            "planting_density": "40,000–50,000 plants/ha (AEZ-specific, Table 7, page 17)",
+            "harvest_time": "NA",
+            "season_suitability": "Both LR and SR seasons; higher yields in SR season and high potential AEZs",
+            "major_crop_areas": "Embu, Kavutiri, Gachuka, Machanga (sites); UM2, UM3, LM3, LM4, LM5 (AEZs)"
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=8",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {},
+          "notes": "No DSSAT genotype coefficients are reported for Pioneer or its model equivalent (H513) in the retrieved context."
+        }
+      },
+      "katumani": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "short duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 103.5; DSSAT: 105.5; APSIM: 104.0",
+            "average_yield_kg_ha": "Observed: 4060.5; DSSAT: 4058.5; APSIM: 3911.0",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "more negatively impacted by climate change compared to long-duration varieties",
+              "heat": "more negatively impacted by climate change compared to long-duration varieties"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "Katumani is a short duration local cultivar widely adopted by farmers in Kenya. It is more sensitive to climate change than longer duration varieties, with simulated yields declining by 5% (SR season) and 9% (LR season) under RCP 8.5 to end century. Short duration cultivars like Katumani are more negatively impacted by increased temperatures, which shorten the crop cycle and reduce yield potential. Replacing Katumani with long-duration varieties is considered an adaptation option. 3.2.7 Impacts of soil fertility and nitrogen application. Probability density function of projections in maximum temperature by GCMs at Embu (left) and Ishiara (right) in Embu county, Kenya (red dotted line denotes observed temperature). This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR season: mid-March (day 74) to mid-April (day 105); SR season: start of October (day 274) to start of November (day 305) under baseline climate. Under climate change: LR season mid-March (day 74) to end March (day 89); SR season start of November (day 305) to mid-November (day 319).",
+            "planting_density": "30,000 to 50,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "SR and LR seasons; more yield decline in LR season under climate change",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=14",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 100.0,
+            "P2": 0.5,
+            "P5": 554.0,
+            "G2": 550.0,
+            "G3": 10.6,
+            "PHINT": 47.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "UM3": {
+      "H513": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "Long duration",
+            "relative_maturity": "NA",
+            "days_to_maturity": "Observed: 141.0; DSSAT: 137.0; APSIM: 137.0",
+            "average_yield_kg_ha": "Observed: 5282.7; DSSAT: 5027.7; APSIM: 4597.3",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "Long-duration varieties (H513) maintain yield better under increased temperature and shorter rainfall than short-duration varieties.",
+              "heat": "Long-duration varieties (H513) maintain yield better under increased temperature and shorter rainfall than short-duration varieties."
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "UM2, UM3, LM3, LM4, LM5",
+            "adaptation_notes": "H513 is a long-duration maize variety, better adapted to climate change than short-duration varieties like Katumani. It is recommended for high potential AEZs (UM2, UM3, LM3) and is part of the optimal adaptation strategy for these zones. Yields are higher when planted early within the optimal window. H513 is less negatively impacted by increased temperature and shortened crop duration than short-duration varieties. Adaptation strategy for different agro-ecological zones with best combination of planting time, plant population, variety and fertilizer nitrogen for LR and SR seasons. Impact of climate change on the performance of different maize varieties under cultivation in different AEZs in Embu county of Kenya. This could be attributed to various factors such as differences in interpreting and translating farmer description of the resource endowment into model parameters, inability of the models to capture the effects of biotic stresses such as pests, diseases and weeds, inaccuracies in estimating per hectare yields from bags per plot as reported by farmers and inaccuracies in defining the initial conditions. Observed (average of three seasons) and DSSAT and APSIM modeled phenology and grain and biomass yields of three maize varieties.",
+            "normal_planting_window": "LR: 15–30 Mar; SR: 1–15 Oct (UM3, LM3), 1–15 Nov (UM2)",
+            "planting_density": "50,000 plants/ha for LR season; 40,000 plants/ha for SR season",
+            "harvest_time": "NA",
+            "season_suitability": "LR and SR seasons; optimal in both with AEZ-specific recommendations",
+            "major_crop_areas": "Embu county; AEZs UM2, UM3, LM3, LM4, LM5"
+          },
+          "source": "file.pdf",
+          "source_url": "input_papers/file.pdf#page=17",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: file.pdf",
+          "source_url": "input_papers/file.pdf#page=9",
+          "coefficients": {
+            "P1": 205.0,
+            "P2": 0.6,
+            "P5": 760.5,
+            "G2": 690.0,
+            "G3": 8.7,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "Uasin Gishu County": {
+      "H614": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "long-maturing",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "AEZ II: 5312 kg/ha; AEZ III: 5137 kg/ha; AEZ I: 4937 kg/ha; Study area minimum: 4400 kg/ha; Calibrated mean: 4134 kg/ha (simulated), 4150 kg/ha (observed)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [
+              "high resistance to pest attacks"
+            ],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "requires more heat units to attain anthesis and reach physiological maturity",
+            "agro_ecological_zone": "AEZ I (humid), AEZ II (subhumid), AEZ III (semihumid)",
+            "adaptation_notes": "H614 is a popular cultivar in the Kenyan highlands, suitable for local growing conditions, and shows high production potential. It performs better than H612, with a reduced likelihood of yield decline across AEZs. Yield can be enhanced beyond current averages by adjusting sowing dates and adopting H614, especially with recommended nitrogen fertilization (75 kg N/ha). However, the increment is possible if the nutrient management aligns with the government-recommended nitrogen fertilization of 75 kg N ha−1 (Chebet et al., 2017). Soil variables at five depths (0–20, 20–40, 40–60, 60–80, and 80–100 cm) were entered into the SBuild module in DSSAT. The experimental fields were optimally managed, and necessary measures, including weed control, fertilizer application, and pest and disease control, were applied based on standard agronomic practices. cross hybrids in the East Africa region, the model calibration results indicated that H614 require more heat units to attain anthesis and reach physiological maturity.",
+            "normal_planting_window": "Early March and early May are optimal in AEZ II and III; sowing between early March and mid-March and early May is preferable in AEZ I.",
+            "planting_density": "25 cm between plants, 75 cm between rows, ~53,000 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Uasin Gishu County, Trans Nzoia County, Katuke, Sabwani, Olngatongo"
+          },
+          "source": "Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=10",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf",
+          "source_url": "input_papers/Agrosystems Geosci   Env - 2024 - Kipkulei - Agronomic management response in maize  Zea mays L   production across three (1).pdf#page=9",
+          "coefficients": {
+            "P1": 290.8,
+            "P2": 0.471,
+            "P5": 921.2,
+            "G2": 796.8,
+            "G3": 5.26,
+            "PHINT": 39.74
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "cool sub-humid to humid": {
+      "BH-660": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "cool sub-humid to humid",
+            "adaptation_notes": "Bako is identified as a high potential maize production region with favorable climate and less yield variation under baseline conditions. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "53,333 plants/ha; 25 cm x 75 cm spacing",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Bako, Ethiopia"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 260.0,
+            "P2": 0.75,
+            "P5": 850.0,
+            "G2": 800.0,
+            "G3": 8.5,
+            "PHINT": 49.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "cool sub-humid to humid agro-ecologies": {
+      "BH540": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "cool sub-humid to humid agro-ecologies",
+            "adaptation_notes": "BH540 was calibrated and evaluated for Hawassa and Ziway, Ethiopia. These regions have a climate that ranges from cool sub-humid to humid agro-ecologies with extended rainfall seasons. High potential for maize production was observed in these regions. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Hawassa, Ziway"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 220.1,
+            "P2": 0.86,
+            "P5": 840.1,
+            "G2": 266.2,
+            "G3": 10.65,
+            "PHINT": 38.9
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "cool sub-humid to humid agroecologies": {
+      "H513": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "cool sub-humid to humid agroecologies",
+            "adaptation_notes": "Embu is identified as a site with high potential for maize production under a climate ranging from cool sub-humid to humid agroecologies with extended rainfall seasons. The study used locally adopted cultivars calibrated and evaluated for these conditions. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "53,333 plants/ha; 25 cm x 75 cm spacing",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Embu"
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 205.0,
+            "P2": 0.6,
+            "P5": 760.5,
+            "G2": 690.0,
+            "G3": 8.7,
+            "PHINT": 40.0
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "cool sub-humid|humid": {
+      "H614": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "NA",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": [
+              "cool sub-humid",
+              "humid"
+            ],
+            "adaptation_notes": "Trans Nzoia is identified as a high potential maize production region with a climate ranging from cool sub-humid to humid agro-ecologies and extended rainfall seasons. The DSSAT-CERES-Maize model was calibrated and evaluated for H614 in this region, indicating suitability for high production environments. In Morogoro and Wami basin, Tanza­ nia, 40 kg/ha of nitrogen was incorporated during sowing and a similar amount for top dressing (Kadigi et al., 2020). Keywords that were used to search the databases include ‘crop modelling’, ‘climate impacts’, ‘maize’, ‘DSSAT’, ‘CERES Maize’ and ‘East Africa’. Excessive rainfall leads to maize yield loss of a comparable mag­ nitude to extreme drought in the united States. The model simulates the devel­ opment and growth of maize on a daily basis from planting until physiological maturity (Lana et al., 2018).",
+            "normal_planting_window": "I., Stordal, F., Benestad, R., Mourice, S., Pereira-Flores, ons, whereas approaches such as varying sowing dates are recommended for semi-humid to humid zones.",
+            "planting_density": "25 cm x 75 cm spacing; 53,333 plants/ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": [
+              "Trans Nzoia"
+            ]
+          },
+          "source": "s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: s42106-025-00341-7.pdf",
+          "source_url": "input_papers/s42106-025-00341-7.pdf#page=5",
+          "coefficients": {
+            "P1": 290.8,
+            "P2": 0.47,
+            "P5": 921.2,
+            "G2": 796.8,
+            "G3": 5.26,
+            "PHINT": 39.74
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    },
+    "mid-altitude agro-ecological zone": {
+      "MH-16": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "mid-altitude agro-ecological zone",
+            "adaptation_notes": "MH-16 belongs to the same maturity group as SC627 and was previously grown on the same research station and successfully calibrated and validated in the DSSAT model. Some of the crop management data required to simulate DSSAT included crop, cultivar, planting date, row and plant spacing, fertilizer levels, tillage practices and organic amendments (Jones et al., 2003). values of weather parameters, crop management and soil properties during the 2007–2008 cropping season of the experiment. Yields of velvet beans and pigeonpea were very low due to competition for light, moisture stress and pest attacks, respectively. Genetic coefﬁcients were estimated by using observed silking and maturity dates and grain yield of the maize variety SC627 for all treatments during the growing season with remaining seasons 2008–2009 to 2011–2012 used for subsequent model evaluation (Sarkar and Kar, 2006; Saseendran et al., 2013).",
+            "normal_planting_window": "NA",
+            "planting_density": "53,333 plants ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Chitedze Research Station, Lilongwe, Malawi"
+          },
+          "source": "1-s2.0-S0167198714000944-main.pdf",
+          "source_url": "input_papers/1-s2.0-S0167198714000944-main.pdf#page=4",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": false,
+          "source": "RAG: 1-s2.0-S0167198714000944-main.pdf",
+          "source_url": "input_papers/1-s2.0-S0167198714000944-main.pdf#page=4",
+          "coefficients": {},
+          "notes": "Values for MH-16 were used as baseline in DSSAT 4.5, but the paper does not report the actual DSSAT genotype coefficients for MH-16."
+        }
+      },
+      "SC-627": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium maturing",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "4335.8 (CA-sole maize, 2010–2030, Chitedze); 3937.2 (CT-sole maize, 2010–2030, Chitedze); 4388.3 (CA maize–cowpea rotation, 2010–2030, Chitedze)",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [
+              "maize streak virus (MSV)",
+              "gray leaf spot (GLS)",
+              "Turcicum leaf blight"
+            ],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "mid-altitude agro-ecological zone",
+            "adaptation_notes": "Moderately tolerant to low nitrogen conditions; white and semi-flint grain type, preferred by farmers for poundability and storage; CA practices (no-till, mulch) stabilize yields and provide yield advantage under low rainfall compared to CT. Some of the crop management data required to simulate DSSAT included crop, cultivar, planting date, row and plant spacing, fertilizer levels, tillage practices and organic amendments (Jones et al., 2003). values of weather parameters, crop management and soil properties during the 2007–2008 cropping season of the experiment. Yields of velvet beans and pigeonpea were very low due to competition for light, moisture stress and pest attacks, respectively. Genetic coefﬁcients were estimated by using observed silking and maturity dates and grain yield of the maize variety SC627 for all treatments during the growing season with remaining seasons 2008–2009 to 2011–2012 used for subsequent model evaluation (Sarkar and Kar, 2006; Saseendran et al., 2013).",
+            "normal_planting_window": "NA",
+            "planting_density": "53,333 plants ha",
+            "harvest_time": "NA",
+            "season_suitability": "NA",
+            "major_crop_areas": "Chitedze Research Station, Lilongwe, Malawi"
+          },
+          "source": "1-s2.0-S0167198714000944-main.pdf",
+          "source_url": "input_papers/1-s2.0-S0167198714000944-main.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: 1-s2.0-S0167198714000944-main.pdf",
+          "source_url": "input_papers/1-s2.0-S0167198714000944-main.pdf#page=6",
+          "coefficients": {
+            "P1": 230.0,
+            "P2": 0.6,
+            "P5": 940.0,
+            "G2": 430.0,
+            "G3": 6.0,
+            "PHINT": 38.9
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      },
+      "SC627": {
+        "characteristics": {
+          "data": {
+            "maturity_class": "medium maturing",
+            "relative_maturity": "NA",
+            "days_to_maturity": "NA",
+            "average_yield_kg_ha": "NA",
+            "plant_height_cm": "NA",
+            "growth_habit": "NA",
+            "disease_resistance": [
+              "tolerant to maize streak virus (MSV)",
+              "tolerant to gray leaf spot (GLS)",
+              "tolerant to Turcicum leaf blight"
+            ],
+            "stress_tolerance": {
+              "drought": "NA",
+              "heat": "NA"
+            },
+            "growing_degree_days": "NA",
+            "agro_ecological_zone": "mid-altitude agro-ecological zone",
+            "adaptation_notes": "Moderately tolerant to low nitrogen conditions; preferred by farmers for white, semi-flint grain with good poundability and storage qualities. The fertilizer at planting and 46 kg ha\u00021 N in the form of urea 21 days after planting. values of weather parameters, crop management and soil properties during the 2007–2008 cropping season of the experiment. This variety is tolerant to a range of maize diseases including maize streak virus (MSV), gray leaf spot (GLS) and Turcicum leaf blight; is moderately tolerant to low nitrogen conditions and is liked by farmers because it is white and semi-ﬂint, which improves the poundability and storage qualities of the maize. Genetic coefﬁcients were estimated by using observed silking and maturity dates and grain yield of the maize variety SC627 for all treatments during the growing season with remaining seasons 2008–2009 to 2011–2012 used for subsequent model evaluation (Sarkar and Kar, 2006; Saseendran et al., 2013).",
+            "normal_planting_window": "NA",
+            "planting_density": "53,333 plants ha",
+            "harvest_time": "after physiological maturity",
+            "season_suitability": "NA",
+            "major_crop_areas": "Chitedze Research Station, Lilongwe"
+          },
+          "source": "1-s2.0-S0167198714000944-main.pdf",
+          "source_url": "input_papers/1-s2.0-S0167198714000944-main.pdf#page=3",
+          "confidence": "high"
+        },
+        "coefficients": {
+          "found": true,
+          "source": "RAG: 1-s2.0-S0167198714000944-main.pdf",
+          "source_url": "input_papers/1-s2.0-S0167198714000944-main.pdf#page=6",
+          "coefficients": {
+            "P1": 230.0,
+            "P2": 0.6,
+            "P5": 940.0,
+            "G2": 430.0,
+            "G3": 6.0,
+            "PHINT": 38.9
+          },
+          "notes": "Extracted from a paper-reported DSSAT coefficient table."
+        }
+      }
+    }
+  }
+}
